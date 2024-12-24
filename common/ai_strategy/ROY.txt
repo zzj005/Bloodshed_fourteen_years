@@ -1,0 +1,24 @@
+
+ROY_buffer_in_mainland = {
+	allowed = {
+		tag = ROY
+	}
+	enable = {
+		date < 1936.12.12
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = put_unit_buffers
+		states = {
+			314
+			323
+			321
+		}
+		ratio = 0.8
+		area = asia
+		subtract_invasions_from_need = no
+		subtract_fronts_from_need = no
+	}
+}
+

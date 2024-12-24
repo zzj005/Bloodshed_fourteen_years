@@ -1,0 +1,26 @@
+state={
+	id=265
+	name="STATE_265"
+	resources={
+		steel = 2
+		aluminium=2 # was: 12
+	}
+	provinces={
+		478 1836 2125 2371 2903 3869 3899
+	}
+	history={
+		owner = RON
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = {
+			2125 5
+		}
+		add_core_of = RON
+	}
+	
+	manpower=323000
+	state_category = town
+	local_supplies = 0.0
+}

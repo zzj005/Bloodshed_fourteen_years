@@ -1,0 +1,22 @@
+state={
+	id=311
+	name="STATE_311"
+	provinces={
+		3138 
+	}
+	history={
+		owner = ROH
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = {
+			3138 10
+		}
+		add_core_of = ROH
+		add_core_of = CHI
+	}
+	manpower=323000
+	state_category = town
+	local_supplies = 0.0
+}

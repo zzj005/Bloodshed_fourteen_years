@@ -1,0 +1,30 @@
+characters={
+    ROC_HuangShaoHong={
+		name=ROC_HuangShaoHong
+		portraits={
+			civilian={
+				large="gfx/leaders/ROC/ROC_HuangShaoHong.png"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}	
+	ROC_HuangXuChu={
+		name=ROC_HuangXuChu
+		portraits={
+			civilian={
+				large="gfx/leaders/ROC/ROC_HuangXuChu.png"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}		
+	}

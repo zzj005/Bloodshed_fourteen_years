@@ -1,0 +1,42 @@
+
+state={
+	id=302
+	name="STATE_302"
+
+	history={
+		owner = CHI
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			
+			3942={
+				bunker = 2
+			}
+			1165={
+				bunker = 2
+			}
+			3962={
+				bunker = 2
+			}
+			876={
+				bunker = 2
+			}
+			3979={
+				bunker = 2
+			}
+		}
+		victory_points = {
+			3962 5
+		}
+		add_core_of = CHI
+
+	}
+
+	provinces={
+		876 1165 1637 2077 2250 2569 2602 3942 3954 3962 3973 3979 
+	}
+	manpower=323000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=10.000
+}

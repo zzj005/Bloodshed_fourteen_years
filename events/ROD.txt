@@ -1,0 +1,35 @@
+﻿add_namespace = ROD
+
+country_event = {
+	id = ROD.1
+	title = ROD.1.t
+	desc = ROD.1.d
+    #picture = 
+
+	fire_only_once = yes
+	
+    trigger = {
+		AND={
+			date > 1931.6.11
+			date < 1931.6.13
+		}
+    }
+    immediate = {
+	    hidden_effect={
+		SYS={
+			transfer_state = 103
+			transfer_state = 113
+			declare_war_on = {
+				target = ROD
+				type = annex_everything
+			}
+		}
+	    }
+	}
+    mean_time_to_happen = {
+      	days = 2
+    }
+	option = {
+		name = ROD.1.a
+	}
+}		

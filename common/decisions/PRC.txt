@@ -1,0 +1,563 @@
+PRC_Buy_gun = {
+	PRC_Buy_gun_from = {
+		available = {
+		}
+		visible = {
+			date > 1932.1.1  
+		}
+		cost = 0 
+		days_remove= 30
+		fire_only_once = no
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			add_to_variable = {
+				Gold_bar = -20
+				tooltip = PRC_Buy_gun_tt
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 400
+			}
+		}
+		remove_effect = {
+		}
+	}
+
+}
+Long_march_decisions = {
+	Long_March_mobilization_meeting = {
+		available = {
+			has_war = yes
+			date > 1934.9.8
+			
+		}
+		visible = {
+			
+		}
+		cost = 25
+		days_remove= 55
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			606 = { Long_march_battle = yes } 
+			hidden_effect = {
+				country_event = {id=PRC_1934.6 days=124}
+			}
+			add_ideas = Chinese_red_army1
+			PRC={
+				declare_war_on = {
+					target = ROC
+					type = annex_everything
+				} 
+				declare_war_on = {
+					target = ROH
+					type = annex_everything
+				} 
+				declare_war_on = {
+					target = ROS
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = ROY
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = RYS
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = ROW
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = ROT
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = RHC
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = RDX
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = ROG
+					type = annex_everything
+				}
+			}
+			hidden_effect = {
+				country_event = {id=PRC_1934.5 days=5}
+			}
+			set_country_flag = Long_march_mission
+		}
+		remove_effect = {
+		}
+	}
+	Long_march_mission01 = {
+		available = {
+		}
+		visible = {
+			has_idea = Chinese_red_army1
+		}
+		cost = 25
+		days_remove= 55
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = { 
+			
+			swap_ideas = {
+				remove_idea = Chinese_red_army1
+				add_idea = Chinese_red_army2
+			}
+		}
+		remove_effect = {
+		}
+	}
+	Long_march_mission0 = {
+		icon = generic_civil_support
+		available = {
+			PRC = {
+				AND={
+					has_war = yes
+					controls_province = 2268
+				}
+			}
+			
+		}
+		days_mission_timeout = 25
+		activation = {
+			has_country_flag = Long_march_mission
+		}
+		visible = {
+			 
+		}	
+		modifier = { 
+			
+		}	
+		fixed_random_seed = no
+		fire_only_once = yes
+		is_good = no
+		timeout_effect = {
+			add_manpower = -50000
+			add_war_support = -0.05
+			set_country_flag = Long_march_mission0
+		} 
+		complete_effect = {
+			608 = { Long_march_battle = yes } 
+			add_manpower = 1000
+			add_war_support = 0.05
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 1000
+				producer = PRC
+			}
+			set_country_flag = Long_march_mission0
+		}
+	}
+	Long_march_mission1 = {
+		icon = generic_civil_support
+		available = {
+			PRC = {
+				AND={
+					has_war = yes
+					controls_province = 2970
+				}
+			}
+		}
+		days_mission_timeout = 25
+		activation = {
+			has_country_flag = Long_march_mission0
+		}
+		visible = {
+			
+		}		
+		fixed_random_seed = no
+		fire_only_once = yes
+		is_good = no
+		timeout_effect = {
+			add_manpower = -50000
+			add_war_support = -0.05
+			set_country_flag = Long_march_mission1
+		}
+		complete_effect = {
+			607 = { Long_march_battle = yes } 
+			add_manpower = 1000
+			add_war_support = 0.05
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 1000
+				producer = PRC
+			}
+			set_country_flag = Long_march_mission1
+		}
+	}
+	Long_march_mission2 = {
+		icon = generic_civil_support
+		available = {
+			PRC = {
+				AND={
+					has_war = yes
+					controls_province = 4020
+				}
+			}
+		}
+		days_mission_timeout = 30
+		activation = {
+			has_country_flag = Long_march_mission1
+		}
+		visible = {
+		}		
+		fixed_random_seed = no
+		fire_only_once = yes
+		is_good = no
+		timeout_effect = {
+			add_manpower = -50000
+			add_war_support = -0.05
+			set_country_flag = Long_march_mission2
+		}
+		complete_effect = {
+			611 = { Long_march_battle = yes } 
+			add_manpower = 1000
+			add_war_support = 0.05
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 1000
+				producer = PRC
+			}
+			set_country_flag = Long_march_mission2
+		}
+	}
+	Long_march_mission3 = {
+		icon = generic_civil_support
+		available = {
+			PRC = {
+				AND={
+					has_war = yes
+					controls_province = 4029
+				}
+			}
+		}
+		days_mission_timeout = 30
+		activation = {
+			has_country_flag = Long_march_mission2
+		}
+		visible = {
+		}		
+		fixed_random_seed = no
+		fire_only_once = yes
+		is_good = no
+		timeout_effect = {
+			add_manpower = -50000
+			add_war_support = -0.05
+			set_country_flag = Long_march_mission3
+		}
+		complete_effect = {
+			610 = { Long_march_battle = yes } 
+			add_manpower = 1000
+			add_war_support = 0.05
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 1000
+				producer = PRC
+			}
+			set_country_flag = Long_march_mission3
+		}
+	}
+	Long_march_mission4 = {
+		icon = generic_civil_support
+		available = {
+			PRC = {
+				AND={
+					has_war = yes
+					controls_province = 4013
+				}
+			}
+		}
+		days_mission_timeout = 30
+		activation = {
+			has_country_flag = Long_march_mission3
+		}
+		visible = {
+		}		
+		fixed_random_seed = no
+		fire_only_once = yes
+		is_good = no
+		timeout_effect = {
+			616 = { Long_march_battle = yes } 
+			275 = { Long_march_battle = yes } 
+			617 = { Long_march_battle = yes } 
+			618 = { Long_march_battle = yes } 
+			304 = { Long_march_battle = yes } 
+			add_manpower = -50000
+			add_war_support = -0.05
+			set_country_flag = Long_march_mission3
+		}
+		complete_effect = {
+			add_manpower = 1000
+			add_war_support = 0.05
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 1000
+				producer = PRC
+			}
+			set_country_flag = Long_march_mission3
+		}
+	}
+	Long_march_mission5 = {
+		icon = generic_civil_support
+		available = {
+			PRC = {
+				AND={
+					has_war = yes
+					controls_province = 900
+				}
+			}
+		}
+		days_mission_timeout = 45
+		activation = {
+			has_country_flag = Long_march_mission4
+		}
+		visible = {
+		}		
+		fixed_random_seed = no
+		fire_only_once = yes
+		is_good = no
+		timeout_effect = {
+			add_manpower = -50000
+			add_war_support = -0.05
+			set_country_flag = Long_march_mission5
+		}
+		complete_effect = {
+			263 = { Long_march_battle = yes } 
+			add_manpower = 1000
+			add_war_support = 0.05
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 1000
+				producer = PRC
+			}
+			set_country_flag = Long_march_mission5
+		}
+	}
+	Long_march_mission6 = {
+		icon = generic_civil_support
+		available = {
+			PRC = {
+				AND={
+					has_war = yes
+					controls_province = 3857
+				}
+			}
+		}
+		days_mission_timeout = 35
+		activation = {
+			has_country_flag = Long_march_mission5
+		}
+		visible = {
+		}		
+		fixed_random_seed = no
+		fire_only_once = yes
+		is_good = no
+		timeout_effect = {
+			add_manpower = -50000
+			add_war_support = -0.05
+			set_country_flag = Long_march_mission6
+		}
+		complete_effect = {
+			621 = { Long_march_battle = yes } 
+			add_manpower = 1000
+			add_war_support = 0.05
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 1000
+				producer = PRC
+			}
+			set_country_flag = Long_march_mission6
+		}
+	}
+	Long_march_mission7 = {
+		icon = generic_civil_support
+		available = {
+			PRC = {
+				AND={
+					has_war = yes
+					controls_province = 1606
+				}
+			}
+		}
+		days_mission_timeout = 35
+		activation = {
+			has_country_flag = Long_march_mission6
+		}
+		visible = {
+		}		
+		fixed_random_seed = no
+		fire_only_once = yes
+		is_good = no
+		timeout_effect = {
+			add_manpower = -50000
+			add_war_support = -0.05
+			set_country_flag = Long_march_mission7
+		}
+		complete_effect = {
+			623 = { Long_march_battle = yes } 
+			add_manpower = 1000
+			add_war_support = 0.05
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 1000
+				producer = PRC
+			}
+			set_country_flag = Long_march_mission7
+		}
+	}
+	Long_march_mission8 = {
+		icon = generic_civil_support
+		available = {
+			PRC = {
+				AND={
+					has_war = yes
+					controls_province = 2541
+				}
+			}
+		}
+		days_mission_timeout = 50
+		activation = {
+			has_country_flag = Long_march_mission7
+		}
+		visible = {
+		}		
+		fixed_random_seed = no
+		fire_only_once = yes
+		is_good = no
+		timeout_effect = {
+			add_manpower = -50000
+			add_war_support = -0.05
+		}
+		complete_effect = {
+			625 = { Long_march_battle = yes } 
+			116 = { Long_march_battle = yes } 
+			add_manpower = 1000
+			add_war_support = 0.05
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 1000
+				producer = PRC
+			}
+		}
+	}
+}
+PRC_struggle_balance_category = {
+	PRC_criticism_WangMing = {
+		available = {
+		}
+		visible = {
+		}
+		cost = 25
+		days_remove= 55
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			add_power_balance_value = {
+				id = PRC_struggle_balance
+				value = 0.1
+			}
+		}
+		remove_effect = {
+		}
+	}
+	PRC_criticism_MaoZeDong = {
+		available = {
+		}
+
+		visible = {
+		}
+
+		cost = 25
+		days_remove= 55
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			add_power_balance_value = {
+				id = PRC_struggle_balance
+				value = -0.1
+			}
+		}
+		remove_effect = {
+		}
+	}
+	PRC_emphasize_unimpressed = {
+		available = {
+		}
+
+		visible = {
+		}
+
+		cost = 25
+		days_remove= 55
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			add_power_balance_value = {
+				id = PRC_struggle_balance
+				value = 0.05
+			}
+		}
+		remove_effect = {
+		}
+	}
+	PRC_Obey_Kuomintang= {
+		available = {
+			
+		}
+
+		visible = {
+			date > 1936.1.1
+		}
+
+		cost = 25
+		days_remove= 55
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			add_power_balance_value = {
+				id = PRC_struggle_balance
+				value = -0.05
+			}
+		}
+		remove_effect = {
+		}
+	}
+	PRC_Attack_right_capitulationism= {
+		available = {
+		}
+
+		visible = {
+		}
+
+		cost = 25
+		days_remove= 55
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			add_power_balance_value = {
+				id = PRC_struggle_balance
+				value = 0.05
+			}
+		}
+		remove_effect = {
+		}
+	}
+}

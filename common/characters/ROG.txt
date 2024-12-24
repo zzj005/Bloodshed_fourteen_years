@@ -1,0 +1,38 @@
+characters={
+    ROG_ChenMingQu={
+		name=ROG_ChenMingQu
+		portraits={
+			civilian={
+				large="gfx/leaders/ROG/ROG_ChenMingQu.png"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	ROG_ChenJiTang={
+		name=ROG_ChenJiTang
+		portraits={
+			civilian={
+				large="gfx/leaders/ROG/ROG_ChenJiTang.png"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}			
+	ROG_LingJiZhong={
+		name=ROG_LingJiZhong
+		portraits={
+			civilian={
+				large="gfx/leaders/ROG/ROG_LingJiZhong.png"
+			}
+		}
+	}			
+	}

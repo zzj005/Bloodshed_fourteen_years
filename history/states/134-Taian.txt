@@ -1,0 +1,19 @@
+state={
+	id=134
+	name="STATE_134"
+	provinces={
+		3261 
+	}
+	history={
+		owner = ROA
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		add_core_of = CHI
+		add_core_of = ROA
+	}
+	manpower=323000
+	state_category = town
+	local_supplies = 0.0
+}

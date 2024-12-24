@@ -1,0 +1,28 @@
+state={
+	id=286
+	name="STATE_286"
+	provinces={
+		1454 2540 2692 2942 3916 3957 
+	}
+	resources={
+		oil=2.000
+	}
+	history={
+		owner = ROY
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = {
+			1454 5
+		}
+		victory_points = {
+			2942 5
+		}
+		add_core_of = ROY
+		add_core_of = CHI
+	}	
+	manpower=323000
+	state_category = town
+	local_supplies = 0.0
+}

@@ -1,0 +1,25 @@
+state={
+	id=53
+	name="STATE_53"
+	provinces={
+		359 3154 
+	}
+	history={
+		owner = ROD
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		add_core_of = ROD
+		add_core_of = CHI
+		1933.1.1={
+			owner = MCK
+		}
+		1936.1.1={
+			owner = MCK
+		}
+	}
+	manpower=323000
+	state_category = town
+	local_supplies = 0.0
+}

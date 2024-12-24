@@ -1,0 +1,22 @@
+state={
+	id=611
+	name="STATE_611"
+	provinces={
+		3382 4029 3073 
+	}
+	history={
+		owner = RON
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = RON
+victory_points = {
+	4029 5
+}
+	}
+	manpower=23110
+	buildings_max_level_factor=1.000
+	local_supplies=10.000
+}

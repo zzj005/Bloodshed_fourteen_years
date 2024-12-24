@@ -1,0 +1,22 @@
+state={
+	id=192
+	name="STATE_192"
+	resources={
+		steel = 3
+		aluminium=5 # was: 12
+	}
+	provinces={
+		410 1112 1225 1933 3105 3762 3774 3790 3793 
+	}
+	history={
+		owner = CHI
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		add_core_of = CHI
+	}
+	manpower=3123000
+	state_category = town
+	local_supplies = 0.0
+}

@@ -1,0 +1,18 @@
+state={
+	id=514
+	name="STATE_514"
+	provinces={
+		274 1887 2412 2615 4215 5066
+	}
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		add_core_of = FRA
+	}
+	manpower=323000
+	state_category = town
+	local_supplies = 0.0
+}

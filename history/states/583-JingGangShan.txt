@@ -1,0 +1,29 @@
+
+state={
+	id=583
+	name="STATE_583"
+
+	history={
+		owner = PRJ
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = CHI
+		add_core_of = PRJ
+		victory_points = {
+			2821 5 
+		}
+		1936.1.1={
+			owner = CHI
+		}
+	}
+
+	provinces={
+		2821 3022 3978 3997 4006 
+	}
+	manpower=2310000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

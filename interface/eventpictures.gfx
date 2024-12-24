@@ -1,0 +1,89 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_Mukden_Incident"
+		texturefile = "gfx/event/Mukden_Incident.dds"
+	}
+	spriteType = {
+		name = "GFX_Nanjing_Massacre"
+		texturefile = "gfx/event/Nanjing_Massacre.dds"
+	}
+	spriteType = {
+		name = "GFX_China_flood"
+		texturefile = "gfx/event/China_flood.dds"
+	}
+	spriteType = {
+		name = "GFX_PRC_1931_1"
+		texturefile = "gfx/event/GFX_PRC_1931_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Puppet_Manchukuo"
+		texturefile = "gfx/event/Puppet_Manchukuo.dds"
+	}
+	spriteType = {
+		name = "GFX_128_shanghai"
+		texturefile = "gfx/event/128_shanghai.dds"
+	}
+	spriteType = {
+		name = "GFX_WorldNew_8"
+		texturefile = "gfx/event/WorldNew_8.dds"
+	}
+	spriteType = {
+		name = "GFX_WorldNew_10"
+		texturefile = "gfx/event/WorldNew_10.dds"
+	}
+	spriteType = {
+		name = "GFX_WorldNew_11"
+		texturefile = "gfx/event/WorldNew_11.dds"
+	}
+	spriteType = {
+		name = "GFX_WorldNew_12"
+		texturefile = "gfx/event/WorldNew_12.dds"
+	}
+	spriteType = {
+		name = "GFX_WorldNew_13"
+		texturefile = "gfx/event/WorldNew_13.dds"
+	}
+	spriteType = {
+		name = "GFX_WorldNew_14"
+		texturefile = "gfx/event/WorldNew_14.dds"
+	}
+	spriteType = {
+		name = "GFX_WorldNew_15"
+		texturefile = "gfx/event/WorldNew_15.dds"
+	}
+	spriteType = {
+		name = "GFX_WorldNew_16"
+		texturefile = "gfx/event/WorldNew_16.dds"
+	}
+	spriteType = {
+		name = "GFX_WorldNew_17"
+		texturefile = "gfx/event/WorldNew_17.dds"
+	}
+	spriteType = {
+		name = "GFX_WorldNew_18"
+		texturefile = "gfx/event/WorldNew_18.dds"
+	}
+	spriteType = {
+		name = "GFX_WorldNew_19"
+		texturefile = "gfx/event/WorldNew_19.dds"
+	}
+	spriteType = {
+		name = "GFX_WorldNew_20"
+		texturefile = "gfx/event/WorldNew_20.dds"
+	}
+	spriteType = {
+		name = "GFX_WorldNew_9"
+		texturefile = "gfx/event/WorldNew_9.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Long_march"
+		texturefile = "gfx/event/Long_march.dds"
+	}
+	spriteType = {
+		name = "GFX_Buy_gun"
+		texturefile = "gfx/event/Buy_gun.dds"
+	}
+	
+}

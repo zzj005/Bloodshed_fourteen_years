@@ -1,0 +1,66 @@
+﻿capital = 214 
+set_oob = "CHI_1931"
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1		
+	tech_engineers = 1
+	gw_artillery = 1
+	early_fighter = 1
+	fuel_silos = 1
+}
+
+recruit_character = CHI_JiangJieShi
+recruit_character = CHI_ChenCheng
+recruit_character = CHI_HeYingQing
+recruit_character = CHI_TangShenZhi
+recruit_character = CHI_GuZhuTong
+recruit_character = CHI_XueYue
+recruit_character = CHI_WeiLiHuang
+add_ideas = {
+	Four_families
+	CHI_army_corruption_1
+	Anti_hometown_group
+}
+set_popularities = {
+	democratic = 0
+	communism = 0
+    neutrality = 100
+}
+add_intel = {
+    target = PRC
+    civilian_intel = 1
+    army_intel = 1
+    navy_intel = 1
+    airforce_intel = 1
+}
+
+puppet = RON
+
+
+
+set_politics = {
+	ruling_party = neutrality
+	#last_election = "1936.11.11"
+	election_frequency = 72
+	elections_allowed = no
+}
+add_equipment_to_stockpile = {
+    type = infantry_equipment
+    amount = 10000
+    producer = CHI
+}
+1933.1.1={
+	set_oob = "CHI_1933"
+	add_ideas = {
+		Four_families
+		CHI_army_corruption_1
+	}
+}
+1936.1.1={
+	set_oob = "CHI_1937"
+	add_to_faction = ROD
+	add_to_faction = JDW
+}
+1937.1.1={
+	set_oob = "CHI_1937"
+}

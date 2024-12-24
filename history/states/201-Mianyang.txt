@@ -1,0 +1,26 @@
+
+state={
+	id=201
+	name="STATE_201"
+
+	history={
+		owner = ROT
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = ROS
+		add_core_of = ROT
+		add_core_of = CHI
+
+	}
+
+	provinces={
+		385 801 2945 
+	}
+	manpower=323000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

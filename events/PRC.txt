@@ -1,0 +1,93 @@
+﻿
+add_namespace = PRC_focus
+country_event = {
+	id = PRC_focus.1
+	title = PRC_focus.1.t
+	desc = PRC_focus.1.d
+    #picture = 
+	fire_only_once = yes
+	is_triggered_only = yes
+    immediate = {
+	}
+    
+	option = {
+		name = PRC_focus.1.a
+		country_event = {id=PRC_focus.2 days=10}
+	}
+}
+country_event = {
+	id = PRC_focus.2
+	title = PRC_focus.2.t
+	desc = PRC_focus.2.d
+    #picture = 
+	fire_only_once = yes
+	is_triggered_only = yes
+    immediate = {
+	}
+    
+	option = {
+		name = PRC_focus.2.a
+	}
+}
+country_event = {
+	id = PRC_focus.3
+	title = PRC_focus.3.t
+	desc = PRC_focus.3.d
+    #picture = 
+	fire_only_once = yes
+	is_triggered_only = yes
+    immediate = {
+	}
+    
+	option = {
+		name = PRC_focus.3.a
+	}
+}
+country_event = {
+	id = PRC_focus.4
+	title = PRC_focus.4.t
+	desc = PRC_focus.4.d
+    #picture = 
+	fire_only_once = yes
+	is_triggered_only = yes
+    immediate = {
+	}
+    
+	option = {
+		name = PRC_focus.4.a
+		add_ideas = PRC_GuZuoLing_P
+		add_ideas = PRC_RenBiShi_P
+		add_ideas = PRC_WangJiaXiang_P
+	}
+}
+country_event = {
+	id = PRC_focus.5
+	title = PRC_focus.5.t
+	desc = PRC_focus.5.d
+    #picture = 
+	fire_only_once = yes
+	is_triggered_only = yes
+    immediate = {
+	}
+    
+	option = {
+		name = PRC_focus.5.a
+		add_ideas = PRC_BoGu_P
+		add_ideas = PRC_LiDe_P
+		add_ideas = PRC_ZhouEngLai_P
+	}
+}
+country_event = {
+	id = PRC_focus.6
+	title = PRC_focus.6.t
+	desc = PRC_focus.6.d
+    #picture = 
+	fire_only_once = yes
+	is_triggered_only = yes
+    immediate = {
+	}
+    
+	option = {
+		name = PRC_focus.5.a
+	}
+}

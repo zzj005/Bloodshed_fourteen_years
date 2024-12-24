@@ -1,0 +1,34 @@
+
+state={
+	id=307
+	name="STATE_307"
+
+	history={
+		owner = ROH
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			3255 5 
+		}
+		victory_points = {
+			2321 5 
+		}
+		victory_points = {
+			2130 5 
+		}
+		add_core_of = ROH
+		add_core_of = CHI
+
+	}
+
+	provinces={
+		846 2130 2513 2873 4012 4022 
+	}
+	manpower=323000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

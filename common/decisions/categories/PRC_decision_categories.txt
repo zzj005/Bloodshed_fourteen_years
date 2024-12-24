@@ -1,0 +1,63 @@
+
+
+PRC_border_clashes = {
+	icon = military_operation
+	allowed = {
+		is_potentially_communist_china = yes
+	}
+}
+PRC_struggle_balance_category = {
+	icon = military_operation
+	visible = { 
+		tag=PRC
+	}
+}
+PRC_Buy_gun = {
+	icon = military_operation
+	picture = GFX_Buy_gun
+	visible = { 
+		tag=PRC
+	}
+}
+Long_march_decisions = {
+	icon = military_operation
+	picture = GFX_Long_march
+	visible = {
+		tag=PRC
+		NOT={
+			has_global_flag = fall_of_ChangZheng_end
+		}
+	}
+	on_map_area = {
+		name = Long_march_decisions_map
+		state = 606
+		state = 608
+		state = 607
+		state = 611
+		state = 610
+		state = 612
+		state = 613
+		state = 614
+		state = 615
+		state = 616
+		state = 617
+		state = 612
+		state = 275
+		state = 612
+		state = 618
+		state = 612
+		state = 317
+		state = 619
+		state = 620
+		state = 622
+		state = 270
+		state = 261
+		state = 243
+		state = 234
+		state = 621
+		state = 623
+		state = 624
+		state = 625
+		zoom = 650
+	}
+}

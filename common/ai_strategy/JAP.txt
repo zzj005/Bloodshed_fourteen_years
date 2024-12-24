@@ -1,0 +1,27 @@
+
+JAP_buffer_in_mainland = {
+	allowed = {
+		tag = JAP
+	}
+	enable = {
+		date < 1936.12.12
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = prepare_for_war
+		id = ROD
+		value = 100
+	}
+	ai_strategy = {
+		type = front_unit_request
+		tag = ROD
+		value = 100
+	}
+	ai_strategy = {
+		type = front_unit_request
+		tag = JAP
+		value = 50
+	}
+}
+

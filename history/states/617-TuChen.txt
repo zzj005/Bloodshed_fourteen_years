@@ -1,0 +1,20 @@
+state={
+	id=617
+	name="STATE_617"
+	provinces={
+		900 3913 
+	}
+	history={
+		owner = ROH
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = ROH
+
+	}
+	manpower=23110
+	buildings_max_level_factor=1.000
+	local_supplies=10.000
+}

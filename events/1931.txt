@@ -1,0 +1,58 @@
+﻿
+add_namespace = PRC_1931
+add_namespace = PRC_1931Hidden
+country_event = {
+	id = PRC_1931Hidden.0
+    hidden = yes
+	fire_only_once = yes
+	
+    trigger = {
+		AND={
+			date > 1931.12.14
+			date < 1931.12.16
+		}
+    }
+    immediate = {
+		news_event = {id=PRC_1931.1}
+		PRC={
+			582={
+				create_unit = {
+					division = "name = \"中国工农红军第13军\" division_template = \"中国工农红军\" start_experience_factor = 1 start_equipment_factor = 1"
+					owner = PRC
+					prioritize_location = 3989
+				}
+				create_unit = {
+					division = "name = \"中国工农红军第14军\" division_template = \"中国工农红军\" start_experience_factor = 1 start_equipment_factor = 1"
+					owner = PRC
+					prioritize_location = 3989
+				}
+				create_unit = {
+					division = "name = \"中国工农红军第15军\" division_template = \"中国工农红军\" start_experience_factor = 1 start_equipment_factor = 1"
+					owner = PRC
+					prioritize_location = 3989
+				}
+			}
+		}
+    } 
+    
+	option = {
+		name = PRC_1931Hidden.1.a
+	}		
+}
+news_event = {
+	id = PRC_1931.1
+	title = PRC_1931.1.t
+	desc = PRC_1931.1.d
+
+	picture = GFX_PRC_1931_1
+
+	major = yes
+
+
+	is_triggered_only = yes
+
+	option = {
+		name = PRC_1931.1.a
+		
+	}		
+}

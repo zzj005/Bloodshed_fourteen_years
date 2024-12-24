@@ -1,0 +1,921 @@
+#!gfx:interface\goals.gfx
+focus_tree = {
+	id = PRC
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = PRC
+		} 
+	} 
+	default = no
+	focus = {
+		id = PRC_focus0
+		icon = GFX_goal_generic_construction2
+		cost = 10.00  
+		x = 7
+		y = 0
+		completion_reward = {
+			582={
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+				}
+			}
+		}
+	}
+	focus = {
+		id = PRC_focus8
+		icon = GFX_goal_generic_major_alliance
+		cost = 10.00  
+		x = 13
+		y = 0
+
+	}
+	focus = {
+		id = PRC_focus1
+		icon = GFX_focus_por_workers_of_iberia
+		cost = 10.00  
+		prerequisite = {
+			focus = PRC_focus0
+		}
+		x = 3
+		y = 1
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = PRC_focus2
+		icon = GFX_goal_generic_cavalry
+		cost = 10.00  
+		prerequisite = {
+			focus = PRC_focus1
+		}
+		x = 3
+		y = 2
+		completion_reward = {
+			add_political_power = 100
+			add_war_support = 0.1
+			add_stability =  0.1
+		}
+	}
+	focus = {
+		id = PRC_focus5
+		icon = GFX_goal_generic_production
+		cost = 10.00  
+		prerequisite = {
+			focus = PRC_focus0
+		}
+		x = 6
+		y = 1
+		completion_reward = {
+			589={
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+			582={
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+		}
+	}
+	focus = {
+		id = PRC_focus4
+		icon = GFX_goal_generic_production2
+		cost = 10.00  
+		prerequisite = {
+			focus = PRC_focus0
+		}
+		x = 8
+		y = 1
+		completion_reward = {
+			589={
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+		}
+	}
+	focus = {
+		id = PRC_focus9
+		icon = GFX_goal_generic_major_war
+		cost = 10.00  
+		prerequisite = {
+			focus = PRC_focus8
+		}
+		mutually_exclusive = {
+			focus = PRC_focus10
+			focus = PRC_focus10
+		}
+		x = 11
+		y = 1
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = AB_spirit
+				add_idea = AB_spirit1
+			}
+		}
+	}
+	focus = {
+		id = PRC_focus10
+		icon = GFX_goal_generic_military_deal
+		cost = 10.00  
+		prerequisite = {
+			focus = PRC_focus8
+		}
+		mutually_exclusive = {
+			focus = PRC_focus9
+			focus = PRC_focus9
+		}
+		x = 15
+		y = 1
+		completion_reward = {
+			remove_ideas = AB_spirit
+		}
+	}
+	focus = {
+		id = PRC_focus11
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 10.00  
+		prerequisite = {
+			focus = PRC_focus9
+			focus = PRC_focus10
+		}
+		x = 13
+		y = 2
+
+	}
+	focus = {
+		id = PRC_focus3
+		icon = GFX_goal_generic_dangerous_deal
+		cost = 10.00  
+		prerequisite = {
+			focus = PRC_focus2
+		}
+		x = 3
+		y = 3
+		completion_reward = {
+			add_political_power = 100
+			
+		}
+	}
+	focus = {
+		id = PRC_focus6
+		icon = GFX_goal_generic_military_sphere
+		cost = 10.00  
+		prerequisite = {
+			focus = PRC_focus5
+		}
+		x = 6
+		y = 2
+		completion_reward = {
+			589={
+				add_extra_state_shared_building_slots = 2
+			}
+			582={
+				add_extra_state_shared_building_slots = 2
+			}
+		}
+	}
+	focus = {
+		id = PRC_focus7
+		icon = GFX_goal_generic_production
+		cost = 10.00  
+		prerequisite = {
+			focus = PRC_focus4
+		}
+		x = 8
+		y = 2
+		completion_reward = {
+			582={
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+		}
+	}
+	focus = {
+		id = PRC_focus12
+		icon = GFX_goal_generic_defence
+		cost = 10.00  
+		prerequisite = {
+			focus = PRC_focus0
+		}
+		x = 18
+		y = 1
+		completion_reward = {
+			582={
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 4000
+				}
+			}
+			589={
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = 3955
+				}
+			}
+		}
+	}
+	focus = {
+		id = PRC_focus13
+		icon = GFX_goal_generic_construct_military
+		cost = 10.00  
+		prerequisite = {
+			focus = PRC_focus12
+		}
+		x = 18
+		y = 2
+		completion_reward = {
+			add_ideas = Local_outpost
+		}
+	}
+	focus = {
+		id = PRC_focus14
+		icon = GFX_goal_generic_build_tank
+		cost = 10.00  
+		available = {
+			AND={
+				582={
+					is_controlled_by = PRC
+				}
+				589={
+					is_controlled_by = PRC
+				}
+				598={
+					is_controlled_by = PRC
+				}
+				600={
+					is_controlled_by = PRC
+				}
+				593={
+					is_controlled_by = PRC
+				}
+			}
+		}
+		
+		prerequisite = {
+			focus = PRC_focus13
+		}
+		x = 18
+		y = 3
+		completion_reward = {
+			582={
+				add_building_construction = {
+					type = bunker
+					level = 1
+				}
+			}
+			589={
+				add_building_construction = {
+					type = bunker
+					level = 1
+				}
+			}
+			598={
+				add_building_construction = {
+					type = bunker
+					level = 1
+				}
+			}
+			600={
+				add_building_construction = {
+					type = bunker
+					level = 1
+				}
+			}
+			593={
+				add_building_construction = {
+					type = bunker
+					level = 1
+				}
+			}
+		}
+	}
+	focus = {
+		id = PRC_focus15
+		icon = GFX_goal_generic_build_tank
+		cost = 10.00  
+		prerequisite = {
+			focus = PRC_focus6
+		}
+		x = 5
+		y = 3
+		completion_reward = {
+			589={
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+				}
+			}
+			582={
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+				}
+			}
+		}
+	}
+	focus = {
+		id = PRC_focus16
+		icon = GFX_goal_generic_build_tank
+		cost = 10.00  
+		prerequisite = {
+			focus = PRC_focus7
+		}
+		x = 9
+		y = 3
+		completion_reward = {
+			589={
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			582={
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+		}
+	}
+	focus = {
+		id = PRC_focus17
+		icon = GFX_focus_SOV_proclaim_soviet_hegemony
+		cost = 10.00  
+		prerequisite = {
+		}
+		x = 25
+		y = 0
+		completion_reward = {
+			add_opinion_modifier = {
+				target = SOV
+				modifier = SOV_supported_china_good
+			}
+		}
+	}
+	focus = {
+		id = PRC_focus18
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 10.00  
+		prerequisite = {
+			focus = PRC_focus17
+		}
+		x = 25
+		y = 2
+		completion_reward = {
+			add_ideas = PRC_LiDe_P
+		}
+	}
+	focus = {
+		id = PRC_focus19
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		cost = 10.00  
+		prerequisite = {
+			focus = PRC_focus17
+		}
+		prerequisite = {
+			focus = PRC_focus20
+		}
+		x = 27
+		y = 1
+		completion_reward = {
+			custom_effect_tooltip = PRC_focus19_effect
+			hidden_effect = {
+				if = {
+					limit = { 
+						date < 1933.1.1 
+					}
+					country_event = {id=PRC_focus.4 days=5}
+				}
+			}
+			
+		}
+	}
+	focus = {
+		id = PRC_focus20
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 10.00  
+		prerequisite = {
+		}
+		x = 30
+		y = 0
+		completion_reward = {
+			country_event = PRC_focus.1
+		}
+	}
+	focus = {
+		id = PRC_focus21
+		icon = GFX_focus_prc_maoism
+		cost = 10.00  
+		prerequisite = {
+			focus = PRC_focus20
+		}
+		mutually_exclusive = {
+			focus = PRC_focus22
+		}
+		x = 35
+		y = 1 
+		completion_reward = {
+			add_power_balance_value = {
+				id = PRC_struggle_balance
+				value = 0.1
+			}
+		}
+	}
+	focus = {
+		id = PRC_focus22
+		icon = GFX_goal_generic_war_with_comintern
+		cost = 10.00  
+		prerequisite = {
+			focus = PRC_focus20
+		}
+		mutually_exclusive = {
+			focus = PRC_focus21
+		}
+		x = 30
+		y = 1
+		completion_reward = {
+			country_event = PRC_focus.3
+		}
+	}
+	focus = {
+		id = PRC_focus23
+		icon = GFX_focus_SOV_penal_battalions
+		cost = 10.00  
+		prerequisite = {
+			focus = PRC_focus22
+		}
+		x = 28
+		y = 3
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+	focus = {
+		id = PRC_focus24
+		icon = GFX_focus_POL_beck_ribbentrop
+		cost = 10.00  
+		prerequisite = {
+			focus = PRC_focus22
+		}
+		x = 32
+		y = 3
+		completion_reward = {
+			add_ideas = PRC_peoples_war
+		}
+	}
+	focus = {
+		id = PRC_focus25
+		icon = GFX_focus_SWE_bofors_fly_swatter
+		cost = 10.00  
+		prerequisite = {
+			focus = PRC_focus21
+		}
+		x = 33
+		y = 2
+		completion_reward = {
+			add_ideas = PRC_mobile_warfare
+		}
+	}
+	focus = {
+		id = PRC_focus26
+		icon = GFX_focus_SOV_the_road_of_life
+		cost = 10.00  
+		prerequisite = {
+			focus = PRC_focus21
+		}
+		x = 37
+		y = 2
+		completion_reward = {
+			add_ideas = PRC_protracted_warfare
+		}
+	}
+	focus = {
+		id = PRC_focus27
+		icon = GFX_focus_SWE_varnplikt
+		cost = 10.00  
+		prerequisite = {
+			focus = PRC_focus21
+		}
+		x = 35
+		y = 3
+		completion_reward = {
+			add_ideas = Extensive_conscription
+		}
+	}
+	focus = {
+		id = PRC_focus28
+		icon = GFX_focus_SOV_builder_of_the_red_army
+		cost = 10.00  
+		prerequisite = {
+			focus = PRC_focus18
+		}
+		prerequisite = {
+			focus = PRC_focus19
+		}
+		x = 26
+		y = 3
+		completion_reward = {
+			add_ideas = Extensive_conscription
+		}
+	}
+	focus = {
+		id = PRC_focus29
+		icon = GFX_goal_generic_consumer_goods
+		cost = 10.00  
+		prerequisite = {
+			focus = PRC_focus22
+		}
+		x = 29
+		y = 4
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = PRC_focus30
+		icon = GFX_goal_molotov_ribbentrop_pact
+		cost = 10.00  
+		prerequisite = {
+			focus = PRC_focus22
+		}
+		x = 31
+		y = 4
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = PRC_focus31
+		icon = GFX_goal_generic_dangerous_deal
+		cost = 10.00  
+		prerequisite = {
+			focus = PRC_focus22
+		}
+		x = 30
+		y = 2
+		completion_reward = {
+			add_power_balance_value = {
+				id = PRC_struggle_balance
+				value = -0.05
+			}
+		}
+	}
+	focus = {
+		id = PRC_focus32
+		icon = GFX_focus_SOV_the_supreme_soviet
+		cost = 10.00  
+		prerequisite = {
+			focus = PRC_focus31
+		}
+		x = 30
+		y = 3
+		completion_reward = {
+			add_power_balance_value = {
+				id = PRC_struggle_balance
+				value = -0.1
+			}
+		}
+	}
+	focus = {
+		id = PRC_focus33
+		icon = GFX_goal_rhineland
+		cost = 10.00  
+		prerequisite = {
+			focus = PRC_focus27
+		}
+		x = 33
+		y = 4
+		completion_reward = {
+			add_power_balance_value = {
+				id = PRC_struggle_balance
+				value = 0.05
+			}
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = PRC_focus34
+		icon = GFX_focus_SOV_womens_fascist_movement
+		cost = 10.00  
+		prerequisite = {
+			focus = PRC_focus27
+		}
+		x = 37
+		y = 4
+		completion_reward = {
+			add_power_balance_value = {
+				id = PRC_struggle_balance
+				value = 0.05
+			}
+			add_war_support = 0.1
+		}
+	}
+	focus = { 
+		id = PRC_focus35
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 10.00  
+		available = {
+			date > 1933.1.15 
+		}
+		prerequisite = {
+		}
+		x = 30
+		y = 5
+		completion_reward = {
+			country_event = {id=PRC_focus.6}
+		}
+	}
+	focus = {  
+		id = PRC_focus36
+		icon = GFX_focus_ITA_corpo_volontari_della_liberta
+		cost = 10.00  
+		
+		prerequisite = {
+			focus = PRC_focus38
+		}
+		x = 34
+		y = 7
+		completion_reward = {
+			add_power_balance_value = {
+				id = PRC_struggle_balance
+				value = 0.1
+			}
+		}
+	}
+	focus = {  
+		id = PRC_focus37
+		icon = GFX_focus_generic_soviet_politics
+		cost = 10.00  
+		prerequisite = {
+			focus = PRC_focus35 
+		}
+		mutually_exclusive = {
+			focus = PRC_focus38
+		}
+		available = {
+			AND={
+				582={
+					is_controlled_by = PRC
+				}
+				589={
+					is_controlled_by = PRC
+				}
+				598={
+					is_controlled_by = PRC
+				}
+				600={
+					is_controlled_by = PRC
+				}
+				593={
+					is_controlled_by = PRC
+				}
+			}
+		}
+		x = 28
+		y = 6
+		completion_reward = {
+			582={
+				add_building_construction = {
+					type = bunker
+					level = 2
+				}
+			}
+			589={
+				add_building_construction = {
+					type = bunker
+					level = 2
+				}
+			}
+			598={
+				add_building_construction = {
+					type = bunker
+					level = 2
+				}
+			}
+			600={
+				add_building_construction = {
+					type = bunker
+					level = 2
+				}
+			}
+			593={
+				add_building_construction = {
+					type = bunker
+					level = 2
+				}
+			}
+		}
+	}
+	focus = {  
+		id = PRC_focus38
+		icon = GFX_focus_ger_bulwark_against_bolshevism
+		cost = 10.00  
+		prerequisite = {
+			focus = PRC_focus35
+		}
+		mutually_exclusive = {
+			focus = PRC_focus37
+		}
+		x = 32
+		y = 6
+		completion_reward = {
+			
+		}
+	}
+	focus = {  
+		id = PRC_focus39
+		icon = GFX_focus_generic_military_academy
+		cost = 10.00  
+		prerequisite = {
+			focus = PRC_focus35 
+		}
+		x = 30
+		y = 7
+		completion_reward = {
+			country_event = {id=PRC_focus.5 days=10}
+		}
+	}
+	focus = {  
+		id = PRC_focus40
+		icon = GFX_focus_SWE_refuge_for_revolutionaries
+		cost = 10.00  
+		prerequisite = {
+			focus = PRC_focus37
+		}
+		
+		x = 28
+		y = 7
+	}
+	focus = {  
+		id = PRC_focus41
+		icon = GFX_focus_prc_infiltration
+		cost = 10.00   
+		prerequisite = {
+			focus = PRC_focus28
+		}
+		available = {
+			has_completed_focus = PRC_focus37
+		}
+		x = 26
+		y = 5 
+		completion_reward = {
+			start_border_war = {
+				change_state_after_war = no
+				attacker = {
+					state =251
+					num_provinces = 1
+					modifier = 0.1
+					dig_in_factor = -0.1
+					terrain_factor = -0.1
+				}	
+				defender = {
+					state = 246
+					num_provinces = 3
+					dig_in_factor = 0.3
+					terrain_factor = 0.3
+				}
+			}
+			start_border_war = {
+				change_state_after_war = no
+				attacker = {
+					state =250
+					num_provinces = 1
+					modifier = 0.1
+					dig_in_factor = -0.1
+					terrain_factor = -0.1
+				}	
+				defender = {
+					state = 246
+					num_provinces = 3
+					dig_in_factor = 0.3
+					terrain_factor = 0.3
+				}
+			}
+		}
+	}
+	focus = {  
+		id = PRC_focus42
+		icon = GFX_focus_eng_move_to_secure_the_dominions
+		cost = 10.00  
+		prerequisite = { 
+			focus = PRC_focus38
+		}
+		x = 32
+		y = 8
+	}
+	focus = {  
+		id = PRC_focus43
+		icon = GFX_focus_eng_move_to_secure_the_dominions
+		cost = 10.00  
+		prerequisite = {  
+			focus = PRC_focus42 
+		}
+		x = 32
+		y = 9
+	}
+	focus = {  
+		id = PRC_focus44
+		icon = GFX_focus_eng_move_to_secure_the_dominions
+		cost = 10.00  
+		prerequisite = { 
+			focus = PRC_focus45 
+		} 
+		x = 39
+		y = 6
+	}
+	focus = {  
+		id = PRC_focus45
+		icon = GFX_focus_eng_move_to_secure_the_dominions
+		cost = 10.00  
+		available = {
+			PRC={
+				controls_state = 116
+			}
+			has_completed_focus = PRC_focus43
+		}
+		x = 39
+		y = 5
+	}
+	focus = {  
+		id = PRC_focus46
+		icon = GFX_focus_eng_move_to_secure_the_dominions
+		cost = 10.00  
+		available = {
+			PRC={
+				controls_state = 116
+			}
+		}
+		prerequisite = { 
+			focus = PRC_focus44 
+		} 
+		mutually_exclusive = {
+			focus = PRC_focus47
+		}
+		x = 37
+		y = 7
+	}
+	focus = {  
+		id = PRC_focus47
+		icon = GFX_focus_eng_move_to_secure_the_dominions
+		cost = 10.00  
+		available = {
+			PRC={
+				controls_state = 116
+			}
+		}
+		mutually_exclusive = {
+			focus = PRC_focus46
+		}
+		prerequisite = { 
+			focus = PRC_focus44 
+		} 
+		x = 41
+		y = 7
+	}
+	focus = {  
+		id = PRC_focus48 
+		icon = GFX_focus_eng_move_to_secure_the_dominions
+		cost = 10.00  
+		available = {
+		}
+		prerequisite = { 
+			focus = PRC_focus44 
+		} 
+		x = 39 
+		y = 8
+	}
+	focus = {  
+		id = PRC_focus49 
+		icon = GFX_focus_eng_move_to_secure_the_dominions
+		cost = 10.00  
+		available = {
+		}
+		prerequisite = { 
+			focus = PRC_focus45 
+		} 
+		x = 36
+		y = 6
+	}
+}
+

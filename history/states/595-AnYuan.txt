@@ -1,0 +1,24 @@
+state={
+	id=595
+	name="STATE_595"
+	provinces={
+		4033 4036 4041 4042 
+	}
+	history={
+		owner = CHI
+		buildings = {
+
+		}
+		add_core_of = PRC
+		1933.1.1={
+			owner = PRC
+		}
+		1936.1.1={
+			owner = CHI
+		}
+	}
+	manpower=20130
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=4.000
+}

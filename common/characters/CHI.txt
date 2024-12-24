@@ -1,0 +1,206 @@
+characters={
+    CHI_JiangJieShi={
+		name=CHI_JiangJieShi
+		portraits={
+			civilian={
+				large="gfx/leaders/CHI/CHI_JiangJieShi.png"
+				small = "gfx/leaders/advisers/CHI_JiangJieShi_small.png"
+			}
+			army = {
+				large="gfx/leaders/CHI/CHI_JiangJieShi_army.png"
+			}
+		}
+		field_marshal = {
+			traits = {
+				old_guard
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor={	
+			slot = army_chief
+			allowed = {
+				original_tag = CHI
+			}
+			available = {
+			}
+			traits = {
+				army_logistics_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	CHI_ChenCheng={
+		name=CHI_ChenCheng
+		portraits={
+			army={
+				large="gfx/leaders/CHI/CHI_ChenCheng.png"
+			}
+		}
+		advisor={	
+			slot = army_chief
+			allowed = {
+				original_tag = CHI
+			}
+			available = {
+			}
+			traits = {
+				army_chief_offensive_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		corps_commander={
+			traits={offensive_doctrine }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+		}
+	}
+	CHI_HeYingQing={
+		name=CHI_HeYingQing
+		portraits={
+			army={
+				large="gfx/leaders/CHI/CHI_HeYingQing.png"
+			}
+		}
+		advisor={	
+			slot = army_chief
+			allowed = {
+				original_tag = CHI
+			}
+			available = {
+			}
+			traits = {
+				army_chief_offensive_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=3
+		}
+	}
+	CHI_TangShenZhi={
+		name=CHI_TangShenZhi
+		portraits={
+			army={
+				large="gfx/leaders/CHI/CHI_TangShenZhi.png"
+			}
+		}
+		advisor={	
+			slot = army_chief
+			allowed = {
+				original_tag = CHI
+			}
+			available = {
+			}
+			traits = {
+				army_chief_offensive_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+	}
+	CHI_GuZhuTong={
+		name=CHI_GuZhuTong
+		portraits={
+			army={
+				large="gfx/leaders/CHI/CHI_GuZhuTong.png"
+			}
+		}
+		advisor={	
+			slot = army_chief
+			allowed = {
+				original_tag = CHI
+			}
+			available = {
+			}
+			traits = {
+				army_chief_offensive_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+	}
+
+
+
+	CHI_XueYue={
+		name=CHI_XueYue
+		portraits={
+			army={
+				large="gfx/leaders/CHI/CHI_XueYue.png"
+			}
+		}
+		
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+		}
+	}
+	CHI_WeiLiHuang={
+		name=CHI_WeiLiHuang
+		portraits={
+			army={
+				large="gfx/leaders/CHI/CHI_WeiLiHuang.png"
+			}
+		}
+		
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+		}
+	}						
+	}

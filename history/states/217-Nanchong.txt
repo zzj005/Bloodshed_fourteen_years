@@ -1,0 +1,27 @@
+state={
+	id=217
+	name="STATE_217"
+	provinces={
+		1297 2901 3837 
+	}
+	history={
+		owner = ROT
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = ROS
+		add_core_of = CHI
+		add_core_of = ROT
+		1933.1.1={
+			owner = NSD
+			add_core_of = NSD
+		    add_core_of = CHI
+		}
+		1936.1.1={
+			owner = ROS
+		}
+	}
+	manpower=323000
+	state_category = town
+	local_supplies = 0.0
+}

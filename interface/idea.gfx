@@ -1,0 +1,46 @@
+spriteTypes = {
+	
+	
+	spriteType = {
+	    name = "GFX_Central_Special_Branch"
+	    texturefile = "gfx/interface/ideas/Central_Special_Branch.dds"
+		noOfFrames =2
+    } 
+	spriteType = {
+		name = "GFX_idea_Four_families"
+		texturefile = "gfx/interface/ideas/CHI/Four_families.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Not_resisting"
+		texturefile = "gfx/interface/ideas/CHI/Not_resisting.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Chinese_red_army"
+		texturefile = "gfx/interface/ideas/PRC/Chinese_red_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Soviet_district_spirit"
+		texturefile = "gfx/interface/ideas/PRC/Soviet_district_spirit.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Leftism"
+		texturefile = "gfx/interface/ideas/PRC/Leftism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AB_spirit"
+		texturefile = "gfx/interface/ideas/PRC/AB_spirit.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Revolutionary_base"
+		texturefile = "gfx/interface/ideas/PRC/Revolutionary_base.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Militaristic_fervor"
+		texturefile = "gfx/interface/ideas/JAP/Militaristic_fervor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Death_in_March"
+		texturefile = "gfx/interface/ideas/JAP/Death_in_March.dds"
+	}
+	
+}

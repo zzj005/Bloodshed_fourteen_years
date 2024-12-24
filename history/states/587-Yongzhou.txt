@@ -1,0 +1,23 @@
+state={
+	id=587
+	name="STATE_587"
+	provinces={
+		2317 3197
+	}
+	history={
+		owner = PRH
+		add_core_of = RON
+		buildings = {
+		}
+		victory_points = {
+			2317 5
+		}
+		add_core_of = PRH
+		1936.1.1={
+			owner = RON
+		}
+	}
+	manpower=23000
+	state_category = town
+	local_supplies = 0.0
+}

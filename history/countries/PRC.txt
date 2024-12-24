@@ -1,0 +1,103 @@
+﻿capital = 582 
+set_oob = PRC_1931
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1		
+	tech_engineers = 1
+}
+
+set_power_balance = {
+    id = PRC_struggle_balance
+}
+recruit_character = PRC_SuQu
+recruit_character = PRC_XuXianQian
+recruit_character = PRC_MaoZeDong
+recruit_character = PRC_ZhuDe
+recruit_character = PRC_ZhouEngLai
+recruit_character = PRC_BoGu
+recruit_character = PRC_LiDe
+recruit_character = PRC_PengDeHuai
+recruit_character = PRC_LingBiao
+recruit_character = PRC_HeLong
+recruit_character =PRC_LuoBinHui
+recruit_character =PRC_ZhouKun
+recruit_character =PRC_XunHuaiZhou
+recruit_character =PRC_DongZhenTang
+recruit_character =PRC_GuZuoLing
+recruit_character =PRC_RenBiShi
+recruit_character =PRC_WangJiaXiang
+set_popularities = {
+	democratic = 0
+	communism = 100
+}
+create_faction = PRC_faction
+add_to_faction = PRH
+add_to_faction = NHA
+add_to_faction = PRQ
+add_to_faction = PRJ
+
+
+
+set_politics = {
+	ruling_party = communism
+	#last_election = "1936.11.11"
+	election_frequency = 72
+	elections_allowed = no
+}
+add_ideas={
+	Soviet_district_spirit
+	AB_spirit
+	Leftism
+	Revolutionary_base
+	PRC_Central_Special_Branch
+}
+create_intelligence_agency = {
+    name = "中央特科"
+    icon = GFX_Central_Special_Branch
+}
+add_intel = {
+    target = CHI
+    civilian_intel = 7
+    army_intel = 7
+    navy_intel = 2
+    airforce_intel = 2
+}
+1933.1.1={
+	capital = 582 
+	set_oob = PRC_1933
+	set_variable = {
+		Gold_bar = 200
+	}
+	country_event = {id=PRJ.1 days=122}
+	complete_national_focus = PRC_focus0
+	complete_national_focus = PRC_focus1
+	complete_national_focus = PRC_focus8
+	complete_national_focus = PRC_focus12
+	complete_national_focus = PRC_focus17
+	complete_national_focus = PRC_focus18
+	complete_national_focus = PRC_focus19
+	complete_national_focus = PRC_focus20
+	complete_national_focus = PRC_focus28
+	complete_national_focus = PRC_focus22
+	complete_national_focus = PRC_focus32
+	complete_national_focus = PRC_focus23
+	complete_national_focus = PRC_focus29
+	complete_national_focus = PRC_focus24
+	complete_national_focus = PRC_focus30
+	complete_national_focus = PRC_focus31
+	add_ideas={
+		Soviet_district_spirit
+		Leftism
+		Revolutionary_base
+		
+		PRC_GuZuoLing_P
+		PRC_RenBiShi_P
+		PRC_WangJiaXiang_P
+
+		PRC_LiDe_H
+		PRC_BoGu_H
+		PRC_ZhuDe_H 
+	}
+	set_cosmetic_tag = PRC_1931
+	add_to_faction = NSD
+}

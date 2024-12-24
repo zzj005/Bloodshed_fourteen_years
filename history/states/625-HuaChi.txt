@@ -1,0 +1,25 @@
+state={
+	id=625
+	name="STATE_625"
+	provinces={
+		636 1387 2710 
+	}
+	resources = {
+		tungsten = 2.000
+	}
+	history={
+		owner = CHI
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = CHI
+		1936.1.1={
+			owner = ROD
+		}
+	}
+	manpower=23110
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

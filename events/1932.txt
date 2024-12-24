@@ -1,0 +1,43 @@
+﻿
+add_namespace = CHI_1932
+country_event = {
+	id = CHI_1932.1
+	title = CHI_1932.1.t
+	desc = CHI_1932.1.d
+	fire_only_once = yes
+	
+    trigger = {
+		date < 1937.1.1
+		CHI = {
+			AND={
+				
+				has_war = yes
+				NOT = {
+					has_global_flag = fall_of_Shanghai
+					controls_province = 3833
+				}
+			}
+		}
+    }
+    immediate = {
+		set_global_flag = fall_of_Shanghai
+    } 
+    
+	option = {
+		name = CHI_1932.1.a
+		hidden_effect = {
+			news_event = WorldNew.11
+		}
+		JAP={
+			white_peace = CHI
+			country_event = CHI_1932.1
+		}
+		228={set_demilitarized_zone = yes}
+		586={
+			transfer_state_to = CHI
+			set_demilitarized_zone = yes
+		}
+		clr_global_flag = fall_of_Shanghai
+	}		
+}
+

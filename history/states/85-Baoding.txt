@@ -1,0 +1,25 @@
+state={
+	id=85
+	name="STATE_85"
+	provinces={
+		1199 1262 1563 1667 2471 2639 3650 
+	}
+	history={
+		owner = ROD
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		add_core_of = ROD
+		add_core_of = CHI
+		1936.1.1={
+			owner = JDW
+		}
+		victory_points = {
+			1667 10
+		}
+	}
+	manpower=323000
+	state_category = town
+	local_supplies = 0.0
+}

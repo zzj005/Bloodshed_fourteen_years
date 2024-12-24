@@ -1,0 +1,406 @@
+characters={
+    PRC_SuQu={
+		name=PRC_SuQu
+		portraits={
+			civilian={
+				large="gfx/leaders/PRC/PRC_SuQu.png"
+			}
+		}
+		country_leader={
+			ideology=marxism
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	PRC_MaoZeDong={
+		name=PRC_MaoZeDong
+		portraits={
+			civilian={
+				large="gfx/leaders/PRC/PRC_MaoZeDong.png"
+			}
+		}
+		country_leader={
+			ideology=marxism
+			traits={}
+			expire="1965.1.1.1"
+			id=-1
+		}
+		corps_commander={
+			traits={trickster fast_planner inspirational_leader thorough_planner }
+			skill=5
+			attack_skill=5
+			defense_skill=5
+			planning_skill=5
+			logistics_skill=5
+		}
+	}
+	PRC_ZhuDe={
+		name=PRC_ZhuDe
+		portraits={
+			civilian={
+				large="gfx/leaders/PRC/PRC_ZhuDe.png"
+				small = "gfx/interface/advisers/PRC_ZhuDe.png"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = PRC_ZhuDe_H
+			allowed  = {
+				original_tag  = PRC
+			}
+			available  = {
+				
+			}
+			traits  = {
+				red_army_organizer
+				army_chief_offensive_2
+			}
+			ai_will_do  = {
+				factor  = 0.000
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=4
+			attack_skill=5
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+		}
+	}
+	PRC_ZhouEngLai={
+		name=PRC_ZhouEngLai
+		portraits={
+			civilian={
+				large="gfx/leaders/PRC/PRC_ZhouEngLai.png"
+				small = "gfx/interface/advisers/PRC_ZhouEngLai.png"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = PRC_ZhouEngLai_P
+			allowed  = {
+				original_tag  = PRC
+			}
+			available  = {
+				
+			}
+			traits  = {
+				labor_defense_organizer
+				emergency_powers
+			}
+			ai_will_do  = {
+				factor  = 0.000
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+	PRC_BoGu={
+		name=PRC_BoGu
+		portraits={
+			civilian={
+				large="gfx/leaders/PRC/PRC_BoGu.png"
+				small = "gfx/interface/advisers/PRC_BoGu.png"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = PRC_BoGu_P
+			allowed  = {
+				original_tag  = PRC
+			}
+			available  = {
+				
+			}
+			traits  = {
+				warmonger
+				
+			}
+			ai_will_do  = {
+				factor  = 0.000
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = PRC_BoGu_H
+			allowed  = {
+				original_tag  = PRC
+			}
+			available  = {
+				
+			}
+			traits  = {
+				headstrong
+			}
+			ai_will_do  = {
+				factor  = 0.000
+			}
+		}
+	}
+	PRC_LiDe={
+		name=PRC_LiDe
+		portraits={
+			civilian={
+				large="gfx/leaders/PRC/PRC_LiDe.png"
+				small = "gfx/interface/advisers/PRC_LiDe.png"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = PRC_LiDe_P
+			allowed  = {
+				original_tag  = PRC
+			}
+			available  = {
+				
+			}
+			traits  = {
+				proletariat_internationalist
+				warmonger
+			}
+			ai_will_do  = {
+				factor  = 0.000
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = PRC_LiDe_H
+			allowed  = {
+				original_tag  = PRC
+			}
+			available  = {
+				
+			}
+			traits  = {
+				headstrong
+			}
+			ai_will_do  = {
+				factor  = 0.000
+			}
+		}
+	}
+
+	PRC_WangJiaXiang={
+		name=PRC_WangJiaXiang
+		portraits={
+			civilian={
+				small = "gfx/interface/advisers/PRC_WangJiaXiang.png"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = PRC_WangJiaXiang_P
+			allowed  = {
+				original_tag  = PRC
+			}
+			available  = {
+				
+			}
+			traits  = {
+				strong_party_discipline
+			}
+			ai_will_do  = {
+				factor  = 0.000
+			}
+		}
+	}
+
+	PRC_GuZuoLing={
+		name=PRC_GuZuoLing
+		portraits={
+			civilian={
+				small = "gfx/interface/advisers/PRC_GuZuoLing.png"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = PRC_GuZuoLing_P
+			allowed  = {
+				original_tag  = PRC
+			}
+			available  = {
+				
+			}
+			traits  = {
+				strong_party_discipline
+			}
+			ai_will_do  = {
+				factor  = 0.000
+			}
+		}
+	}
+
+	PRC_RenBiShi={
+		name=PRC_RenBiShi
+		portraits={
+			civilian={
+				small = "gfx/interface/advisers/PRC_RenBiShi.png"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = PRC_RenBiShi_P
+			allowed  = {
+				original_tag  = PRC
+			}
+			available  = {
+				
+			}
+			traits  = {
+				strong_party_discipline
+			}
+			ai_will_do  = {
+				factor  = 0.000
+			}
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+	PRC_PengDeHuai={
+		name=PRC_PengDeHuai
+		portraits={
+			civilian={
+				large="gfx/leaders/PRC/PRC_PengDeHuai.png"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
+		}
+	}
+	PRC_LingBiao={
+		name=PRC_LingBiao
+		portraits={
+			civilian={
+				large="gfx/leaders/PRC/PRC_LingBiao.png"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=5
+			attack_skill=4
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=3
+		}
+	}	
+	PRC_HeLong={
+		name=PRC_HeLong
+		portraits={
+			civilian={
+				large="gfx/leaders/PRC/PRC_HeLong.png"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=4
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+	PRC_XuXianQian={
+		name=PRC_XuXianQian
+		portraits={
+			civilian={
+				large="gfx/leaders/PRC/PRC_XuXianQian.png"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=4
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+		}
+	}	
+	PRC_DongZhenTang={
+		name=PRC_DongZhenTang
+		portraits={
+			civilian={
+				large="gfx/leaders/PRC/PRC_DongZhenTang.png"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+		}
+	}		
+	PRC_XunHuaiZhou={
+		name=PRC_XunHuaiZhou
+		portraits={
+			civilian={
+				large="gfx/leaders/PRC/PRC_XunHuaiZhou.png"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+		}
+	}		
+	PRC_ZhouKun={
+		name=PRC_ZhouKun
+		portraits={
+			civilian={
+				large="gfx/leaders/PRC/PRC_ZhouKun.png"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+	PRC_LuoBinHui={
+		name=PRC_LuoBinHui
+		portraits={
+			civilian={
+				large="gfx/leaders/PRC/PRC_LuoBinHui.png"
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+		}
+	}				
+	}

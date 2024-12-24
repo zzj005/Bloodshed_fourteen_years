@@ -1,0 +1,21 @@
+state={
+	id=271
+	name="STATE_271"
+	provinces={
+		2579 2673 2982 3872 
+	}
+	history={
+		owner = RON
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = {
+			2579 5
+		}
+		add_core_of = RON
+	}
+	manpower=323000
+	state_category = town
+	local_supplies = 0.0
+}

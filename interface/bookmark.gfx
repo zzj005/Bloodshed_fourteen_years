@@ -1,0 +1,18 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_1936"
+		texturefile = "gfx/interface/1936.dds"
+	}
+	spriteType = {
+		name = "GFX_1939"
+		texturefile = "gfx/interface/1939.dds"
+	}
+	spriteType = {
+		name = "GFX_1942"
+		texturefile = "gfx/interface/1942.dds"
+	}
+	spriteType = {
+		name = "GFX_1944"
+		texturefile = "gfx/interface/1944.dds"
+	}
+}

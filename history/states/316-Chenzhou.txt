@@ -1,0 +1,27 @@
+
+state={
+	id=316
+	name="STATE_316"
+
+	history={
+		owner = RON
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			3998 5 
+		}
+		add_core_of = RON
+
+	}
+
+	provinces={
+		1029 1739 2630 3079 3170 3998 4010 
+	}
+	manpower=323000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

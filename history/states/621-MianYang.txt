@@ -1,0 +1,23 @@
+state={
+	id=621
+	name="STATE_621"
+	provinces={
+		1606 3813 
+	}
+	history={
+		owner = ROT
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = ROS
+		add_core_of = ROT
+		victory_points = {
+			1606 10
+		}
+	}
+	manpower=23110
+	buildings_max_level_factor=1.000
+	local_supplies=10.000
+}

@@ -1,0 +1,11 @@
+
+Long_march_battle = {
+	custom_effect_tooltip = Long_march_effect_tt
+	hidden_effect = {
+		add_dynamic_modifier = {
+			modifier = Long_march_effect
+			scope = PRC
+			days = 25
+		}
+	}
+}

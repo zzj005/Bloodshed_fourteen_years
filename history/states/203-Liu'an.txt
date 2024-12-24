@@ -1,0 +1,29 @@
+
+state={
+	id=203
+	name="STATE_203"
+
+	history={
+		owner = NHA
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = NHA
+		add_core_of = PRC
+		1933.1.1={
+			owner = CHI
+		}
+		1936.1.1={
+			owner = CHI
+		}
+	}
+
+	provinces={
+		1767 1867 2315 3799 
+	}
+	manpower=1275000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

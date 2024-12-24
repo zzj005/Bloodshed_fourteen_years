@@ -1,0 +1,16 @@
+characters={
+    ROZ_MaHongBing={
+		name=ROZ_MaHongBing
+		portraits={
+			civilian={
+				large="gfx/leaders/ROZ/ROZ_MaHongBing.png"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}		
+	}

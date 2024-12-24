@@ -1,0 +1,12 @@
+on_actions = {
+	# country
+	on_startup= { 
+		effect = {
+		PRC = { 
+			set_power_balance = {
+				id = PRC_struggle_balance
+			}
+		} 
+	} 
+}
+}

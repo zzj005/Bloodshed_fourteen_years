@@ -1,0 +1,26 @@
+
+state={
+	id=277
+	name="STATE_277"
+
+	history={
+		owner = ROW
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = ROW	
+		add_core_of = ROS
+		add_core_of = CHI
+
+	}
+
+	provinces={
+		839 910 946 953 1570 1803 2146 2981 3130 3897 3943 
+	}
+	manpower=323000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

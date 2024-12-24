@@ -1,0 +1,23 @@
+state={
+	id=115
+	name="STATE_115"
+	provinces={
+		1263 1686 2599 3680 
+	}
+	history={
+		owner = ROA
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			2599= {
+				naval_base = 2
+				coastal_bunker = 1
+			}
+		}
+		add_core_of = ROA
+		add_core_of = CHI
+	}
+	manpower=323000
+	state_category = town
+	local_supplies = 0.0
+}

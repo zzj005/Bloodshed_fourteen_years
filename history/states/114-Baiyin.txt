@@ -1,0 +1,18 @@
+state={
+	id=114
+	name="STATE_114"
+	provinces={
+		787 941 1761 2030 
+	}
+	history={
+		owner = ROZ
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		add_core_of = ROZ
+	}
+	manpower=323000
+	state_category = town
+	local_supplies = 0.0
+}

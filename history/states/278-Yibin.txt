@@ -1,0 +1,33 @@
+state={
+	id=278
+	name="STATE_278"
+	provinces={
+		1151 1257 2330 
+	}
+	history={
+
+		owner = ROW	
+
+		1933.1.1={
+			owner = ROS	
+		}
+
+
+		1936.1.1={
+					owner = CHI
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = {
+			1151 5
+		}
+		add_core_of = ROS
+		add_core_of = CHI
+				add_core_of = ROW
+	}
+	manpower=323000
+	state_category = town
+	local_supplies = 0.0
+}

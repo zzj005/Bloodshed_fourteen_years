@@ -1,0 +1,33 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 1933.1.1.12
+		picture = "GFX_select_date_1939"
+		default_country = "PRC"
+		default = yes
+		"PRC"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		"CHI"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		"JAP"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		"ROD"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		"ROC"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		"ROG"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		"ROS"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+
+
+	}
+}

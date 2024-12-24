@@ -1,0 +1,21 @@
+state={
+	id=622
+	name="STATE_622"
+	provinces={
+		1796 
+	}
+	history={
+		owner = ROW
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = ROW
+		add_core_of = ROS
+
+	}
+	manpower=23110
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

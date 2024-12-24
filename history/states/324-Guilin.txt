@@ -1,0 +1,31 @@
+
+state={
+	id=324
+	name="STATE_324"
+
+	history={
+		owner = ROC
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			4013 5 
+		}
+		victory_points = {
+			3101 5 
+		}
+		add_core_of = ROC
+		add_core_of = CHI
+
+	}
+
+	provinces={
+		724 1098 2238 2257 2457 3101 4058 4075 
+	}
+	manpower=323000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,21 @@
+state={
+	id=586
+	name="STATE_586"
+	provinces={
+		3285
+	}
+	history={
+		owner = CHI
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		add_core_of = CHI
+		1933.1.1={
+			set_demilitarized_zone = yes
+		}
+	}
+	manpower=323000
+	state_category = town
+	local_supplies = 0.0
+}

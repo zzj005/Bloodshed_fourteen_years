@@ -1,0 +1,22 @@
+state={
+	id=360
+	name="STATE_360"
+	provinces={
+		2251 
+	}
+	history={
+		owner = ROG
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = {
+			2251 5
+		}
+		add_core_of = ROG
+		add_core_of = CHI
+	}
+	manpower=323000
+	state_category = town
+	local_supplies = 0.0
+}
