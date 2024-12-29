@@ -36,6 +36,14 @@ add_to_faction = NHA
 add_to_faction = PRQ
 add_to_faction = PRJ
 
+if = {
+	limit = { 
+		PRC={
+			is_ai = yes
+		}
+	}
+	country_event = {id=PRC_AI.1 days=5}
+}
 
 
 set_politics = {

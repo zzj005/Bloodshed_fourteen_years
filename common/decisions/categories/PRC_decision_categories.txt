@@ -24,6 +24,7 @@ Long_march_decisions = {
 	picture = GFX_Long_march
 	visible = {
 		tag=PRC
+		is_ai = no
 		NOT={
 			has_global_flag = fall_of_ChangZheng_end
 		}

@@ -1,7 +1,15 @@
+####AI
+####
+
+
 PRC_Buy_gun = {
 	PRC_Buy_gun_from = {
 		available = {
-		}
+			check_variable = {
+				Gold_bar > 20
+				tooltip = Gold_bar_available
+			}
+		} 
 		visible = {
 			date > 1932.1.1  
 		}

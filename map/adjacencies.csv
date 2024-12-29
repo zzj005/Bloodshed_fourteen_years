@@ -95,11 +95,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 2275;2965;impassable;-1;-1;-1;-1;-1;;Mongolia-Manchu
 
 #禁止通行区（锡林格勒到兴安）
-1518;2965;impassable;-1;-1;-1;-1;-1;;Mongolia-Manchu
-1518;186;impassable;-1;-1;-1;-1;-1;;Mongolia-Manchu
-3508;186;impassable;-1;-1;-1;-1;-1;;Mongolia-Manchu
-3508;2411;impassable;-1;-1;-1;-1;-1;;Mongolia-Manchu
-1745;2411;impassable;-1;-1;-1;-1;-1;;Mongolia-Manchu
 
 #禁止通行区（锡林格勒到赤峰）
 1745;2093;impassable;-1;-1;-1;-1;-1;;Mongolia-Manchu

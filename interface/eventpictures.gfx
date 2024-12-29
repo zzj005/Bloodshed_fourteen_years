@@ -76,7 +76,18 @@ spriteTypes = {
 		name = "GFX_WorldNew_9"
 		texturefile = "gfx/event/WorldNew_9.dds"
 	}
-	
+	spriteType = {
+		name = "GFX_CHI_1934_1"
+		texturefile = "gfx/event/CHI_1934_1.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_1935_1"
+		texturefile = "gfx/event/CHI_1935_1.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_1935_2"
+		texturefile = "gfx/event/CHI_1935_2.dds"
+	}
 	spriteType = {
 		name = "GFX_Long_march"
 		texturefile = "gfx/event/Long_march.dds"

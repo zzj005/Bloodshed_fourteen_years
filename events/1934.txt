@@ -1,5 +1,29 @@
 ﻿add_namespace = PRC_1934Hidden
 add_namespace = PRC_1934
+add_namespace = CHI_1934
+add_namespace = CHI_1934Hidden
+###
+country_event = {
+	id = CHI_1934Hidden.1
+    hidden = yes
+	fire_only_once = yes
+	
+    trigger = {
+		AND={
+			date > 1934.4.14
+			date < 1934.4.16
+		}
+    }
+    immediate = {
+		news_event = {id=CHI_1934.1}
+    } 
+    
+	option = {
+		name = CHI_1934Hidden.1.a
+	}		
+}
+
+####
 
 country_event = {
 	id = PRC_1934Hidden.1
@@ -64,7 +88,14 @@ country_event = {
     
 	option = {
 		name = PRC_1934Hidden.3.a
-		
+		ROS={
+			annex_country = {
+				target = ROT
+			}
+			annex_country = {
+				target = ROW
+			}
+		}
 		hidden_effect = {
 			complete_national_focus = PRC_focus43
 			news_event = WorldNew.17
@@ -361,7 +392,24 @@ country_event = {
 }
 
 
-
+news_event = {
+	id = CHI_1934.1
+	title =CHI_1934.1.t
+	desc = CHI_1934.1.d
+    picture = GFX_CHI_1934_1
+	fire_only_once = yes
+	is_triggered_only = yes
+	immediate = {
+		hidden_effect = {
+			MGJ={
+				transfer_state = 23
+			}
+		}
+	}
+	option = {
+		name = CHI_1934.1.a
+	}
+}
 
 
 

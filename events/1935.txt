@@ -1,0 +1,97 @@
+﻿add_namespace = PRC_1935Hidden
+add_namespace = PRC_1935
+add_namespace = CHI_1935
+add_namespace = CHI_1935Hidden
+###
+country_event = {
+	id = CHI_1935Hidden.1
+    hidden = yes
+	fire_only_once = yes
+	
+    trigger = {
+		AND={
+			date > 1935.12.24
+			date < 1935.12.26
+		}
+    }
+    immediate = {
+		news_event = {id=CHI_1935.1}
+    } 
+    
+	option = {
+		name = CHI_1935Hidden.1.a
+	}		
+}
+country_event = {
+	id = CHI_1935Hidden.2
+    hidden = yes
+	fire_only_once = yes
+	
+    trigger = {
+		AND={
+			date > 1935.12.17
+			date < 1935.12.19
+		}
+    }
+    immediate = {
+		news_event = {id=CHI_1935.2}
+    } 
+    
+	option = {
+		name = CHI_1935Hidden.2.a
+	}		
+}
+news_event = {
+	id = CHI_1935.1
+	title =CHI_1935.1.t
+	desc = CHI_1935.1.d
+    picture = GFX_CHI_1935_1
+	fire_only_once = yes
+	is_triggered_only = yes
+	immediate = {
+		hidden_effect = {
+			JDF={
+				transfer_state = 79
+				transfer_state = 78
+			}
+		}
+	}
+	option = {
+		name = CHI_1935.1.a
+	}
+}
+
+news_event = {
+	id = CHI_1935.2
+	title =CHI_1935.2.t
+	desc = CHI_1935.2.d
+    picture = GFX_CHI_1935_2
+	fire_only_once = yes
+	is_triggered_only = yes
+	immediate = {
+		hidden_effect = {
+			JDW={
+				transfer_state = 63
+				transfer_state = 74
+				transfer_state = 82
+				transfer_state = 90
+				transfer_state = 85
+				transfer_state = 96
+				transfer_state = 98
+				transfer_state = 103
+				transfer_state = 113
+				transfer_state = 128
+				transfer_state = 137
+			}
+		}
+	}
+	option = {
+		name = CHI_1935.2.a
+	}
+}
+
+
+
+
+
+

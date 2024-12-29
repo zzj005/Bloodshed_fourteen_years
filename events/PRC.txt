@@ -72,6 +72,7 @@ country_event = {
     
 	option = {
 		name = PRC_focus.5.a
+		remove_ideas = PRC_GuZuoLing_P
 		add_ideas = PRC_BoGu_P
 		add_ideas = PRC_LiDe_P
 		add_ideas = PRC_ZhouEngLai_P
