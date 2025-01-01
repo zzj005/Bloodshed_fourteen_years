@@ -2,7 +2,7 @@ state={
 	id=188
 	name="STATE_188"
 	provinces={
-		605 619 763 834 895 909 912 1092 1097 1639 1795 1812 1852 1865 2164 2393 2479 2833 2860 3299 3812 3825 3862 3902 
+		605 619 834 895 912 1092 1097 1639 1795 1812 1852 1865 2164 2393 2479 2833 2860 3299 3812 3825 3862
 	}
 	history={
 		owner = ROW
@@ -10,11 +10,11 @@ state={
 			infrastructure = 1
 			industrial_complex = 1
 		}
-				add_core_of = ROW
+		add_core_of = ROW
 		add_core_of = ROS
 		add_core_of = CHI
 	}
 	manpower=323000
-	state_category = town
-	local_supplies = 0.0
+	state_category = rural
+	local_supplies=0.000
 }

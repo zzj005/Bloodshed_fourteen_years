@@ -5,9 +5,18 @@ country_event = {
 	title = PRC_AI.1.t
 	desc = PRC_AI.1.d
 	hidden = yes
+	trigger = {
+		AND = {
+			date=1933.1.2
+			PRC = {
+				is_ai = yes
+			}
+			
+		}
+		
+	}
     #picture = 
 	fire_only_once = yes
-	is_triggered_only = yes
     immediate = {
 		CHI={
 			annex_country = {
@@ -450,7 +459,7 @@ country_event = {
 			transfer_state = 243
 		}
 		PRC = {
-			transfer_state = 234
+			transfer_state = 223
 		}
 	}
     
@@ -470,10 +479,10 @@ country_event = {
 	is_triggered_only = yes
     immediate = {
 		CHI={
-			transfer_state = 234
+			transfer_state = 223
 		}
 		PRC = {
-			transfer_state = 621
+			transfer_state = 643
 		}
 	}
     
@@ -492,10 +501,10 @@ country_event = {
 	is_triggered_only = yes
     immediate = {
 		CHI={
-			transfer_state = 621
+			transfer_state = 643
 		}
 		PRC = {
-			transfer_state = 623
+			transfer_state = 644
 		}
 	}
     
@@ -515,10 +524,10 @@ country_event = {
 	is_triggered_only = yes
     immediate = {
 		CHI={
-			transfer_state = 623
+			transfer_state = 644
 		}
 		PRC = {
-			transfer_state = 624
+			transfer_state = 638
 		}
 	}
     
@@ -538,41 +547,114 @@ country_event = {
 	fire_only_once = yes
 	is_triggered_only = yes
     immediate = {
+		
 		CHI={
-			transfer_state = 625
+			transfer_state = 638
 		}
 		PRC = {
-			country_event = {id=PRC_AI.24 days=5}
+			transfer_state = 633
 		}
+		
 		
 	}
     
 	option = {
 		name = PRC_AI.23.a
+		country_event = {id=PRC_AI.24 days=5}
+	}
+}
+
+country_event = {
+	id = PRC_AI.24
+	title = PRC_AI.24.t
+	desc = PRC_AI.24.d
+    #picture = 
+	hidden = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+    immediate = {
 		
+		CHI={
+			transfer_state = 633
+		}
+		PRC = {
+			transfer_state = 174
+		}
+		
+		
+	}
+    
+	option = {
+		name = PRC_AI.24.a
+		country_event = {id=PRC_AI.25 days=5}
+	}
+}
+
+country_event = {
+	id = PRC_AI.25
+	title = PRC_AI.25.t
+	desc = PRC_AI.25.d
+    #picture = 
+	hidden = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+    immediate = {
+		
+		CHI={
+			transfer_state = 174
+		}
+		PRC = {
+			transfer_state = 624
+		}
+		
+		
+	}
+    
+	option = {
+		name = PRC_AI.25.a
+		country_event = {id=PRC_AI.26 days=5}
+	}
+}
+
+country_event = {
+	id = PRC_AI.26
+	title = PRC_AI.26.t
+	desc = PRC_AI.26.d
+    #picture = 
+	hidden = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+    immediate = {
+		
+		CHI={
+			transfer_state = 624
+		}
+		PRC = {
+			transfer_state = 625
+		}
+		PRC = {
+			country_event = {id=PRC_AI.28 days=5}
+		}
+		
+	}
+    
+	option = {
+		name = PRC_AI.26.a
 	}
 }
 
 
 
-
-
-
-
-
-
 country_event = {
-	id = PRC_AI.24
+	id = PRC_AI.28
 	hidden = yes
 	fire_only_once = yes
+	is_triggered_only = yes
     trigger = {
+		is_ai = yes
     }
     immediate = {
 		set_global_flag = fall_of_ChangZheng
-    } 
-    
-	option = {
-		name = PRC_1934Hidden.3.a
 		ROS={
 			annex_country = {
 				target = ROT
@@ -691,6 +773,10 @@ country_event = {
 		116={
 			transfer_state_to = PRC
 		}
+    } 
+    
+	option = {
+		name = PRC_AI.24.a
 		set_global_flag = fall_of_ChangZheng_end
 		clr_global_flag = fall_of_ChangZheng
 	}		
