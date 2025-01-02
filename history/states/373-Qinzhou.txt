@@ -5,7 +5,8 @@ state={
 		1477 1722 2062 4187 
 	}
 	history={
-		owner = ROC
+		owner = ROG
+		add_core_of = ROG
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1

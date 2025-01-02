@@ -12,7 +12,9 @@ state={
 
 		}
 		add_core_of = ROH
-
+		1933.1.1={
+			owner = JZZ
+		}
 	}
 	manpower=23110
 	buildings_max_level_factor=1.000

@@ -93,5 +93,3 @@ news_event = {
 
 
 
-
-

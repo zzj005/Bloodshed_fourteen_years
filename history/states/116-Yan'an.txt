@@ -6,7 +6,8 @@ state={
 		tungsten=3.000
 	}
 	history={
-		owner = CHI
+		owner = YHC
+		add_core_of = YHC
 		buildings = {
 		}
 		add_core_of = PRC
@@ -16,7 +17,7 @@ state={
 		}
 	}
 	provinces={
-		680 1256 1724 1896 1976 2078 2173 
+		680 1256 1896 1976 2078 
 	}
 	manpower=623000
 	buildings_max_level_factor=1.000

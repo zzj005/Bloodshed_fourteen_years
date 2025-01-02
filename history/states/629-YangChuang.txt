@@ -5,7 +5,8 @@ state={
 		2410 2416 
 	}
 	history={
-		owner = CHI
+		owner = YHC
+		add_core_of = YHC
 		buildings = {
 		}
 		add_core_of = PRC

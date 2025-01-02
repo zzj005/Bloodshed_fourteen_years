@@ -27,7 +27,9 @@ state={
 		}
 		add_core_of = ROH
 		add_core_of = CHI
-
+		1933.1.1={
+			owner = JZZ
+		}
 	}
 
 	provinces={

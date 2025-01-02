@@ -5,7 +5,8 @@ state={
 		1684 2689 2837 3004 3229 
 	}
 	history={
-		owner = CHI
+		owner = YHC
+		add_core_of = YHC
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1

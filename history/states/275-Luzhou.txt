@@ -7,14 +7,10 @@ state={
 	history={
 		owner = ROW
 		1933.1.1={
-			owner = ROS
-				
-			
+			owner = HZD
 		}
 		1936.1.1={
 			owner = CHI
-				
-			
 		}
 		buildings = {
 			infrastructure = 1

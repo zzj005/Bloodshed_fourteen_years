@@ -9,7 +9,8 @@ state={
 		596 1272 1775 2522 2541 2785 2961 3044 3243 3771 
 	}
 	history={
-		owner = CHI
+		owner = YHC
+		add_core_of = YHC
 		buildings = {
 		}
 		add_core_of = CHI
