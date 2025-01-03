@@ -5,12 +5,12 @@ state={
 		4754
 	}
 	history={
-		owner = NEP
+		owner = RAJ
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
 		}
-		add_core_of = NEP
+		add_core_of = RAJ
 	}
 	manpower=323000
 	state_category = town

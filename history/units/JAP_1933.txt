@@ -248,11 +248,7 @@ units = {
 		division_template = "甲种师团"
 		start_experience_factor = 0.4
 	}
-	division= {	
-		location = 53
-		division_template = "甲种师团"
-		start_experience_factor = 0.4
-	}
+	
 	division= {	
 		location = 64
 		division_template = "甲种师团"
@@ -263,11 +259,7 @@ units = {
 		division_template = "甲种师团"
 		start_experience_factor = 0.4
 	}
-	division= {	
-		location = 53
-		division_template = "甲种师团"
-		start_experience_factor = 0.4
-	}
+	
 	division= {	
 		location = 3568
 		division_template = "甲种师团"
@@ -278,11 +270,7 @@ units = {
 		division_template = "甲种师团"
 		start_experience_factor = 0.4
 	}
-	division= {	
-		location = 53
-		division_template = "甲种师团"
-		start_experience_factor = 0.4
-	}
+	
 	division= {	
 		location = 3568
 		division_template = "甲种师团"
@@ -338,11 +326,7 @@ division= {
 		division_template = "甲种师团"
 		start_experience_factor = 0.4
 	}
-	division= {	
-		location = 53
-		division_template = "甲种师团"
-		start_experience_factor = 0.4
-	}
+	
 	division= {	
 		location = 64
 		division_template = "甲种师团"
@@ -353,11 +337,7 @@ division= {
 		division_template = "甲种师团"
 		start_experience_factor = 0.4
 	}
-	division= {	
-		location = 53
-		division_template = "甲种师团"
-		start_experience_factor = 0.4
-	}
+	
 	division= {	
 		location = 3568
 		division_template = "甲种师团"
@@ -368,11 +348,7 @@ division= {
 		division_template = "甲种师团"
 		start_experience_factor = 0.4
 	}
-	division= {	
-		location = 53
-		division_template = "甲种师团"
-		start_experience_factor = 0.4
-	}
+	
 	division= {	
 		location = 2538
 		division_template = "甲种师团"
@@ -383,11 +359,7 @@ division= {
 		division_template = "甲种师团"
 		start_experience_factor = 0.4
 	}
-	division= {	
-		location = 53
-		division_template = "甲种师团"
-		start_experience_factor = 0.4
-	}
+	
 	division= {	
 		location = 3568
 		division_template = "甲种师团"
@@ -398,11 +370,7 @@ division= {
 		division_template = "甲种师团"
 		start_experience_factor = 0.4
 	}
-	division= {	
-		location = 53
-		division_template = "甲种师团"
-		start_experience_factor = 0.4
-	}
+	
 	division= {	
 		location = 3568
 		division_template = "甲种师团"

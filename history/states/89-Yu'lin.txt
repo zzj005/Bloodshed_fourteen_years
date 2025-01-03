@@ -8,7 +8,8 @@ state={
 		tungsten=3.000
 	}
 	history={
-		owner = CHI
+		owner = YUL
+		add_core_of = YUL
 		victory_points = {
 			1829 5
 		}

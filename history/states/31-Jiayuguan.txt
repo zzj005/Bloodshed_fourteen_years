@@ -5,7 +5,7 @@ state={
 		4184 
 	}
 	history={
-		owner = ROZ
+		owner = ROQ
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
