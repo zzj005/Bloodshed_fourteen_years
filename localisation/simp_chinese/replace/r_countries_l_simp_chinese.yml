@@ -211,6 +211,14 @@ CHI_fascism: "改组派中华民国"
  YUL_DEF: "榆林军阀"
  YUL_ADJ: "榆林军阀"
 
+ LDC: "陇南军阀"
+ LDC_DEF: "陇南军阀"
+ LDC_ADJ: "陇南军阀"
+
+ BTF: "宛西自治"
+ BTF_DEF: "宛西自治"
+ BTF_ADJ: "宛西自治"
+
  ROG_fascism: "粤系军阀"
  ROG_fascism_DEF: "粤系军阀"
  ROG_democratic: "粤系军阀"

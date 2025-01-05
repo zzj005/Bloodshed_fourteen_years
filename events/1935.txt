@@ -1,7 +1,108 @@
 ﻿add_namespace = PRC_1935Hidden
 add_namespace = PRC_1935
+add_namespace = SiFang
 add_namespace = CHI_1935
 add_namespace = CHI_1935Hidden
+
+
+###四方面军
+country_event = {
+	id = SiFang.1
+	title =SiFang.1.t
+	desc = SiFang.1.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = SiFang.1.a
+		country_event = {id=SiFang.2}
+	}		
+}
+country_event = {
+	id = SiFang.2
+	title =SiFang.2.t
+	desc = SiFang.2.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = SiFang.2.a
+		country_event = {id=SiFang.3}
+	}		
+}
+country_event = {
+	id = SiFang.3
+	title =SiFang.3.t
+	desc = SiFang.3.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = SiFang.3.a
+		country_event = {id=SiFang.4}
+	}		
+}
+country_event = {
+	id = SiFang.4
+	title =SiFang.4.t
+	desc = SiFang.4.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = SiFang.4.a
+		country_event = {id=SiFang.5}
+	}		
+}
+country_event = {
+	id = SiFang.5
+	title =SiFang.5.t
+	desc = SiFang.5.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = SiFang.5.a
+		country_event = {id=SiFang.6}
+	}		
+}
+country_event = {
+	id = SiFang.6
+	title =SiFang.6.t
+	desc = SiFang.6.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = SiFang.6.a
+		country_event = {id=SiFang.7}
+		country_event = {id=SiFang.8}
+	}	
+	option = {
+		name = SiFang.6.b
+		country_event = {id=SiFang.7}
+		
+	}		
+}
+country_event = {
+	id = SiFang.7
+	title =SiFang.7.t
+	desc = SiFang.7.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = SiFang.7.a
+		country_event = {id=SiFang.8}
+	}
+	option = {
+		name = SiFang.7.b
+	}				
+}
+country_event = {
+	id = SiFang.8
+	title =SiFang.8.t
+	desc = SiFang.8.d
+    
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = SiFang.8.a
+	}
+}
 ###
 country_event = {
 	id = CHI_1935Hidden.1

@@ -9,12 +9,12 @@ state={
 		410 1112 1225 1933 3105 3762 3774 3790 3793 
 	}
 	history={
-		owner = CHI
+		owner = BTF
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
 		}
-		add_core_of = CHI
+		add_core_of = BTF
 	}
 	manpower=3123000
 	state_category = town

@@ -5,10 +5,10 @@ state={
 		1698 2780 3153 3384 
 	}
 	history={
-		owner = CHI
+		owner = LDC
 		buildings = {
 		}
-		add_core_of = CHI
+		add_core_of = LDC
 		victory_points = {
 			2780 5
 		}
