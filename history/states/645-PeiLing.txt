@@ -1,17 +1,16 @@
 state={
-	id=238
-	name="STATE_238"
-	resources={
-		steel=22.000
-		aluminium=12.000
+	id=645
+	name="STATE_645"
+	provinces={
+		372 508 1120 1383 1785 2174 3050 3883 
 	}
 	history={
-		owner = ROW
+		owner = ROS
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
 		}
-		add_core_of = ROW
+		add_core_of = ROS
 		add_core_of = CHI
 		1933.1.1={
 			owner = ROS
@@ -20,11 +19,7 @@ state={
 			owner = ROS
 		}
 	}
-	provinces={
-		1201 1322 1776 2461 2761 3850 3881 
-	}
-	manpower=75323000
+	manpower=238800
 	buildings_max_level_factor=1.000
-	state_category=city
 	local_supplies=0.000
 }

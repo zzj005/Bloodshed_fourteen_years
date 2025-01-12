@@ -202,5 +202,160 @@ characters={
 			planning_skill=1
 			logistics_skill=2
 		}
-	}						
+	}	
+
+
+	CHI_QiangDaJun={
+		name=CHI_QiangDaJun
+		portraits={
+			army={
+				large="gfx/leaders/CHI/CHI_QiangDaJun.png"
+			}
+		}
+		
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+		}
+	}		
+	CHI_SunLiRen={
+		name=CHI_SunLiRen
+		portraits={
+			army={
+				large="gfx/leaders/CHI/CHI_SunLiRen.png"
+			}
+		}
+		
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+		}
+	}	
+	CHI_ZhuSaoLiang={
+		name=CHI_ZhuSaoLiang
+		portraits={
+			army={
+				large="gfx/leaders/CHI/CHI_ZhuSaoLiang.png"
+			}
+		}
+		
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+		}
+	}
+	CHI_DaiAngLang={
+		name=CHI_DaiAngLang
+		portraits={
+			army={
+				large="gfx/leaders/CHI/CHI_DaiAngLang.png"
+			}
+		}
+		
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+		}
+	}	
+	CHI_ZhangZhiZhong={
+		name=CHI_ZhangZhiZhong
+		portraits={
+			army={
+				large="gfx/leaders/CHI/CHI_ZhangZhiZhong.png"
+			}
+		}
+		
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+		}
+	}	
+	CHI_ChenQiang={
+		name=CHI_ChenQiang
+		portraits={
+			army={
+				large="gfx/leaders/CHI/CHI_ChenQiang.png"
+			}
+		}
+		
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+		}
+	}
+	CHI_ZhangZiZhong={
+		name=CHI_ZhangZiZhong
+		portraits={
+			army={
+				large="gfx/leaders/CHI/CHI_ZhangZiZhong.png"
+			}
+		}
+		
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+		}
+	}
+	CHI_LiuZhi={
+		name=CHI_LiuZhi
+		portraits={
+			army={
+				large="gfx/leaders/CHI/CHI_LiuZhi.png"
+			}
+		}
+		
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+		}
+	}
+	CHI_LuoZuoYing={
+		name=CHI_LuoZuoYing
+		portraits={
+			army={
+				large="gfx/leaders/CHI/CHI_LuoZuoYing.png"
+			}
+		}
+		
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+		}
+	}
 	}

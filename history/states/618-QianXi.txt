@@ -16,7 +16,7 @@ state={
 			owner = SOX
 		}
 	}
-	manpower=23110
+	manpower=133110
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

@@ -27,6 +27,7 @@ add_ideas = Regionalist_warlords
 }
 1933.1.1={
 	set_oob = "ROH_1933"
+	country_event = {id= ROH1933.1 days=5}
 }
 
 

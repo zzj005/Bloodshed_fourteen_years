@@ -1,8 +1,9 @@
 ﻿
 add_namespace = PRC_1933
 add_namespace = PRC_1933Hidden
-
+add_namespace = ROH_1933Hidden
 add_namespace = CHI1933
+add_namespace = ROH1933
 country_event = {
 	id = PRC_1933Hidden.0
     hidden = yes
@@ -61,6 +62,83 @@ country_event = {
 		name = PRC_1933Hidden.1.a
 	}		
 }
+country_event = {
+	id = ROH1933.1
+	title = ROH1933.1.t
+	desc = ROH1933.1.d
+    #picture = 
+	fire_only_once = yes
+	is_triggered_only = yes
+    immediate = {
+		ROH={
+			declare_war_on = {
+				target = YGC
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = SOX
+				type = annex_everything
+			}
+		}
+	}
+	option = {
+		name = ROH1933.1.a
+	}
+}
+
+news_event = {
+	id = ROH1933.2
+	title = ROH1933.2.t
+	desc = ROH1933.2.d
+
+	#picture = GFX_fall_of_berlin
+
+	major = yes
+
+	trigger = {
+			YGC={ 
+				NOT = {
+					has_global_flag = fall_of_GuiYan
+					controls_province = 3138
+				}
+			}
+	}
+
+	immediate = {
+		hidden_effect = {
+		set_global_flag = fall_of_GuiYan
+		FROM = {
+			save_global_event_target_as = fall_of_GuiYan_owner
+		}
+		ROOT = {
+			save_global_event_target_as = fall_of_GuiYan_controller
+		}
+		ROH={
+			annex_country = {
+				target = YGC
+			}
+			annex_country = {
+				target = SOX
+			}
+		}
+	}
+	}
+	
+	option = {
+		name = ROH1933.2.a
+	}		
+}
+
+
+
+
+
+
+
+
+
+
+
 country_event = {
 	id = PRC_1933.1
 	title = PRC_1933.1.t
@@ -421,12 +499,16 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
+		hidden_effect = {
 		CHI={
 			declare_war_on = {
 				target = PRC
 				type = annex_everything
 			}
-			
+			add_timed_idea = {
+				idea = Fortress_tactics
+				days = 200
+			}
 		}
 		RON={
 			add_to_war = {
@@ -436,9 +518,11 @@ country_event = {
 		}
 		
 	}
+	}
     
 	option = {
 		name = PRC_1933.7.a
+		
 	}
 }
 

@@ -58,6 +58,22 @@ Long_march_decisions = {
 			add_ideas = Chinese_red_army1
 			PRC={
 				declare_war_on = {
+					target = JZZ
+					type = annex_everything
+				} 
+				declare_war_on = {
+					target = LDC
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = YUL
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = HZD
+					type = annex_everything
+				}
+				declare_war_on = {
 					target = ROC
 					type = annex_everything
 				} 
@@ -96,6 +112,34 @@ Long_march_decisions = {
 				declare_war_on = {
 					target = ROG
 					type = annex_everything
+				}
+			}
+			PRH={
+				add_to_war = {
+					targeted_alliance = ROOT
+					enemy = CHI
+					hostility_reason = asked_to_join
+				}
+			}
+			NHA={
+				add_to_war = {
+					targeted_alliance = ROOT
+					enemy = CHI
+					hostility_reason = asked_to_join
+				}
+			}
+			PRQ={
+				add_to_war = {
+					targeted_alliance = ROOT
+					enemy = CHI
+					hostility_reason = asked_to_join
+				}
+			}
+			PRJ={
+				add_to_war = {
+					targeted_alliance = ROOT
+					enemy = CHI
+					hostility_reason = asked_to_join
 				}
 			}
 			hidden_effect = {

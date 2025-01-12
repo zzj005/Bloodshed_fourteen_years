@@ -1,6 +1,12 @@
 spriteTypes = {
-	
-	
+	spriteType = {
+		name = "GFX_idea_Mao_Jewish_coalition_army"
+		texturefile = "gfx/interface/ideas/YGC/Mao_Jewish_coalition_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Fortress_tactics"
+		texturefile = "gfx/interface/ideas/CHI/Fortress_tactics.dds"
+	}
 	spriteType = {
 	    name = "GFX_Central_Special_Branch"
 	    texturefile = "gfx/interface/ideas/Central_Special_Branch.dds"

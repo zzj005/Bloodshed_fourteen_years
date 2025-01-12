@@ -15,8 +15,11 @@ state={
 		}
 		add_core_of = ROH
 		add_core_of = CHI
+		1933.1.1={
+			owner = YGC
+		}
 	}
-	manpower=323000
+	manpower=1323000
 	state_category = town
 	local_supplies = 0.0
 }

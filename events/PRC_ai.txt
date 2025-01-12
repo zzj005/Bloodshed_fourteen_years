@@ -7,11 +7,12 @@ country_event = {
 	hidden = yes
 	trigger = {
 		AND = {
-			date=1933.1.2
+			date=1934.10.10
 			PRC = {
+				PRC = {
 				is_ai = yes
 			}
-			
+			}
 		}
 		
 	}
@@ -46,7 +47,7 @@ country_event = {
 		PRC={
 			transfer_state = 606
 		}
-		country_event = {id=PRC_AI.2 days=5}
+		country_event = {id=PRC_AI.2 days=13}
 	}
     
 	option = {
@@ -59,6 +60,11 @@ country_event = {
 	desc = PRC_AI.2.d
     #picture = 
 	hidden = yes
+	trigger = {
+		PRC = {
+				is_ai = yes
+			}
+    }
 	fire_only_once = yes
 	is_triggered_only = yes
     immediate = {
@@ -74,7 +80,7 @@ country_event = {
     
 	option = {
 		name = PRC_AI.2.a
-		country_event = {id=PRC_AI.3 days=5}
+		country_event = {id=PRC_AI.3 days=13}
 	}
 }
 country_event = {
@@ -83,6 +89,11 @@ country_event = {
 	desc = PRC_AI.3.d
     #picture = 
 	hidden = yes
+	trigger = {
+		PRC = {
+				is_ai = yes
+			}
+    }
 	fire_only_once = yes
 	is_triggered_only = yes
     immediate = {
@@ -96,7 +107,7 @@ country_event = {
     
 	option = {
 		name = PRC_AI.3.a
-		country_event = {id=PRC_AI.4 days=5}
+		country_event = {id=PRC_AI.4 days=13}
 	}
 }
 country_event = {
@@ -105,6 +116,11 @@ country_event = {
 	desc = PRC_AI.4.d
     #picture = 
 	hidden = yes
+	trigger = {
+		PRC = {
+				is_ai = yes
+			}
+    }
 	fire_only_once = yes
 	is_triggered_only = yes
     immediate = {
@@ -118,7 +134,7 @@ country_event = {
     
 	option = {
 		name = PRC_AI.4.a
-		country_event = {id=PRC_AI.5 days=5}
+		country_event = {id=PRC_AI.5 days=13}
 	}
 }
 
@@ -128,6 +144,11 @@ country_event = {
 	desc = PRC_AI.5.d
     #picture = 
 	hidden = yes
+	trigger = {
+		PRC = {
+				is_ai = yes
+			}
+    }
 	fire_only_once = yes
 	is_triggered_only = yes
     immediate = {
@@ -141,7 +162,7 @@ country_event = {
     
 	option = {
 		name = PRC_AI.5.a
-		country_event = {id=PRC_AI.6 days=5}
+		country_event = {id=PRC_AI.6 days=13}
 	}
 }
 
@@ -151,6 +172,11 @@ country_event = {
 	desc = PRC_AI.6.d
     #picture = 
 	hidden = yes
+	trigger = {
+		PRC = {
+				is_ai = yes
+			}
+    }
 	fire_only_once = yes
 	is_triggered_only = yes
     immediate = {
@@ -165,7 +191,7 @@ country_event = {
     
 	option = {
 		name = PRC_AI.6.a
-		country_event = {id=PRC_AI.7 days=5}
+		country_event = {id=PRC_AI.7 days=13}
 	}
 }
 country_event = {
@@ -174,6 +200,11 @@ country_event = {
 	desc = PRC_AI.7.d
     #picture = 
 	hidden = yes
+	trigger = {
+		PRC = {
+				is_ai = yes
+			}
+    }
 	fire_only_once = yes
 	is_triggered_only = yes
     immediate = {
@@ -188,7 +219,7 @@ country_event = {
     
 	option = {
 		name = PRC_AI.7.a
-		country_event = {id=PRC_AI.8 days=5}
+		country_event = {id=PRC_AI.8 days=13}
 	}
 }
 
@@ -198,6 +229,11 @@ country_event = {
 	desc = PRC_AI.8.d
     #picture = 
 	hidden = yes
+	trigger = {
+		PRC = {
+				is_ai = yes
+			}
+    }
 	fire_only_once = yes
 	is_triggered_only = yes
     immediate = {
@@ -211,7 +247,7 @@ country_event = {
     
 	option = {
 		name = PRC_AI.8.a
-		country_event = {id=PRC_AI.9 days=5}
+		country_event = {id=PRC_AI.9 days=13}
 	}
 }
 
@@ -221,6 +257,11 @@ country_event = {
 	desc = PRC_AI.9.d
     #picture = 
 	hidden = yes
+	trigger = {
+		PRC = {
+				is_ai = yes
+			}
+    }
 	fire_only_once = yes
 	is_triggered_only = yes
     immediate = {
@@ -234,7 +275,7 @@ country_event = {
     
 	option = {
 		name = PRC_AI.9.a
-		country_event = {id=PRC_AI.10 days=5}
+		country_event = {id=PRC_AI.10 days=13}
 	}
 }
 
@@ -244,6 +285,11 @@ country_event = {
 	desc = PRC_AI.10.d
     #picture = 
 	hidden = yes
+	trigger = {
+		PRC = {
+				is_ai = yes
+			}
+    }
 	fire_only_once = yes
 	is_triggered_only = yes
     immediate = {
@@ -257,7 +303,7 @@ country_event = {
     
 	option = {
 		name = PRC_AI.10.a
-		country_event = {id=PRC_AI.11 days=5}
+		country_event = {id=PRC_AI.11 days=13}
 	}
 }
 
@@ -267,6 +313,11 @@ country_event = {
 	desc = PRC_AI.11.d
     #picture = 
 	hidden = yes
+	trigger = {
+		PRC = {
+				is_ai = yes
+			}
+    }
 	fire_only_once = yes
 	is_triggered_only = yes
     immediate = {
@@ -280,7 +331,7 @@ country_event = {
     
 	option = {
 		name = PRC_AI.11.a
-		country_event = {id=PRC_AI.12 days=5}
+		country_event = {id=PRC_AI.12 days=13}
 	}
 }
 
@@ -290,6 +341,11 @@ country_event = {
 	desc = PRC_AI.12.d
     #picture = 
 	hidden = yes
+	trigger = {
+		PRC = {
+				is_ai = yes
+			}
+    }
 	fire_only_once = yes
 	is_triggered_only = yes
     immediate = {
@@ -303,7 +359,7 @@ country_event = {
     
 	option = {
 		name = PRC_AI.12.a
-		country_event = {id=PRC_AI.13 days=5}
+		country_event = {id=PRC_AI.13 days=13}
 	}
 }
 
@@ -313,6 +369,11 @@ country_event = {
 	desc = PRC_AI.13.d
     #picture = 
 	hidden = yes
+	trigger = {
+		PRC = {
+				is_ai = yes
+			}
+    }
 	fire_only_once = yes
 	is_triggered_only = yes
     immediate = {
@@ -326,7 +387,7 @@ country_event = {
     
 	option = {
 		name = PRC_AI.13.a
-		country_event = {id=PRC_AI.14 days=5}
+		country_event = {id=PRC_AI.14 days=13}
 	}
 }
 
@@ -336,6 +397,11 @@ country_event = {
 	desc = PRC_AI.14.d
     #picture = 
 	hidden = yes
+	trigger = {
+		PRC = {
+				is_ai = yes
+			}
+    }
 	fire_only_once = yes
 	is_triggered_only = yes
     immediate = {
@@ -349,7 +415,7 @@ country_event = {
     
 	option = {
 		name = PRC_AI.14.a
-		country_event = {id=PRC_AI.15 days=5}
+		country_event = {id=PRC_AI.15 days=13}
 	}
 }
 
@@ -360,6 +426,11 @@ country_event = {
 	desc = PRC_AI.15.d
     #picture = 
 	hidden = yes
+	trigger = {
+		PRC = {
+				is_ai = yes
+			}
+    }
 	fire_only_once = yes
 	is_triggered_only = yes
     immediate = {
@@ -373,7 +444,7 @@ country_event = {
     
 	option = {
 		name = PRC_AI.15.a
-		country_event = {id=PRC_AI.16 days=5}
+		country_event = {id=PRC_AI.16 days=13}
 	}
 }
 
@@ -383,6 +454,11 @@ country_event = {
 	desc = PRC_AI.16.d
     #picture = 
 	hidden = yes
+	trigger = {
+		PRC = {
+				is_ai = yes
+			}
+    }
 	fire_only_once = yes
 	is_triggered_only = yes
     immediate = {
@@ -396,7 +472,7 @@ country_event = {
     
 	option = {
 		name = PRC_AI.16.a
-		country_event = {id=PRC_AI.17 days=5}
+		country_event = {id=PRC_AI.17 days=13}
 	}
 }
 
@@ -406,6 +482,11 @@ country_event = {
 	desc = PRC_AI.17.d
     #picture = 
 	hidden = yes
+	trigger = {
+		PRC = {
+				is_ai = yes
+			}
+    }
 	fire_only_once = yes
 	is_triggered_only = yes
     immediate = {
@@ -419,7 +500,7 @@ country_event = {
     
 	option = {
 		name = PRC_AI.17.a
-		country_event = {id=PRC_AI.18 days=5}
+		country_event = {id=PRC_AI.18 days=13}
 	}
 }
 
@@ -429,6 +510,11 @@ country_event = {
 	desc = PRC_AI.18.d
     #picture = 
 	hidden = yes
+	trigger = {
+		PRC = {
+				is_ai = yes
+			}
+    }
 	fire_only_once = yes
 	is_triggered_only = yes
     immediate = {
@@ -442,7 +528,7 @@ country_event = {
     
 	option = {
 		name = PRC_AI.18.a
-		country_event = {id=PRC_AI.19 days=5}
+		country_event = {id=PRC_AI.19 days=13}
 	}
 }
 
@@ -452,6 +538,11 @@ country_event = {
 	desc = PRC_AI.19.d
     #picture = 
 	hidden = yes
+	trigger = {
+		PRC = {
+				is_ai = yes
+			}
+    }
 	fire_only_once = yes
 	is_triggered_only = yes
     immediate = {
@@ -465,7 +556,7 @@ country_event = {
     
 	option = {
 		name = PRC_AI.19.a
-		country_event = {id=PRC_AI.20 days=5}
+		country_event = {id=PRC_AI.20 days=13}
 	}
 }
 
@@ -475,6 +566,11 @@ country_event = {
 	desc = PRC_AI.20.d
     #picture = 
 	hidden = yes
+	trigger = {
+		PRC = {
+				is_ai = yes
+			}
+    }
 	fire_only_once = yes
 	is_triggered_only = yes
     immediate = {
@@ -488,7 +584,7 @@ country_event = {
     
 	option = {
 		name = PRC_AI.20.a
-		country_event = {id=PRC_AI.21 days=5}
+		country_event = {id=PRC_AI.21 days=13}
 	}
 }
 country_event = {
@@ -497,6 +593,11 @@ country_event = {
 	desc = PRC_AI.21.d
     #picture = 
 	hidden = yes
+	trigger = {
+		PRC = {
+				is_ai = yes
+			}
+    }
 	fire_only_once = yes
 	is_triggered_only = yes
     immediate = {
@@ -510,7 +611,7 @@ country_event = {
     
 	option = {
 		name = PRC_AI.21.a
-		country_event = {id=PRC_AI.22 days=5}
+		country_event = {id=PRC_AI.22 days=13}
 	}
 }
 
@@ -520,6 +621,11 @@ country_event = {
 	desc = PRC_AI.22.d
     #picture = 
 	hidden = yes
+	trigger = {
+		PRC = {
+				is_ai = yes
+			}
+    }
 	fire_only_once = yes
 	is_triggered_only = yes
     immediate = {
@@ -533,7 +639,7 @@ country_event = {
     
 	option = {
 		name = PRC_AI.22.a
-		country_event = {id=PRC_AI.23 days=5}
+		country_event = {id=PRC_AI.23 days=13}
 	}
 }
 
@@ -544,6 +650,11 @@ country_event = {
 	desc = PRC_AI.23.d
     #picture = 
 	hidden = yes
+	trigger = {
+		PRC = {
+				is_ai = yes
+			}
+    }
 	fire_only_once = yes
 	is_triggered_only = yes
     immediate = {
@@ -560,7 +671,7 @@ country_event = {
     
 	option = {
 		name = PRC_AI.23.a
-		country_event = {id=PRC_AI.24 days=5}
+		country_event = {id=PRC_AI.24 days=13}
 	}
 }
 
@@ -570,6 +681,11 @@ country_event = {
 	desc = PRC_AI.24.d
     #picture = 
 	hidden = yes
+	trigger = {
+		PRC = {
+				is_ai = yes
+			}
+    }
 	fire_only_once = yes
 	is_triggered_only = yes
     immediate = {
@@ -586,7 +702,7 @@ country_event = {
     
 	option = {
 		name = PRC_AI.24.a
-		country_event = {id=PRC_AI.25 days=5}
+		country_event = {id=PRC_AI.25 days=13}
 	}
 }
 
@@ -594,6 +710,11 @@ country_event = {
 	id = PRC_AI.25
 	title = PRC_AI.25.t
 	desc = PRC_AI.25.d
+	trigger = {
+		PRC = {
+				is_ai = yes
+			}
+    }
     #picture = 
 	hidden = yes
 	fire_only_once = yes
@@ -612,7 +733,7 @@ country_event = {
     
 	option = {
 		name = PRC_AI.25.a
-		country_event = {id=PRC_AI.26 days=5}
+		country_event = {id=PRC_AI.26 days=13}
 	}
 }
 
@@ -620,6 +741,11 @@ country_event = {
 	id = PRC_AI.26
 	title = PRC_AI.26.t
 	desc = PRC_AI.26.d
+	trigger = {
+		PRC = {
+				is_ai = yes
+			}
+    }
     #picture = 
 	hidden = yes
 	fire_only_once = yes
@@ -632,10 +758,7 @@ country_event = {
 		PRC = {
 			transfer_state = 625
 		}
-		PRC = {
-			country_event = {id=PRC_AI.28 days=5}
-		}
-		
+		country_event = {id=PRC_AI.27 days=13}
 	}
     
 	option = {
@@ -646,12 +769,14 @@ country_event = {
 
 
 country_event = {
-	id = PRC_AI.28
+	id = PRC_AI.27
 	hidden = yes
 	fire_only_once = yes
 	is_triggered_only = yes
     trigger = {
-		is_ai = yes
+		PRC = {
+				is_ai = yes
+			}
     }
     immediate = {
 		set_global_flag = fall_of_ChangZheng
@@ -776,7 +901,7 @@ country_event = {
     } 
     
 	option = {
-		name = PRC_AI.24.a
+		name = PRC_AI.27.a
 		set_global_flag = fall_of_ChangZheng_end
 		clr_global_flag = fall_of_ChangZheng
 	}		

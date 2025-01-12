@@ -5,18 +5,18 @@ state={
 		1598 4043 4052 
 	}
 	history={
-		owner = CHI
+		owner = ROG
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
 
 		}
-		add_core_of = CHI
+		add_core_of = ROG
         1933.1.1={
-			owner = PRC
+			owner = ROG
 		}
 		1936.1.1={
-			owner = CHI
+			owner = ROG
 		}
 	}
 	manpower=330000

@@ -255,6 +255,10 @@ CHI_fascism: "改组派中华民国"
  RON_DEF: "湖南军阀"
  RON_ADJ: "湖南军阀"
 
+ LZN: "胶东军阀"
+ LZN_DEF: "胶东军阀"
+ LZN_ADJ: "胶东军阀"
+
  MGJ: "蒙古军政府"
  MGJ_DEF: "蒙古军政府"
  MGJ_ADJ: "蒙古军政府"
@@ -431,9 +435,9 @@ CHI_fascism: "改组派中华民国"
  ROH_DEF: "黔系-王家烈"
  ROH_ADJ: "黔系-王家烈"
 
- SOX: "黔系-宋醒"
- SOX_DEF: "黔系-宋醒"
- SOX_ADJ: "黔系-宋醒"
+ SOX: "黔系-毛光翔"
+ SOX_DEF: "黔系-毛光翔"
+ SOX_ADJ: "黔系-毛光翔"
 
  HZD: "黔系-侯之担"
  HZD_DEF: "黔系-侯之担"
