@@ -1,0 +1,8 @@
+
+
+CHI_struggle_balance_category = {
+	icon = military_operation
+	visible = { 
+		tag=CHI
+	}
+}

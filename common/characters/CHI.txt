@@ -1,7 +1,7 @@
 characters={
     CHI_JiangJieShi={
 		name=CHI_JiangJieShi
-		portraits={
+		portraits={ 
 			civilian={
 				large="gfx/leaders/CHI/CHI_JiangJieShi.png"
 				small = "gfx/leaders/advisers/CHI_JiangJieShi_small.png"
@@ -33,6 +33,21 @@ characters={
 			cost = 100
 			ai_will_do = {
 				factor = 1.000
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	CHI_LingSeng={
+		name=CHI_LingSeng
+		portraits={
+			civilian={
+				large="gfx/leaders/CHI/CHI_LingSeng.png"
+				small = "gfx/leaders/advisers/CHI_LingSeng_small.png"
 			}
 		}
 		country_leader={

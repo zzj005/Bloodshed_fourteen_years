@@ -359,3 +359,16 @@ PRC_left_side_range_Low: "王明支持度较低"
 PRC_left_side_range_High: "王明支持度较高"
 PRC_right_side_range_Low: "毛泽东支持度较低"
 PRC_right_side_range_High: "毛泽东支持度较高"
+
+
+ CHI_struggle_balance: "中华民国国民政府"
+ CHI_struggle_mid_range: "党内平衡"
+ CHI_struggle_left_side: "偏向中央监委"
+ CHI_struggle_right_side: "蒋介石独大"
+ CHI_left_side_range_Low: "中央监委支持度较低"
+ CHI_left_side_range_High: "中央监委支持度较高"
+ CHI_right_side_range_Low: "蒋介石支持度较低"
+ CHI_right_side_range_High: "蒋介石支持度较高"
+
+ CHI_impeach_Jiangjieshi: "弹劾蒋介石"
+ impeach_Jiangjieshi: "汤山事件已解决"

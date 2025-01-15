@@ -1,0 +1,337 @@
+focus_tree = {
+	id = CHI
+	country = {
+		factor = 0
+		modifier = {
+			add = 10 
+			tag = CHI
+		}   
+	}      
+	inlay_window = {
+		id = CHI_circle_inlay_window
+		position = { x = 120 y = 300 }
+	}
+	default = no 
+	focus = {
+		id = ROCfocus_0
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 28
+		y = 0
+			completion_reward = {
+					news_event = {
+							id = ROC_1931.1
+							days = 2
+						}
+				}
+
+	}
+	focus = {
+		id = ROCfocus_21
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 16
+		y = 0
+
+	}
+	focus = {
+		id = ROCfocus_22
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROCfocus_21
+		}
+		mutually_exclusive = {
+			focus = ROCfocus_23
+			focus = ROCfocus_23
+		}
+		x = 14
+		y = 1
+
+	}
+	focus = {
+		id = ROCfocus_24
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROCfocus_22
+		}
+		x = 13
+		y = 2
+
+	}
+	focus = {
+		id = ROCfocus_25
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROCfocus_22
+		}
+		x = 14
+		y = 3
+
+	}
+	focus = {
+		id = ROCfocus_23
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROCfocus_21
+		}
+		mutually_exclusive = {
+			focus = ROCfocus_22
+			focus = ROCfocus_22
+		}
+		x = 18
+		y = 1
+
+	}
+	focus = {
+		id = ROCfocus_27
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROCfocus_23
+		}
+		x = 18
+		y = 3
+
+	}
+	focus = {
+		id = ROCfocus_26
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROCfocus_23
+		}
+		x = 19
+		y = 2
+
+	}
+	focus = {
+		id = ROCfocus_2
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROCfocus_0
+		}
+		x = 22
+		y = 1
+
+	}
+	focus = {
+		id = ROCfocus_18
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROCfocus_2
+		}
+		x = 21
+		y = 2
+
+	}
+	focus = {
+		id = ROCfocus_19
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROCfocus_2
+		}
+		x = 23
+		y = 3
+
+	}
+	focus = {
+		id = ROCfocus_1
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROCfocus_0
+		}
+		x = 28
+		y = 1
+
+	}
+	focus = {
+		id = ROCfocus_4
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROCfocus_1
+		}
+		x = 26
+		y = 2
+
+	}
+	focus = {
+		id = ROCfocus_5
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROCfocus_4
+		}
+		x = 25
+		y = 3
+
+	}
+	focus = {
+		id = ROCfocus_7
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROCfocus_1
+		}
+		x = 30
+		y = 2
+
+	}
+	focus = {
+		id = ROCfocus_8
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROCfocus_7
+		}
+		x = 30
+		y = 3
+
+	}
+	focus = {
+		id = ROCfocus_3
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROCfocus_0
+		}
+		x = 36
+		y = 1
+
+	}
+	focus = {
+		id = ROCfocus_9
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROCfocus_3
+		}
+		x = 33
+		y = 2
+
+	}
+	focus = {
+		id = ROCfocus_12
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROCfocus_9
+		}
+		x = 33
+		y = 3
+
+	}
+	focus = {
+		id = ROCfocus_10
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROCfocus_3
+		}
+		x = 36
+		y = 2
+
+	}
+	focus = {
+		id = ROCfocus_13
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROCfocus_10
+		}
+		x = 36
+		y = 3
+
+	}
+	focus = {
+		id = ROCfocus_11
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROCfocus_3
+		}
+		x = 40
+		y = 2
+
+	}
+	focus = {
+		id = ROCfocus_14
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROCfocus_10
+		}
+		prerequisite = {
+			focus = ROCfocus_11
+		}
+		x = 38
+		y = 3
+
+	}
+	focus = {
+		id = ROCfocus_6
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROCfocus_4
+		}
+		x = 27
+		y = 4
+
+	}
+	focus = {
+		id = ROCfocus_15
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROCfocus_11
+		}
+		x = 40
+		y = 3
+
+	}
+	focus = {
+		id = ROCfocus_16
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROCfocus_12
+		}
+		x = 33
+		y = 4
+
+	}
+	focus = {
+		id = ROCfocus_17
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROCfocus_13
+		}
+		x = 36
+		y = 4
+
+	}
+	focus = {
+		id = ROCfocus_20
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROCfocus_18
+		}
+		prerequisite = {
+			focus = ROCfocus_19
+		}
+		x = 22
+		y = 4
+
+	}
+}

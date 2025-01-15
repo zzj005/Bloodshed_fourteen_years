@@ -27,6 +27,7 @@ recruit_character = CHI_ZhangZhiZhong
 recruit_character = CHI_LuoZuoYing
 recruit_character = CHI_ZhangZiZhong
 recruit_character = CHI_LiuZhi
+recruit_character = CHI_LingSeng
 add_ideas = {
 	Four_families
 	CHI_army_corruption_1
@@ -63,6 +64,7 @@ add_equipment_to_stockpile = {
 1933.1.1={
 	set_oob = "CHI_1933"
 	add_ideas = {
+		Anti_Japanese_zeal
 		Four_families
 		CHI_army_corruption_1
 	}
@@ -73,5 +75,11 @@ add_equipment_to_stockpile = {
 	add_to_faction = JDW
 }
 1937.1.1={
+	set_oob = "CHI_1937"
+}
+1944.1.1={
+	add_ideas = {
+		Encourage_enlistment_military
+	}
 	set_oob = "CHI_1937"
 }

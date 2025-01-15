@@ -1,5 +1,45 @@
 ideas = {
 	country = {
+		#########抗日热情
+		Anti_Japanese_zeal = {
+		
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				
+			}
+		}
+		Encourage_enlistment_military = {
+		
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription_factor= 0.1
+				war_support_weekly_factor = 0.05
+				training_time_factor = -0.05
+			}
+		}
+		#########
 		Fortress_tactics = {
 			allowed = {
 				always = yes

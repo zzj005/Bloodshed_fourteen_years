@@ -1,6 +1,188 @@
 ﻿
 add_namespace = PRC_1931
 add_namespace = PRC_1931Hidden
+add_namespace = ROC_1931
+add_namespace = world1931
+add_namespace = world1931Hidden
+
+news_event = {
+	id = ROC_1931.1
+	title = ROC_1931.1.t
+	desc = ROC_1931.1.d
+	picture = GFX_ROC_1931_1
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = ROC_1931.1.a
+	}		
+}
+
+
+
+
+
+country_event = {
+	id = world1931Hidden.1
+    hidden = yes
+	fire_only_once = yes
+    trigger = {
+		AND={
+			date > 1931.1.2
+			date < 1931.1.4
+		}
+    }
+    immediate = {
+		news_event = {id=world1931.1}
+    } 
+	option = {
+		name = world1931.1.a
+	}
+}
+news_event = {
+	id = world1931.1
+	title = world1931.1.t
+	desc = world1931.1.d
+	picture = GFX_world1931_1
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = world1931.1.a
+	}		
+}
+
+
+
+
+country_event = {
+	id = world1931Hidden.2
+    hidden = yes
+	fire_only_once = yes
+    trigger = {
+		AND={
+			date > 1931.2.26
+			date < 1931.2.28
+		}
+    }
+    immediate = {
+		news_event = {id=world1931.2}
+		CHI={
+			set_country_flag = impeach_Jiangjieshi_end
+		}
+		
+    } 
+	option = {
+		name = world1931.2.a
+	}
+}
+news_event = {
+	id = world1931.2
+	title = world1931.2.t
+	desc = world1931.2.d
+	picture = GFX_world1931_2
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = world1931.2.a
+	}		
+}
+
+
+
+country_event = {
+	id = world1931Hidden.3
+    hidden = yes
+	fire_only_once = yes
+    trigger = {
+		AND={
+			date > 1931.4.30
+			date < 1931.5.2
+		}
+    }
+    immediate = {
+		news_event = {id=world1931.3}
+    } 
+	option = {
+		name = world1931.3.a
+	}
+}
+news_event = {
+	id = world1931.3
+	title = world1931.3.t
+	desc = world1931.3.d
+	picture = GFX_world1931_3
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = world1931.3.a
+	}		
+}
+
+
+country_event = {
+	id = world1931Hidden.4
+    hidden = yes
+	fire_only_once = yes
+    trigger = {
+		AND={
+			date > 1931.6.25
+			date < 1931.6.27
+		}
+    }
+    immediate = {
+		news_event = {id=world1931.4}
+    } 
+	option = {
+		name = world1931.4.a
+	}
+}
+news_event = {
+	id = world1931.4
+	title = world1931.4.t
+	desc = world1931.4.d
+	picture = GFX_world1931_4
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = world1931.4.a
+	}		
+}
+
+
+
+country_event = {
+	id = world1931Hidden.5
+    hidden = yes
+	fire_only_once = yes
+    trigger = {
+		AND={
+			date > 1931.7.1
+			date < 1931.7.3
+		}
+    }
+    immediate = {
+		news_event = {id=world1931.5}
+    } 
+	option = {
+		name = world1931.5.a
+	}
+}
+news_event = {
+	id = world1931.5
+	title = world1931.5.t
+	desc = world1931.5.d
+	picture = GFX_world1931_5
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = world1931.5.a
+	}		
+}
+
+
+
+
+
+
 country_event = {
 	id = PRC_1931Hidden.0
     hidden = yes

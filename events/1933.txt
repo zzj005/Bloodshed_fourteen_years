@@ -96,12 +96,15 @@ news_event = {
 	major = yes
 
 	trigger = {
+		AND={
+			date > 1933.1.1 
 			YGC={ 
 				NOT = {
 					has_global_flag = fall_of_GuiYan
 					controls_province = 3138
 				}
 			}
+		}
 	}
 
 	immediate = {
