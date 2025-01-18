@@ -92,9 +92,13 @@ spriteTypes = {
 		name = "GFX_Long_march"
 		texturefile = "gfx/event/Long_march.dds"
 	}
+
 	spriteType = {
 		name = "GFX_Buy_gun"
 		texturefile = "gfx/event/Buy_gun.dds"
 	}
-	
+	spriteType = {
+		name = "GFX_Encirclement_suppression_operation"
+		texturefile = "gfx/event/Encirclement_suppression_operation.dds"
+	}
 }

@@ -1,0 +1,38 @@
+
+spriteType = {
+name = "GFX_ROCfocus_0"
+texturefile = "gfx\interface\goals\CHI\ROCfocus_0.png"
+}
+spriteType = {
+name = "GFX_ROCfocus_1"
+texturefile = "gfx\interface\goals\CHI\ROCfocus_1.png"
+}
+spriteType = {
+name = "GFX_ROCfocus_1111"
+texturefile = "gfx\interface\goals\CHI\ROCfocus_1111.png"
+}
+spriteType = {
+name = "GFX_ROCfocus_19"
+texturefile = "gfx\interface\goals\CHI\ROCfocus_19.png"
+}
+spriteType = {
+name = "GFX_ROCfocus_20"
+texturefile = "gfx\interface\goals\CHI\ROCfocus_20.png"
+}
+spriteType = {
+name = "GFX_ROCfocus_27"
+texturefile = "gfx\interface\goals\CHI\ROCfocus_27.png"
+}
+spriteType = {
+name = "GFX_ROCfocus_4"
+texturefile = "gfx\interface\goals\CHI\ROCfocus_4.png"
+}
+spriteType = {
+name = "GFX_ROCfocus_6"
+texturefile = "gfx\interface\goals\CHI\ROCfocus_6.png"
+}
+spriteType = {
+name = "GFX_ROCfocus_7"
+texturefile = "gfx\interface\goals\CHI\ROCfocus_7.png"
+}
+

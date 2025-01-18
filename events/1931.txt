@@ -238,3 +238,44 @@ news_event = {
 		
 	}		
 }
+
+
+
+
+country_event = {
+	id = PRC_1931.2
+	title = PRC_1931.2.t
+	desc = PRC_1931.2.d
+	picture = GFX_PRC_1931_1
+    trigger = {
+		AND={
+			date > 1931.4.1
+			date < 1931.4.3
+		}
+    }
+    immediate = {
+    } 
+	option = {
+		name = PRC_1931.2.a
+	}		
+}
+
+
+
+country_event = {
+	id = PRC_1931.3
+	title = PRC_1931.3.t
+	desc = PRC_1931.3.d
+	picture = GFX_PRC_1931_1
+    trigger = {
+		AND={
+			date > 1931.7.1
+			date < 1931.7.3
+		}
+    }
+    immediate = {
+    } 
+	option = {
+		name = PRC_1931.3.a
+	}		
+}

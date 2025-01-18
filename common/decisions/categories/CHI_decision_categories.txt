@@ -1,5 +1,14 @@
 
 
+CHI_Encirclement_suppression_operation_category = {
+	icon = military_operation
+	picture = GFX_Encirclement_suppression_operation
+	visible = { 
+		tag=CHI
+	}
+}
+
+
 CHI_struggle_balance_category = {
 	icon = military_operation
 	visible = { 

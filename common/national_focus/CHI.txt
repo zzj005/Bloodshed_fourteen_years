@@ -1,3 +1,5 @@
+#!gfx:interface\BFY_goals.gfx
+#!gfx:interface\goals.gfx
 focus_tree = {
 	id = CHI
 	country = {
@@ -28,7 +30,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ROCfocus_21
-		icon = GFX_goal_unknown
+		icon = GFX_focus_jap_cast_the_die
 		cost = 10.00
 		x = 16
 		y = 0
@@ -36,7 +38,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ROCfocus_22
-		icon = GFX_goal_unknown
+		icon = GFX_focus_GER_end_european_communism
 		cost = 10.00
 		prerequisite = {
 			focus = ROCfocus_21
@@ -62,7 +64,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ROCfocus_25
-		icon = GFX_goal_unknown
+		icon = GFX_focus_chi_collaboration_with_the_japanese
 		cost = 10.00
 		prerequisite = {
 			focus = ROCfocus_22
@@ -73,7 +75,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ROCfocus_23
-		icon = GFX_goal_unknown
+		icon = GFX_focus_AST_war_japan
 		cost = 10.00
 		prerequisite = {
 			focus = ROCfocus_21
@@ -99,7 +101,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ROCfocus_26
-		icon = GFX_goal_unknown
+		icon = GFX_focus_GER_support_the_proletarian_uprising
 		cost = 10.00
 		prerequisite = {
 			focus = ROCfocus_23
@@ -110,18 +112,18 @@ focus_tree = {
 	}
 	focus = {
 		id = ROCfocus_2
-		icon = GFX_goal_unknown
+		icon = GFX_ROCfocus_2 
 		cost = 10.00
 		prerequisite = {
 			focus = ROCfocus_0
 		}
 		x = 22
 		y = 1
-
+ 
 	}
 	focus = {
-		id = ROCfocus_18
-		icon = GFX_goal_unknown
+		id = ROCfocus_18 
+		icon = GFX_focus_eng_special_air_service
 		cost = 10.00
 		prerequisite = {
 			focus = ROCfocus_2
@@ -198,7 +200,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ROCfocus_3
-		icon = GFX_goal_unknown
+		icon = GFX_ROCfocus_3
 		cost = 10.00
 		prerequisite = {
 			focus = ROCfocus_0
@@ -209,7 +211,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ROCfocus_9
-		icon = GFX_goal_unknown
+		icon = GFX_focus_CHL_focus_on_cattle_and_wool
 		cost = 10.00
 		prerequisite = {
 			focus = ROCfocus_3
@@ -220,7 +222,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ROCfocus_12
-		icon = GFX_goal_unknown
+		icon = GFX_focus_GER_autarky_ambitions
 		cost = 10.00
 		prerequisite = {
 			focus = ROCfocus_9
@@ -231,7 +233,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ROCfocus_10
-		icon = GFX_goal_unknown
+		icon = GFX_focus_GER_integrated_economies
 		cost = 10.00
 		prerequisite = {
 			focus = ROCfocus_3
@@ -242,7 +244,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ROCfocus_13
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_road_investment
 		cost = 10.00
 		prerequisite = {
 			focus = ROCfocus_10
@@ -253,7 +255,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ROCfocus_11
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_economic_recovery
 		cost = 10.00
 		prerequisite = {
 			focus = ROCfocus_3
@@ -264,7 +266,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ROCfocus_14
-		icon = GFX_goal_unknown
+		icon = GFX_focus_GER_wirtschaftswunder
 		cost = 10.00
 		prerequisite = {
 			focus = ROCfocus_10
@@ -289,7 +291,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ROCfocus_15
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_coal_mining
 		cost = 10.00
 		prerequisite = {
 			focus = ROCfocus_11
@@ -300,7 +302,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ROCfocus_16
-		icon = GFX_goal_unknown
+		icon = GFX_focus_BRA_cafe_com_leite_politics
 		cost = 10.00
 		prerequisite = {
 			focus = ROCfocus_12
@@ -311,7 +313,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ROCfocus_17
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_railroad
 		cost = 10.00
 		prerequisite = {
 			focus = ROCfocus_13
