@@ -73,6 +73,8 @@ add_equipment_to_stockpile = {
 	set_oob = "CHI_1937"
 	add_to_faction = ROD
 	add_to_faction = JDW
+	
+	
 }
 1937.1.1={
 	set_oob = "CHI_1937"

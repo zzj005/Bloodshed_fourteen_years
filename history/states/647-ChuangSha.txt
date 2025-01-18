@@ -1,0 +1,20 @@
+state={
+	id=647
+	name="STATE_647"
+	provinces={
+		5245 
+	}
+	history={
+		owner = CHI
+		buildings = {
+		}
+		add_core_of = CHI
+		1933.1.1={
+			set_demilitarized_zone = yes
+		}
+	}
+	manpower=5300
+	state_category=city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
