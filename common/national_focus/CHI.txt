@@ -53,7 +53,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ROCfocus_24
-		icon = GFX_goal_unknown
+		icon = GFX_focus_ETH_an_empire_in_the_shade_of_the_sun
 		cost = 10.00
 		prerequisite = {
 			focus = ROCfocus_22
@@ -96,6 +96,50 @@ focus_tree = {
 			focus = ROCfocus_23
 		}
 		x = 18
+		y = 3
+
+	}
+	focus = {
+		id = ROCfocus_28
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = { 
+			focus = ROCfocus_22
+		}
+		x = 16
+		y = 2
+
+	}
+	focus = {
+		id = ROCfocus_29
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROCfocus_1
+		}
+		x = 29
+		y = 2
+
+	}
+	focus = {
+		id = ROCfocus_30
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROCfocus_29
+		} 
+		x = 29
+		y = 3
+
+	}
+	focus = {
+		id = ROCfocus_31
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ROCfocus_28
+		}
+		x = 16
 		y = 3
 
 	}
@@ -183,18 +227,18 @@ focus_tree = {
 		prerequisite = {
 			focus = ROCfocus_1
 		}
-		x = 30
+		x = 31
 		y = 2
 
 	}
 	focus = {
 		id = ROCfocus_8
-		icon = GFX_goal_unknown
+		icon = GFX_focus_AUS_lawmaking_leniency
 		cost = 10.00
 		prerequisite = {
 			focus = ROCfocus_7
 		}
-		x = 30
+		x = 31
 		y = 3
 
 	}
@@ -286,7 +330,7 @@ focus_tree = {
 			focus = ROCfocus_4
 		}
 		x = 27
-		y = 4
+		y = 3
 
 	}
 	focus = {

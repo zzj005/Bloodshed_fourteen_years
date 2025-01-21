@@ -2,6 +2,7 @@
 add_namespace = PRC_1931
 add_namespace = PRC_1931Hidden
 add_namespace = ROC_1931
+add_namespace = ROG_1931
 add_namespace = world1931
 add_namespace = world1931Hidden
 
@@ -17,7 +18,44 @@ news_event = {
 	}		
 }
 
+country_event = {
+	id = ROG_1931.0
+	title = ROG_1931.0.t
+	desc = ROG_1931.0.d
+	#picture = GFX_ROG_1931_1
+	fire_only_once = yes
+    is_triggered_only = yes 
+    immediate = {
+		
+    } 
+	option = {
+		name = ROG_1931.0.a
+		news_event = {id=ROG_1931.1 days=8}
+	}
+}
 
+
+news_event = {
+	id = ROG_1931.1
+	title = ROG_1931.1.t
+	desc = ROG_1931.1.d
+	picture = GFX_ROG_1931_1
+	major = yes
+	is_triggered_only = yes 
+	immediate = {
+		hidden_effect = {
+			ROG={
+				set_cosmetic_tag = ROG_flag
+				ROG_WangJingWei={
+					promote_character = yes
+				}
+			}
+		}
+	}
+	option = {
+		name = ROG_1931.1.a
+	}		
+}
 
 
 

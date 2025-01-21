@@ -13,6 +13,20 @@ characters={
 			id=-1
 		}
 	}
+	ROG_WangJingWei={
+		name=ROG_WangJingWei
+		portraits={
+			civilian={
+				large="gfx/leaders/ROG/ROG_WangJingWei.png"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
 	ROG_ChenJiTang={
 		name=ROG_ChenJiTang
 		portraits={

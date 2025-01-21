@@ -12,6 +12,7 @@ set_technology = {
 recruit_character = ROG_ChenMingQu
 recruit_character = ROG_ChenJiTang
 recruit_character = ROG_LingJiZhong
+recruit_character = ROG_WangJingWei
 set_popularities = {
 	democratic = 0
 	communism = 0
@@ -23,6 +24,7 @@ set_politics = {
 	election_frequency = 72
 	elections_allowed = no
 }
+country_event = {id=ROG_1931.0 days=170}
 add_ideas = Regionalist_warlords
 1931.5.12={
 	retire_country_leader = yes
