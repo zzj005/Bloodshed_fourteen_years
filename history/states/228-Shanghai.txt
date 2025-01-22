@@ -25,6 +25,9 @@ state={
 		victory_points={
 			3828 3
 		}
+		victory_points = {
+			5246 3
+		}
 		add_core_of = CHI
 		1933.1.1={
 			set_demilitarized_zone = yes
@@ -32,7 +35,7 @@ state={
 	}
 
 	provinces={
-		2946 3815 3828 3833 3841 5242 5243 5244 
+		5246 2946 3815 3828 3833 3841 5242 5243 5244 
 	}
 	manpower=3350000
 	buildings_max_level_factor=1.000

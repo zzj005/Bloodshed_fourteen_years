@@ -1,38 +1,22 @@
-
+spriteTypes = {
 spriteType = {
-name = "GFX_ROCfocus_0"
-texturefile = "gfx\interface\goals\CHI\ROCfocus_0.png"
+name = "GFX_ROCfocus_28"
+texturefile = "gfx\interface\goals\CHI\CHI/ROCfocus_28.png"
 }
 spriteType = {
-name = "GFX_ROCfocus_1"
-texturefile = "gfx\interface\goals\CHI\ROCfocus_1.png"
+name = "GFX_ROCfocus_29"
+texturefile = "gfx\interface\goals\CHI\CHI/ROCfocus_29.png"
 }
 spriteType = {
-name = "GFX_ROCfocus_1111"
-texturefile = "gfx\interface\goals\CHI\ROCfocus_1111.png"
+name = "GFX_ROCfocus_30"
+texturefile = "gfx\interface\goals\CHI\CHI/ROCfocus_30.png"
 }
 spriteType = {
-name = "GFX_ROCfocus_19"
-texturefile = "gfx\interface\goals\CHI\ROCfocus_19.png"
+name = "GFX_ROCfocus_31"
+texturefile = "gfx\interface\goals\CHI\CHI/ROCfocus_31.png"
 }
 spriteType = {
-name = "GFX_ROCfocus_20"
-texturefile = "gfx\interface\goals\CHI\ROCfocus_20.png"
+name = "GFX_ROCfocus_5"
+texturefile = "gfx\interface\goals\CHI\CHI/ROCfocus_5.png"
 }
-spriteType = {
-name = "GFX_ROCfocus_27"
-texturefile = "gfx\interface\goals\CHI\ROCfocus_27.png"
 }
-spriteType = {
-name = "GFX_ROCfocus_4"
-texturefile = "gfx\interface\goals\CHI\ROCfocus_4.png"
-}
-spriteType = {
-name = "GFX_ROCfocus_6"
-texturefile = "gfx\interface\goals\CHI\ROCfocus_6.png"
-}
-spriteType = {
-name = "GFX_ROCfocus_7"
-texturefile = "gfx\interface\goals\CHI\ROCfocus_7.png"
-}
-

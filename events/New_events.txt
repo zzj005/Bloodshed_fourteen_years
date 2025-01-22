@@ -1,4 +1,4 @@
-﻿add_namespace = WorldNew
+add_namespace = WorldNew
 add_namespace = Hidden_News
 
 country_event = {
@@ -616,14 +616,16 @@ news_event = {
 		hidden_effect = {
 			JAP={
 				declare_war_on = {
+					
 				target = CHI
 				type = annex_everything
 			}
-			transfer_state = 586
-			586={
+			set_province_controller = 5246
+			228={
 				create_unit = {
 				division = "name = \"海军陆战队\" division_template = \"海军陆战队\" start_experience_factor = 0.8 start_equipment_factor = 1"
 				owner = JAP
+				prioritize_location = 5246
 			}
 			}
 			}
