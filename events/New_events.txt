@@ -1,4 +1,4 @@
-add_namespace = WorldNew
+﻿add_namespace = WorldNew
 add_namespace = Hidden_News
 
 country_event = {
