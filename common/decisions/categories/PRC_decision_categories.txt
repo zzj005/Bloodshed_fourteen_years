@@ -1,10 +1,17 @@
+PRC_CHINA = {
+	icon = military_operation
+	picture = GFX_Buy_gun
+	visible = { 
+		tag=PRC
+	}
+}
 
-
+ 
 PRC_border_clashes = {
 	icon = military_operation
 	allowed = {
 		is_potentially_communist_china = yes
-	}
+	} 
 }
 PRC_struggle_balance_category = {
 	icon = military_operation

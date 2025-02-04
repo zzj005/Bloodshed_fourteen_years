@@ -75,7 +75,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PRC_focus45
-		icon = GFX_focus_eng_move_to_secure_the_dominions
+		icon = GFX_focus_ETH_callout_to_the_world
 		cost = 10.00
 		x = 39
 		y = 5
@@ -417,40 +417,49 @@ focus_tree = {
 								}
 						}
 				}
-
+ 
 	}
 	focus = {
 		id = PRC_focus50
-		icon = GFX_goal_unknown
+		icon = GFX_focus_ARG_legitimize_the_PCA
 		cost = 10.00
 		prerequisite = {
 			focus = PRC_focus20
 		}
 		x = 22
 		y = 1
-
+		completion_reward = {
+			add_stability = 0.05
+			add_political_power = 120
+		}
 	}
 	focus = {
-		id = PRC_focus53
-		icon = GFX_goal_unknown
+		id = PRC_focus53 
+		icon = GFX_focus_CHL_departemento_de_las_tropas_nacistas_de_asalto
 		cost = 10.00
 		prerequisite = {
 			focus = PRC_focus50
 		}
 		x = 22
 		y = 3
-
+		completion_reward = {
+			add_stability = 0.05
+			add_political_power = 120
+		}
 	}
 	focus = {
 		id = PRC_focus52
-		icon = GFX_goal_unknown
+		icon = GFX_focus_AUS_union_of_danubian_socialist_republics
 		cost = 10.00
 		prerequisite = {
 			focus = PRC_focus50
 		}
 		x = 23
 		y = 2
-
+		completion_reward = {
+			add_war_support = 0.05
+			add_political_power = 120
+		}
 	}
 	focus = {
 		id = PRC_focus18
@@ -886,7 +895,9 @@ focus_tree = {
 			available = {
 
 }
-
+	completion_reward = {
+		add_research_slot = 1
+	}
 	}
 	focus = {
 		id = PRC_focus26
@@ -922,7 +933,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PRC_focus44
-		icon = GFX_focus_eng_move_to_secure_the_dominions
+		icon = GFX_focus_NOR_restore_public_trust_in_the_storting
 		cost = 10.00
 		prerequisite = {
 			focus = PRC_focus45
@@ -933,7 +944,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PRC_focus46
-		icon = GFX_focus_eng_move_to_secure_the_dominions
+		icon = GFX_focus_generic_infiltration
 		cost = 10.00
 		prerequisite = {
 			focus = PRC_focus44
@@ -966,7 +977,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PRC_focus43
-		icon = GFX_focus_eng_move_to_secure_the_dominions
+		icon = GFX_focus_SOV_builder_of_the_red_army
 		cost = 10.00
 		prerequisite = {
 			focus = PRC_focus42
@@ -990,13 +1001,13 @@ focus_tree = {
 			available = {
 					PRC = {
 							controls_state = 116
-						}
+						} 
 				}
 
 	}
 	focus = {
 		id = PRC_focus51
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_currency_reforms
 		cost = 10.00
 		prerequisite = {
 			focus = PRC_focus50
@@ -1004,6 +1015,15 @@ focus_tree = {
 		x = -2
 		y = 1
 		relative_position_id = PRC_focus50
-
+		completion_reward = {
+			add_to_variable = {
+				Gold_bar = 50   
+			}  
+			custom_effect_tooltip = {
+				localization_key = Gold_bar_tooltip
+				NAME = "50"
+				USRNAME = "[?Gold_bar]" 
+			}
+		}
 	}
 }

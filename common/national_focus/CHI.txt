@@ -20,6 +20,9 @@ focus_tree = {
 		cost = 10.00
 		x = 28
 		y = 0
+		available = {
+			date < 1933.1.1
+		}
 			completion_reward = {
 					news_event = {
 							id = ROC_1931.1
@@ -34,7 +37,7 @@ focus_tree = {
 		cost = 10.00
 		x = 16
 		y = 0
-
+		
 	}
 	focus = {
 		id = ROCfocus_22
@@ -119,7 +122,9 @@ focus_tree = {
 		}
 		x = 29
 		y = 2
-
+		completion_reward = {
+			add_stability = 0.05
+		}
 	}
 	focus = {
 		id = ROCfocus_30
@@ -130,7 +135,9 @@ focus_tree = {
 		} 
 		x = 29
 		y = 3
-
+		completion_reward = {
+			add_stability = 0.05
+		}
 	}
 	focus = {
 		id = ROCfocus_31
@@ -143,7 +150,7 @@ focus_tree = {
 		y = 3
 
 	}
-	focus = {
+	focus = { 
 		id = ROCfocus_26
 		icon = GFX_focus_GER_support_the_proletarian_uprising
 		cost = 10.00
@@ -152,7 +159,10 @@ focus_tree = {
 		}
 		x = 19
 		y = 2
-
+		completion_reward = {
+			add_stability = 0.05
+			add_stability = 0.05
+		}
 	}
 	focus = {
 		id = ROCfocus_2
@@ -185,7 +195,9 @@ focus_tree = {
 		}
 		x = 23
 		y = 3
-
+		completion_reward = {
+			add_stability = 0.05
+		}
 	}
 	focus = {
 		id = ROCfocus_1

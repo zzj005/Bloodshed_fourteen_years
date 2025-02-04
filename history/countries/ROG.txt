@@ -24,7 +24,9 @@ set_politics = {
 	election_frequency = 72
 	elections_allowed = no
 }
-country_event = {id=ROG_1931.0 days=170}
+1931.1.1={
+	country_event = {id=ROG_1931.0 days=170}
+}
 add_ideas = Regionalist_warlords
 1931.5.12={
 	retire_country_leader = yes

@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "国民革命军" 
+	name = "国民革命军甲种师" 
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -10,10 +10,50 @@
 		infantry = { x = 2 y = 0 }
 		infantry = { x = 2 y = 1 }
 		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		infantry = { x = 3 y = 2 }
 	}
 	support = {
 		engineer = { x = 0 y = 0 }
 		recon = { x = 0 y = 1 }
+		field_hospital= { x = 0 y = 2 }
+		military_police= { x = 0 y = 3 }
+	}
+}
+division_template = {
+	name = "国民革命军乙种师" 
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "国民革命军丙种师" 
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+	support = {
 	}
 }
 division_template = {
@@ -27,46 +67,24 @@ division_template = {
 		cavalry = { x = 1 y = 2 }
 	}
 }
-division_template = {
-	name = "中央军" 
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
-		infantry = { x = 3 y = 0 }
-		cavalry = { x = 3 y = 1 }
-		cavalry = { x = 3 y = 2 }
-	}
-	support = {
-		artillery= { x = 0 y = 0 }
-		engineer = { x = 0 y = 1 }
-		recon = { x = 0 y = 2 }
-	}
-}
 units = {
 	#南京#南京#南京#南京#南京#南京#南京#南京#南京#南京#南京#南京#南京#南京
 	
 	division= {	
 		location = 2957
-		division_template = "国民革命军"
+		division_template = "国民革命军甲种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 2957
-		division_template = "国民革命军"
+		division_template = "国民革命军甲种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 2957
-		division_template = "国民革命军"
+		division_template = "国民革命军甲种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
@@ -74,13 +92,13 @@ units = {
 	#上海
 	division= {	
 		location = 3828
-		division_template = "国民革命军"
+		division_template = "国民革命军甲种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 3821
-		division_template = "国民革命军"
+		division_template = "国民革命军甲种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
@@ -88,218 +106,218 @@ units = {
     #江西
 	division= {	
 		location = 3195
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 4048
-		division_template = "国民革命军"
+		division_template = "国民革命军甲种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 4001
-		division_template = "国民革命军"
+		division_template = "国民革命军甲种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 3282
-		division_template = "国民革命军"
+		division_template = "国民革命军乙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 2025
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 277
-		division_template = "国民革命军"
+		division_template = "国民革命军甲种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 2096
-		division_template = "国民革命军"
+		division_template = "国民革命军乙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 4018
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 2836
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 3984
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 3979
-		division_template = "国民革命军"
+		division_template = "国民革命军乙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 3922
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 2101
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 2843
-		division_template = "国民革命军"
+		division_template = "国民革命军乙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 3380
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 1267
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 1637
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 1338
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 4048
-		division_template = "国民革命军"
+		division_template = "国民革命军乙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 3282
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 1005
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 2025
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 277
-		division_template = "国民革命军"
+		division_template = "国民革命军乙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 2010
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 2096
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 4018
-		division_template = "国民革命军"
+		division_template = "国民革命军乙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	
 	division= {	
 		location = 2836
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 1989
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 3962
-		division_template = "国民革命军"
+		division_template = "国民革命军乙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 3979
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 3942
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 3922
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 3380
-		division_template = "国民革命军"
+		division_template = "国民革命军乙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 2836
-		division_template = "国民革命军"
+		division_template = "国民革命军乙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 3962
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 3979
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
@@ -307,20 +325,20 @@ units = {
 	
 	division= {	
 		location = 4053
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 
 	division= {	
 		location = 4001
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 3977
-		division_template = "国民革命军"
+		division_template = "国民革命军乙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
@@ -328,51 +346,51 @@ units = {
 
 	division= {	
 		location = 2519
-		division_template = "国民革命军"
+		division_template = "国民革命军乙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 4002
-		division_template = "国民革命军"
+		division_template = "国民革命军乙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 
 	division= {	
 		location = 2010
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 2534
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
     #河南
 	division= {	
 		location = 816
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 3738
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 3760
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 1762
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
@@ -380,13 +398,13 @@ units = {
 	##西安
 	division= {	
 		location = 1809
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 3200
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
@@ -395,56 +413,56 @@ units = {
 	#湖北
 	division= {	
 		location = 2011
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 2403
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 1912
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 29571
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 3846
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	#湖南
 	division= {	
 		location = 1657
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 3375
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 2037
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 3966
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
@@ -452,19 +470,19 @@ units = {
 	#安徽
 	division= {	
 		location = 3966
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 3777
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 3826
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
@@ -472,55 +490,55 @@ units = {
 	#江苏
 	division= {	
 		location = 2957
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 2957
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 1300
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 2941
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 2671
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 2121
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 3744
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 495
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
 		location = 1415
-		division_template = "国民革命军"
+		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}

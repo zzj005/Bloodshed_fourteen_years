@@ -1,6 +1,88 @@
 ####AI
 ####
 
+PRC_CHINA = {
+	PRC_NEW_CHINA = {
+		available = {
+			AND={
+				214={
+					is_controlled_by = PRC
+				}
+				246={
+					is_controlled_by = PRC
+				} 
+				74={
+					is_controlled_by = PRC
+				}
+			}
+			
+		}  
+		visible = {
+		}
+		cost = 0 
+		days_remove= 30
+		fire_only_once = no
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			set_cosmetic_tag = NEW_CHINA
+			every_core_state = {
+				if = {
+					limit = { 
+						is_core_of = CHI
+					}
+					add_core_of = PRC
+				}
+			}
+			
+		}
+	}
+	PRC_NEW_CHINA1 = {
+		available = {
+			AND={
+				74={
+					is_controlled_by = PRC
+				}
+			}
+			
+		}  
+		visible = {
+		}
+		cost = 0 
+		days_remove= 30
+		fire_only_once = no
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			set_capital = {state = 74}
+		}
+	}
+	PRC_NEW_CHINA2 = {
+		available = {
+			AND={
+				228={
+					is_controlled_by = PRC
+				}
+			}
+			
+		}  
+		visible = {
+		}
+		cost = 0 
+		days_remove= 30
+		fire_only_once = no
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			605={
+				transfer_state_to = PRC
+			}
+		}
+	}
+}
 
 PRC_Buy_gun = {
 	PRC_Buy_gun_from = {
@@ -23,6 +105,11 @@ PRC_Buy_gun = {
 			add_to_variable = {
 				Gold_bar = -20
 				tooltip = PRC_Buy_gun_tt
+			}
+			clamp_variable = {
+				var = Gold_bar
+				min = 0
+				max = 1000
 			}
 			add_equipment_to_stockpile = {
 				type = infantry_equipment

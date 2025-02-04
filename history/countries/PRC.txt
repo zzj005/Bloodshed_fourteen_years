@@ -9,12 +9,12 @@ set_technology = {
 set_power_balance = {
     id = PRC_struggle_balance
 }
-recruit_character = PRC_SuQu
+recruit_character = PRC_BoGu
 recruit_character = PRC_XuXianQian
 recruit_character = PRC_MaoZeDong
 recruit_character = PRC_ZhuDe
 recruit_character = PRC_ZhouEngLai
-recruit_character = PRC_BoGu
+
 recruit_character = PRC_LiDe
 recruit_character = PRC_PengDeHuai
 recruit_character = PRC_LingBiao

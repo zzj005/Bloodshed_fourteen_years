@@ -1,18 +1,4 @@
 characters={
-    PRC_SuQu={
-		name=PRC_SuQu
-		portraits={
-			civilian={
-				large="gfx/leaders/PRC/PRC_SuQu.png"
-			}
-		}
-		country_leader={
-			ideology=marxism
-			traits={ }
-			expire="1965.1.1.1"
-			id=-1
-		}
-	}
 	PRC_MaoZeDong={
 		name=PRC_MaoZeDong
 		portraits={
@@ -107,7 +93,7 @@ characters={
 		name=PRC_BoGu
 		portraits={
 			civilian={
-				large="gfx/leaders/PRC/PRC_BoGu.png"
+				large="gfx/leaders/PRC/PRC_BoGu1.png"
 				small = "gfx/interface/advisers/PRC_BoGu.png"
 			}
 		}
@@ -143,6 +129,12 @@ characters={
 			ai_will_do  = {
 				factor  = 0.000
 			}
+		}
+		country_leader={
+			ideology=marxism
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
 		}
 	}
 	PRC_LiDe={

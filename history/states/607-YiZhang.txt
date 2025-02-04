@@ -17,12 +17,15 @@ state={
 		victory_points = {
 			3360 5 
 		}
+		victory_points = {
+			2970 5 
+		}
 		set_state_flag = Key_areas
 
 	}
 
 	provinces={
-		2324 3360 4020 4030 
+		2324 3360 4020 4030 2970
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

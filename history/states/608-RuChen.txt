@@ -2,7 +2,7 @@ state={
 	id=608
 	name="STATE_608"
 	provinces={
-		2152 2505 2970 4026 
+		2152 2505 4026 
 	}
 	history={
 		owner = PRJ
@@ -11,9 +11,7 @@ state={
 
 		}
 		add_core_of = PRJ
-		victory_points = {
-			2970 5 
-		}
+		
 		1936.1.1={
 			owner = CHI
 		}
