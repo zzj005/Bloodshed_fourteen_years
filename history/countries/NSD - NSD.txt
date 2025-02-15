@@ -18,7 +18,12 @@ set_war_support = 0.7
 
 recruit_character = NSD_SiFangMian
 #获取领导人，将领（在common\characters\你的国家tag）
-
+recruit_character = NSD_ChenChangHao
+recruit_character = NSD_HeWei
+recruit_character = NSD_WangShuSeng
+recruit_character = NSD_XuHaiDong
+recruit_character = NSD_XuXiangQiang
+recruit_character = NSD_YuTianYun
 set_politics = {
 	ruling_party = communism
 	#领导该国家的派系，共产：communism，法西斯：fascism，民主：democratic，中立：neutrality

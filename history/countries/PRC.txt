@@ -14,7 +14,7 @@ recruit_character = PRC_XuXianQian
 recruit_character = PRC_MaoZeDong
 recruit_character = PRC_ZhuDe
 recruit_character = PRC_ZhouEngLai
-
+recruit_character = PRC_ZhangWengTian
 recruit_character = PRC_LiDe
 recruit_character = PRC_PengDeHuai
 recruit_character = PRC_LingBiao

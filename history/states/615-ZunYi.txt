@@ -2,25 +2,31 @@ state={
 	id=615
 	name="STATE_615"
 	provinces={
-		3938 
+		3075 3938 5247
 	}
 	history={
 		owner = ROH
-		buildings = {
-			infrastructure = 1
-			industrial_complex = 1
-
-		}
 		add_core_of = ROH
+		add_core_of = JZZ
 		1933.1.1={
 			owner = JZZ
 		}
 		1936.1.1={
 			owner = CHI
-			add_core_of = CHI
+		}
+		victory_points = {
+			3938 20
+		}
+		victory_points = {
+			5247 5
+		}
+		
+		buildings = {
+			infrastructure = 1
 		}
 	}
-	manpower=23110
+	manpower=823000
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

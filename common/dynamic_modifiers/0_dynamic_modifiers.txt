@@ -1,9 +1,25 @@
 Long_march_effect = {
 	icon = GFX_modifiers_generic_military_plans
-
 	enable = { always = yes }
-
 	dig_in_speed_factor = 0.15
 	army_org_factor = 0.15
 	army_morale_factor = 0.15
+}
+Long_march_lose = {
+	icon = GFX_modifiers_generic_military_plans
+	enable = { always = yes }
+	dig_in_speed_factor = -0.35
+	army_org_factor = -0.35
+	army_morale_factor = -0.35
+}
+
+
+Anti_Japanese_zeal = {
+	icon = GFX_idea_Anti_Japanese_zeal
+	enable = { always = yes }
+
+	army_core_attack_factor=CHI_zeal_attack		
+	army_core_defence_factor=CHI_zeal_defence	
+	training_time_army_factor=CHI_zeal_time	
+	conscription_factor=CHI_zeal_conscription
 }

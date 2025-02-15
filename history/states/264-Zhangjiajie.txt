@@ -20,6 +20,7 @@ state={
 			infrastructure = 1
 		}
 		add_core_of = RON
+		add_core_of = PRC
 		add_core_of = PRH
 	}
 	manpower=1623000

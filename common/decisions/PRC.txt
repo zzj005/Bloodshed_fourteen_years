@@ -18,6 +18,7 @@ PRC_CHINA = {
 			
 		}  
 		visible = {
+			
 		}
 		cost = 0 
 		days_remove= 30
@@ -138,12 +139,19 @@ Long_march_decisions = {
 			factor = 1
 		}
 		complete_effect = {
-			606 = { Long_march_battle = yes } 
+			606 = { 
+			Long_march_battle = yes 
+Long_march_lose_effect= yes 
+		    } 
 			hidden_effect = {
 				country_event = {id=PRC_1934.6 days=124}
 			}
 			add_ideas = Chinese_red_army1
 			PRC={
+				declare_war_on = {
+					target = CHI
+					type = annex_everything
+				} 
 				declare_war_on = {
 					target = JZZ
 					type = annex_everything
@@ -265,7 +273,7 @@ Long_march_decisions = {
 			PRC = {
 				AND={
 					has_war = yes
-					controls_province = 2268
+					controls_state = 606
 				}
 			}
 			
@@ -289,7 +297,8 @@ Long_march_decisions = {
 			set_country_flag = Long_march_mission0
 		} 
 		complete_effect = {
-			608 = { Long_march_battle = yes } 
+			608 = { Long_march_battle = yes 
+Long_march_lose_effect= yes } 
 			add_manpower = 1000
 			add_war_support = 0.05
 			add_equipment_to_stockpile = {
@@ -303,19 +312,28 @@ Long_march_decisions = {
 	Long_march_mission1 = {
 		icon = generic_civil_support
 		available = {
-			PRC = {
-				AND={
-					has_war = yes
-					controls_province = 2970
+			OR={
+				PRC = {
+					AND={
+						has_war = yes
+						controls_state = 608
+					}
 				}
+				PRJ = {
+					AND={
+						has_war = yes
+						controls_state = 608
+					}
+				}  
 			}
-		}
+			
+		} 
 		days_mission_timeout = 25
 		activation = {
 			has_country_flag = Long_march_mission0
 		}
 		visible = {
-			
+			 
 		}		
 		fixed_random_seed = no
 		fire_only_once = yes
@@ -326,7 +344,8 @@ Long_march_decisions = {
 			set_country_flag = Long_march_mission1
 		}
 		complete_effect = {
-			607 = { Long_march_battle = yes } 
+			607 = { Long_march_battle = yes 
+Long_march_lose_effect= yes } 
 			add_manpower = 1000
 			add_war_support = 0.05
 			add_equipment_to_stockpile = {
@@ -343,9 +362,15 @@ Long_march_decisions = {
 			PRC = {
 				AND={
 					has_war = yes
-					controls_province = 4020
+					controls_state = 607
 				}
 			}
+			PRJ = {
+				AND={
+					has_war = yes
+					controls_state = 608
+				}
+			}  
 		}
 		days_mission_timeout = 30
 		activation = {
@@ -362,7 +387,8 @@ Long_march_decisions = {
 			set_country_flag = Long_march_mission2
 		}
 		complete_effect = {
-			611 = { Long_march_battle = yes } 
+			611 = { Long_march_battle = yes 
+Long_march_lose_effect= yes } 
 			add_manpower = 1000
 			add_war_support = 0.05
 			add_equipment_to_stockpile = {
@@ -379,9 +405,15 @@ Long_march_decisions = {
 			PRC = {
 				AND={
 					has_war = yes
-					controls_province = 4029
+					controls_state = 611
 				}
 			}
+			PRJ = {
+				AND={
+					has_war = yes
+					controls_state = 608
+				}
+			}  
 		}
 		days_mission_timeout = 30
 		activation = {
@@ -398,7 +430,8 @@ Long_march_decisions = {
 			set_country_flag = Long_march_mission3
 		}
 		complete_effect = {
-			610 = { Long_march_battle = yes } 
+			610 = { Long_march_battle = yes 
+Long_march_lose_effect= yes } 
 			add_manpower = 1000
 			add_war_support = 0.05
 			add_equipment_to_stockpile = {
@@ -415,7 +448,7 @@ Long_march_decisions = {
 			PRC = {
 				AND={
 					has_war = yes
-					controls_province = 4013
+					controls_state = 610
 				}
 			}
 		}
@@ -429,14 +462,22 @@ Long_march_decisions = {
 		fire_only_once = yes
 		is_good = no
 		timeout_effect = {
-			616 = { Long_march_battle = yes } 
-			275 = { Long_march_battle = yes } 
-			617 = { Long_march_battle = yes } 
-			618 = { Long_march_battle = yes } 
-			304 = { Long_march_battle = yes } 
+			616 = { Long_march_battle = yes 
+Long_march_lose_effect= yes } 
+			275 = { Long_march_battle = yes 
+Long_march_lose_effect= yes } 
+			617 = { Long_march_battle = yes 
+Long_march_lose_effect= yes } 
+			618 = { Long_march_battle = yes 
+Long_march_lose_effect= yes } 
+			304 = { Long_march_battle = yes 
+Long_march_lose_effect= yes } 
 			add_manpower = -50000
 			add_war_support = -0.05
-			set_country_flag = Long_march_mission3
+			set_country_flag = Long_march_mission4
+			hidden_effect = {
+				country_event = PRC_1934.7
+			}
 		}
 		complete_effect = {
 			add_manpower = 1000
@@ -446,7 +487,10 @@ Long_march_decisions = {
 				amount = 1000
 				producer = PRC
 			}
-			set_country_flag = Long_march_mission3
+			set_country_flag = Long_march_mission4
+			hidden_effect = {
+				country_event = PRC_1934.7
+			}
 		}
 	}
 	Long_march_mission5 = {
@@ -455,11 +499,11 @@ Long_march_decisions = {
 			PRC = {
 				AND={
 					has_war = yes
-					controls_province = 900
+					controls_state = 617
 				}
 			}
 		}
-		days_mission_timeout = 45
+		days_mission_timeout = 120
 		activation = {
 			has_country_flag = Long_march_mission4
 		}
@@ -474,7 +518,8 @@ Long_march_decisions = {
 			set_country_flag = Long_march_mission5
 		}
 		complete_effect = {
-			263 = { Long_march_battle = yes } 
+			263 = { Long_march_battle = yes 
+Long_march_lose_effect= yes } 
 			add_manpower = 1000
 			add_war_support = 0.05
 			add_equipment_to_stockpile = {
@@ -491,11 +536,11 @@ Long_march_decisions = {
 			PRC = {
 				AND={
 					has_war = yes
-					controls_province = 3857
+					controls_state = 263
 				}
 			}
 		}
-		days_mission_timeout = 35
+		days_mission_timeout = 115
 		activation = {
 			has_country_flag = Long_march_mission5
 		}
@@ -510,7 +555,8 @@ Long_march_decisions = {
 			set_country_flag = Long_march_mission6
 		}
 		complete_effect = {
-			621 = { Long_march_battle = yes } 
+			621 = { Long_march_battle = yes 
+Long_march_lose_effect= yes } 
 			add_manpower = 1000
 			add_war_support = 0.05
 			add_equipment_to_stockpile = {
@@ -527,11 +573,11 @@ Long_march_decisions = {
 			PRC = {
 				AND={
 					has_war = yes
-					controls_province = 1606
+					controls_state = 633
 				}
 			}
 		}
-		days_mission_timeout = 35
+		days_mission_timeout = 105
 		activation = {
 			has_country_flag = Long_march_mission6
 		}
@@ -546,7 +592,8 @@ Long_march_decisions = {
 			set_country_flag = Long_march_mission7
 		}
 		complete_effect = {
-			623 = { Long_march_battle = yes } 
+			623 = { Long_march_battle = yes 
+Long_march_lose_effect= yes } 
 			add_manpower = 1000
 			add_war_support = 0.05
 			add_equipment_to_stockpile = {
@@ -563,11 +610,11 @@ Long_march_decisions = {
 			PRC = {
 				AND={
 					has_war = yes
-					controls_province = 2541
+					controls_state = 174
 				}
 			}
 		}
-		days_mission_timeout = 50
+		days_mission_timeout = 70
 		activation = {
 			has_country_flag = Long_march_mission7
 		}
@@ -581,8 +628,10 @@ Long_march_decisions = {
 			add_war_support = -0.05
 		}
 		complete_effect = {
-			625 = { Long_march_battle = yes } 
-			116 = { Long_march_battle = yes } 
+			625 = { Long_march_battle = yes 
+Long_march_lose_effect= yes } 
+			624 = { Long_march_battle = yes 
+Long_march_lose_effect= yes } 
 			add_manpower = 1000
 			add_war_support = 0.05
 			add_equipment_to_stockpile = {

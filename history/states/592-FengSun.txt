@@ -4,17 +4,17 @@ state={
 	provinces={
 		2495 2963 
 	}
-               history={
-		owner = PRC
+        history={
+		owner = ROG
 		buildings = {
 		}
 		add_core_of = PRC
-		add_core_of = CHI
+		add_core_of = ROG
 		1936.1.1={
 			owner = ROG
 		}
 	}
-	manpower=15000
+	manpower=25000
 	state_category = rural
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

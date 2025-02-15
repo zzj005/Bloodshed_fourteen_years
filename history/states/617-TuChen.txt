@@ -2,7 +2,7 @@ state={
 	id=617
 	name="STATE_617"
 	provinces={
-		900 3913 
+		900 3913 5250
 	}
 	history={
 		owner = ROH
@@ -10,6 +10,9 @@ state={
 			infrastructure = 1
 			industrial_complex = 1
 
+		}
+		victory_points = {
+			5250 5
 		}
 		add_core_of = ROH
 		1933.1.1={

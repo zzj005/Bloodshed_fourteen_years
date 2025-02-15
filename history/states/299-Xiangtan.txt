@@ -14,6 +14,7 @@ state={
 			1264 5
 		}
 		add_core_of = RON
+		add_core_of = PRC
 	}
 	manpower=4323000
 	state_category = town
