@@ -141,19 +141,13 @@ units = {
 		start_equipment_factor = 0.3
 	}
 	division= {	
-		location = 2096
-		division_template = "国民革命军乙种师"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
-	}
-	division= {	
 		location = 4018
 		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
-		location = 2836
+		location = 1444
 		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
@@ -161,12 +155,6 @@ units = {
 	division= {	
 		location = 3984
 		division_template = "国民革命军丙种师"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
-	}
-	division= {	
-		location = 3979
-		division_template = "国民革命军乙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
@@ -254,15 +242,9 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
-	division= {	
-		location = 4018
-		division_template = "国民革命军乙种师"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.3
-	}
 	
 	division= {	
-		location = 2836
+		location = 3964
 		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
@@ -304,7 +286,7 @@ units = {
 		start_equipment_factor = 0.3
 	}
 	division= {	
-		location = 2836
+		location = 1444
 		division_template = "国民革命军乙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
@@ -443,25 +425,25 @@ units = {
 	}
 	#湖南
 	division= {	
-		location = 1657
+		location = 874
 		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
-		location = 3375
+		location = 3793
 		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
-		location = 2037
+		location = 2700
 		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
 	}
 	division= {	
-		location = 3966
+		location = 2141
 		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3
@@ -469,7 +451,7 @@ units = {
 
 	#安徽
 	division= {	
-		location = 3966
+		location = 2141
 		division_template = "国民革命军丙种师"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.3

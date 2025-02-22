@@ -34,13 +34,13 @@ ideas = {
 			
 			targeted_modifier = {
 				tag = PRC
-				attack_bonus_against_cores= 0.2	
-				army_attack_factor= 0.2			
-				defense_bonus_against= 0.2	
-				army_speed_factor= 0.2	
-				breakthrough_bonus_against= 0.2
-				dig_in_speed= 20
-				dont_lose_dig_in_on_attack= 0.2
+				attack_bonus_against_cores= 0.05	
+				army_attack_factor= 0.05		
+				defense_bonus_against= 0.05	
+				army_speed_factor= 0.05	
+				breakthrough_bonus_against= 0.05
+				dig_in_speed= 10
+				dont_lose_dig_in_on_attack= 0.05
 			}
 		}
 		Four_families = {

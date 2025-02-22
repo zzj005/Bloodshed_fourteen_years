@@ -7,7 +7,6 @@ state={
 		owner = CHI
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
 			2843={
 				bunker = 2
 			}
@@ -16,7 +15,7 @@ state={
 			}
 		}
 		victory_points = {
-			3908 10
+			1444 10
 		}
 		victory_points = {
 			2186 5
@@ -32,7 +31,7 @@ state={
 	}
 
 	provinces={
-		831 1444 2186 2661 2843 2865 2932 2998 3139 3380 3884 3886 3894 3908 
+		1444 2186 2661 2843 2865 2932 2998 3139 3380 3884 3886 3894 3908 
 	}
 	manpower=1323000
 	buildings_max_level_factor=1.000

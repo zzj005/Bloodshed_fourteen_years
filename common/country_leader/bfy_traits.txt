@@ -1,0 +1,25 @@
+leader_traits = {
+
+
+	Unprepared_individuals = {
+		random = no
+
+		surrender_limit = -0.3
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	Positional_warfare = {
+		random = no
+		sprite = 13
+		
+		army_attack_factor = -0.05
+		army_core_defence_factor = 0.03
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

@@ -7,7 +7,6 @@ state={
 		owner = CHI
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
 			3922={
 				bunker = 2
 			}

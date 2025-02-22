@@ -13,9 +13,7 @@ state={
 		add_core_of = CHI
 		add_core_of = ROT
 		1933.1.1={
-			owner = NSD
-			add_core_of = NSD
-		    add_core_of = CHI
+			owner = RYS
 		}
 		1936.1.1={
 			owner = ROS

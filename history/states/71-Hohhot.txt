@@ -5,13 +5,11 @@ state={
 		1113 2109 3611 3624 
 	}
 	history={
-		owner = ROJ
+		owner = SJN
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
 		}
-		add_core_of = ROJ
-		add_core_of = CHI
+		add_core_of = SJN
 	}
 	manpower=323000
 	state_category = town

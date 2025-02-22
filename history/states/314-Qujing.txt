@@ -7,7 +7,6 @@ state={
 		owner = ROY
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
 			2620={
 				bunker = 2
 			}

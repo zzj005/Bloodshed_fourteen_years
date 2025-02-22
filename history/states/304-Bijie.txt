@@ -9,14 +9,13 @@ state={
 		add_core_of = ROH
 		add_core_of = SOX
 		1933.1.1={
-			owner = SOX
+			owner = YGC
 		}
 		1936.1.1={
 			owner = CHI
 		}
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
 		}
 	}
 	manpower=123000

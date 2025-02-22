@@ -6,17 +6,22 @@ state={
 		aluminium=2.000
 	}
 	provinces={
-		596 1272  2522 2785 2961 3044 3243 3771 
+		596 2522 2785 2961 3044 3771 
 	}
 	history={
 		owner = YHC
 		add_core_of = YHC
 		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		1936.1.1={
+			owner = ROD
 		}
 		add_core_of = CHI
 	}
-	manpower=113000
-	buildings_max_level_factor=1.000
-	state_category=rural
+	manpower=1423000
+	state_category = town
 	local_supplies=0.000
 }
