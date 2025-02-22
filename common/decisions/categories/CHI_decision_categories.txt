@@ -8,6 +8,12 @@ CHI_Encirclement_suppression_operation_category = {
 	}
 }
 
+CHI_Purging_party_category = {
+	icon = military_operation
+	visible = { 
+		tag=CHI
+	}
+}
 
 CHI_struggle_balance_category = {
 	icon = military_operation

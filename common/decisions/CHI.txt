@@ -37,9 +37,6 @@ CHI_struggle_balance_category = {
 
 
 
-
-
-
 #########
 ######### 
  
@@ -51,6 +48,25 @@ CHI_struggle_balance_category = {
 #########
 #########
 ######### 
+
+CHI_Purging_party_category = {
+	Assassination_Deng_Yanda = {
+		available = {
+		} 
+		visible = {
+		}
+		cost = 20 
+		days_remove= 15
+		fire_only_once = no
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+
+		}
+	}
+}
+
 
 #########  
 ######### 
