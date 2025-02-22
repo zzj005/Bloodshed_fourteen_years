@@ -1,0 +1,78 @@
+DEBUG = {
+	DEBUG1 = {
+		visible = {
+			is_debug = yes
+		}
+		cost = 0 
+		days_remove= 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			set_popularities = {
+				fascism = 100
+			}
+			set_politics = {
+			  ruling_party = fascism
+			}
+		}
+	}
+	DEBUG2 = {
+		visible = {
+			is_debug = yes
+		}
+		cost = 0 
+		days_remove= 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			set_popularities = {
+				democratic = 100
+			}
+			set_politics = {
+			  ruling_party = democratic
+			}
+		}
+	}
+	DEBUG3 = {
+		visible = {
+			is_debug = yes
+		}
+		cost = 0 
+		days_remove= 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			set_popularities = {
+				neutrality = 100
+			}
+			set_politics = {
+			  ruling_party = neutrality
+			}
+		}
+	}
+	DEBUG4 = {
+		visible = {
+			is_debug = yes
+		}
+		cost = 0 
+		days_remove= 0
+		fire_only_once = no
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			set_popularities = {
+				communism = 100
+			}
+			set_politics = {
+			  ruling_party = communism
+			}
+		}
+	}
+}

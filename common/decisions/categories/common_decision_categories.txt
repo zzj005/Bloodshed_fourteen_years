@@ -1,0 +1,6 @@
+DEBUG = {
+	icon = military_operation
+	visible = { 
+		is_debug = yes
+	}
+}
