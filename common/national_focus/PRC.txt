@@ -635,12 +635,6 @@ focus_tree = {
 						}
 				}
 			completion_reward = {
-				PRC={
-					every_army_leader = { 
-						add_defense = 1
-					}
-				}
-				
 					582 = {
 							add_building_construction = {
 									type = bunker
@@ -791,12 +785,7 @@ focus_tree = {
 		x = 32
 		y = 6
 			completion_reward = {
-				PRC={
-					every_army_leader = { 
-						add_attack = 1
-						add_logistics = 1
-					}
-				}
+
 }
 
 	}

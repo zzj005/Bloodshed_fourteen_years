@@ -10,7 +10,6 @@ state={
 	}
 	history={
 		owner = RON
-		add_core_of = RON
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1

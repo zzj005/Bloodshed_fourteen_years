@@ -3,17 +3,14 @@
 destroyers = {
 	category = naval
 	
-	blocked_for = {
-		GER
-		USA
-		JAP
-		ENG
-		FRA
-		ITA
-	}
-	
-	available_for = {
-	}
+	# blocked_for = {
+	# 	GER
+	# 	USA
+	# 	JAP
+	# 	ENG
+	# 	FRA
+	# 	ITA
+	# }
 	
 	roles = {
 		naval_screen
@@ -166,18 +163,14 @@ destroyers = {
 generic_escorts = {
 	category = naval
 	
-	blocked_for = {
-		GER
-		USA
-		JAP
-		ENG
-		FRA
-		ITA
-	}
-	
-	available_for = {
-		
-	}
+	# blocked_for = {
+	# 	GER
+	# 	USA
+	# 	JAP
+	# 	ENG
+	# 	FRA
+	# 	ITA
+	# }
 	
 	roles = {
 		naval_escort
@@ -240,12 +233,6 @@ generic_escorts = {
 				anti_submarine_strategy_required_trigger = yes
 			}
 		}
-		enable = {
-			AND = {
-				has_tech = improved_depth_charges
-				has_tech = cavity_magnatron
-			}
-		}
 		role_icon_index = 2
 		
 		target_variant = {
@@ -279,17 +266,14 @@ naval_light_cruiser = {
 
 	category = naval
 	
-	blocked_for = {
-		GER
-		USA
-		JAP
-		ENG
-		FRA
-		ITA
-	}
-	
-	available_for = {
-	}
+	# blocked_for = {
+	# 	GER
+	# 	USA
+	# 	JAP
+	# 	ENG
+	# 	FRA
+	# 	ITA
+	# }
 	
 	roles = {
 		naval_cruiser_light
@@ -517,17 +501,14 @@ naval_light_cruiser = {
 naval_cruiser_heavy = {
 	category = naval
 	
-	blocked_for = {
-		GER
-		USA
-		JAP
-		ENG
-		FRA
-		ITA
-	}
-	
-	available_for = {
-	}
+	# blocked_for = {
+	# 	GER
+	# 	USA
+	# 	JAP
+	# 	ENG
+	# 	FRA
+	# 	ITA
+	# }
 	
 	roles = {
 		naval_cruiser_heavy
@@ -673,17 +654,17 @@ naval_cruiser_heavy = {
 				fixed_ship_engine_slot > cruiser_ship_engine_2
 				fixed_ship_radar_slot = ship_radar
 				fixed_ship_armor_slot > ship_armor_cruiser_2
-				fixed_ship_secondaries_slot = dp_ship_secondaries_1
+				fixed_ship_secondaries_slot = dp_ship_secondaries
 				front_1_custom_slot = ship_anti_air
 				mid_1_custom_slot = {
-					any_of = { ship_anti_air dp_ship_secondaries_1 }
+					any_of = { ship_anti_air dp_ship_secondaries }
 					upgrade > current
 				}
 				mid_2_custom_slot = {
 					any_of = { ship_airplane_launcher ship_anti_air }
 					upgrade > current
-				
-}				rear_1_custom_slot > ship_medium_battery_2
+				}
+				rear_1_custom_slot > ship_medium_battery_2
 				rear_2_custom_slot = ship_anti_air
 			}
 		}
@@ -702,17 +683,14 @@ naval_cruiser_heavy = {
 naval_capital_battleship = {
 	category = naval
 	
-	blocked_for = {
-		GER
-		USA
-		JAP
-		ENG
-		FRA
-		ITA
-	}
-	
-	available_for = {
-	}
+	# blocked_for = {
+	# 	GER
+	# 	USA
+	# 	JAP
+	# 	ENG
+	# 	FRA
+	# 	ITA
+	# }
 	
 	roles = {
 		naval_capital_bb
@@ -731,7 +709,6 @@ naval_capital_battleship = {
 		priority = {
 			factor = 100
 			modifier = {
-				has_tech = basic_ship_hull_heavy
 				factor = 0
 			}
 		}
@@ -814,7 +791,6 @@ naval_capital_battleship = {
 			factor = 100
 			modifier = {
 				factor = 0
-				has_tech = improved_ship_hull_heavy
 			}
 		}
 
@@ -893,7 +869,6 @@ naval_capital_battleship = {
 			factor = 100
 			modifier = {
 				factor = 0
-				has_tech = advanced_ship_hull_heavy
 			}
 		}
 
@@ -970,17 +945,14 @@ naval_capital_battleship = {
 naval_capital_bc = {
 	category = naval
 	
-	blocked_for = {
-		GER
-		USA
-		JAP
-		ENG
-		FRA
-		ITA
-	}
-	
-	available_for = {
-	}
+	# blocked_for = {
+	# 	GER
+	# 	USA
+	# 	JAP
+	# 	ENG
+	# 	FRA
+	# 	ITA
+	# }
 	
 	roles = {
 		naval_capital_bc
@@ -1112,17 +1084,14 @@ naval_capital_bc = {
 naval_carrier = {
 	category = naval
 	
-	blocked_for = {
-		GER
-		USA
-		JAP
-		ENG
-		FRA
-		ITA
-	}
-	
-	available_for = {
-	}
+	# blocked_for = {
+	# 	GER
+	# 	USA
+	# 	JAP
+	# 	ENG
+	# 	FRA
+	# 	ITA
+	# }
 	
 	roles = {
 		naval_carrier
@@ -1291,17 +1260,14 @@ naval_carrier = {
 naval_submarine = {
 	category = naval
 	
-	blocked_for = {
-		GER
-		USA
-		JAP
-		ENG
-		FRA
-		ITA
-	}
-	
-	available_for = {
-	}
+	# blocked_for = {
+	# 	GER
+	# 	USA
+	# 	JAP
+	# 	ENG
+	# 	FRA
+	# 	ITA
+	# }
 	
 	roles = {
 		naval_submarine
@@ -1449,17 +1415,14 @@ naval_submarine = {
 naval_mine_sweeper = {
 	category = naval
 	
-	blocked_for = {
-		GER
-		USA
-		JAP
-		ENG
-		FRA
-		ITA
-	}
-	
-	available_for = {
-	}
+	# blocked_for = {
+	# 	GER
+	# 	USA
+	# 	JAP
+	# 	ENG
+	# 	FRA
+	# 	ITA
+	# }
 	
 	roles = {
 		naval_mine_sweeper
@@ -1482,7 +1445,6 @@ naval_mine_sweeper = {
 				is_major = no
 			}
 		}
-		enable = { has_tech = basic_naval_mines }
 		role_icon_index = 5
 		
 		target_variant = {
@@ -1522,8 +1484,6 @@ naval_mine_sweeper = {
 		}
 
 		enable = {
-			has_tech = basic_dp_light_battery
-			has_tech = improved_naval_mines
 		}
 		
 		role_icon_index = 5
@@ -1536,7 +1496,7 @@ naval_mine_sweeper = {
 				rear_1_custom_slot = ship_mine_sweeper_1
 				mid_1_custom_slot = ship_mine_sweeper_1
 				fixed_ship_battery_slot = {
-					any_of = { dp_light_battery_1 ship_light_battery_1 }
+					any_of = { dp_light_battery ship_light_battery_1 }
 					upgrade > current
 				}
 				fixed_ship_engine_slot = light_ship_engine_1
@@ -1565,13 +1525,10 @@ naval_mine_sweeper = {
 naval_mine_layer = {
 	category = naval
 	
-	blocked_for = {
-		GER
-		USA
-	}
-	
-	available_for = {
-	}
+	# blocked_for = {
+	# 	GER
+	# 	USA
+	# }
 	
 	roles = {
 		naval_mine_layer

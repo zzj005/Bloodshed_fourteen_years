@@ -8,11 +8,8 @@ state={
 	history={
 		owner = ROW
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 2
-			3850 = {
-				naval_base = 1
-			}
+			infrastructure = 1
+			industrial_complex = 1
 		}
 		add_core_of = ROW
 		add_core_of = CHI
@@ -22,17 +19,11 @@ state={
 		1936.1.1={
 			owner = ROS
 		}
-		victory_points = {
-			3850 30
-		}
-		victory_points = {
-			1322 5
-		}
 	}
 	provinces={
 		1201 1322 1776 2461 2761 3850 3881 
 	}
-	manpower=5323000
+	manpower=75323000
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

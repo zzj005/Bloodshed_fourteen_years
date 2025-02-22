@@ -13,7 +13,6 @@ state={
 
 		}
 		add_core_of = RON
-		add_core_of = PRC
 		victory_points = {
 			2202 5
 		}

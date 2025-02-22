@@ -8,6 +8,11 @@
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
 		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		infantry = { x = 3 y = 2 }
 	}
 	support = {
 		engineer = { x = 0 y = 0 }
@@ -26,7 +31,8 @@ division_template = {
 	}
 }
 division_template = {
-	name = "炮兵团" 			
+	name = "炮兵团" 			# Cavalry Division - 2 Cavalry Division regiments (3k men); 1 mounted artillery regiment
+	division_names_group = JAP_CAV_01
 	regiments = {
 		artillery = { x = 0 y = 2 }
 		artillery = { x = 1 y = 0 }
@@ -64,18 +70,6 @@ units = {
 	}
 	division= {	
 		location = 3101
-		division_template = "国民革命军"
-		start_experience_factor = 0.6
-		start_equipment_factor = 0.6
-	}
-	division= {	
-		location = 3185
-		division_template = "国民革命军"
-		start_experience_factor = 0.6
-		start_equipment_factor = 0.6
-	}
-	division= {	
-		location = 3185
 		division_template = "国民革命军"
 		start_experience_factor = 0.6
 		start_equipment_factor = 0.6

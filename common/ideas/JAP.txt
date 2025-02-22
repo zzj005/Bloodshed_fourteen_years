@@ -10,19 +10,15 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-				army_speed_factor=0.1
-				breakthrough_factor=0.15		
+				army_speed_factor=0.12
+				breakthrough_factor=0.12		
 				ai_focus_military_equipment_factor= 0.5
 				ai_focus_aggressive_factor = 1
 				ai_focus_naval_factor = 0.5
 				ai_focus_naval_air_factor= 0.5
 				ai_focus_military_equipment_factor = 0.5
 			}
-			targeted_modifier = {
-				tag=CHI
-				attack_bonus_against=0.2 
-                defense_bonus_against=0.2
-			}
+			
 		}
 		Death_in_March = {
 			picture=Death_in_March

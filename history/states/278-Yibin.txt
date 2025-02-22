@@ -2,7 +2,7 @@ state={
 	id=278
 	name="STATE_278"
 	provinces={
-		1257 2330 
+		1151 1257 2330 
 	}
 	history={
 
@@ -11,21 +11,27 @@ state={
 		1933.1.1={
 			owner = ROS	
 		}
+
+
 		1936.1.1={
-			owner = CHI
+					owner = CHI
 		}
 		buildings = {
 			infrastructure = 1
+<<<<<<< HEAD
 			1257={
 				bunker = 2
 			}
+=======
+			industrial_complex = 1
+>>>>>>> parent of 2d1d294 (update)
 		}
 		victory_points = {
-			1257 5
+			1151 5
 		}
 		add_core_of = ROS
 		add_core_of = CHI
-		add_core_of = ROW
+				add_core_of = ROW
 	}
 	manpower=323000
 	state_category = town

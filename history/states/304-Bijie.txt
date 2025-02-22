@@ -2,24 +2,34 @@ state={
 	id=304
 	name="STATE_304"
 	provinces={
-		1791 1972 
+		16 1214 1791 1972 3316 
 	}
 	history={
 		owner = ROH
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		victory_points = {
+			103 5
+		}
 		add_core_of = ROH
-		add_core_of = SOX
+		add_core_of = CHI
 		1933.1.1={
 			owner = YGC
 		}
 		1936.1.1={
 			owner = CHI
+<<<<<<< HEAD
 		}
 		buildings = {
 			infrastructure = 1
+=======
+			add_core_of = CHI
+>>>>>>> parent of 2d1d294 (update)
 		}
 	}
 	manpower=123000
-	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=0.000
+	state_category = town
+	local_supplies = 0.0
 }

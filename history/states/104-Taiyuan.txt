@@ -4,9 +4,6 @@ state={
 	provinces={
 		102 1975 
 	}
-	resources={
-		steel = 10
-	}
 	history={
 		owner = ROJ
 		buildings = {

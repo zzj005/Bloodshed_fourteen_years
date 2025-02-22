@@ -2,23 +2,32 @@ state={
 	id=317
 	name="STATE_317"
 	provinces={
-		475 2703 4016 
+		2703 4016 
 	}
 	history={
 		owner = ROH
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
 		add_core_of = ROH
+		add_core_of = CHI
 		1933.1.1={
 			owner = YGC
 		}
 		1936.1.1={
 			owner = CHI
+<<<<<<< HEAD
 		}
 		buildings = {
 			infrastructure = 1
+=======
+			add_core_of = CHI
+>>>>>>> parent of 2d1d294 (update)
 		}
 	}
+	
 	manpower=323000
-	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=0.000
+	state_category = town
+	local_supplies = 0.0
 }

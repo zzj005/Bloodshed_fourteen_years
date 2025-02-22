@@ -5,15 +5,23 @@ state={
 		2317 3197
 	}
 	history={
+<<<<<<< HEAD
 		owner = RON
+=======
+		owner = PRH
+>>>>>>> parent of 2d1d294 (update)
 		add_core_of = RON
 		buildings = {
 		}
 		victory_points = {
 			2317 5
 		}
+<<<<<<< HEAD
 		add_core_of = CHI
 		add_core_of = PRJ
+=======
+		add_core_of = PRH
+>>>>>>> parent of 2d1d294 (update)
 		1936.1.1={
 			owner = RON
 		}

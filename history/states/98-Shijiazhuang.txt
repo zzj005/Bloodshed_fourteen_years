@@ -5,7 +5,9 @@ state={
 		972 2072 3134 
 	}
 	resources={
-		steel = 12
+		steel = 2
+		aluminium=2 # was: 12
+		tungsten = 2
 	}
 	history={
 		owner = ROD

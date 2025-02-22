@@ -11,12 +11,16 @@ state={
 		owner = ROY
 		buildings = {
 			infrastructure = 1
+<<<<<<< HEAD
 			3916={
 				bunker = 2
 			}
 			2692={
 				bunker = 2
 			}
+=======
+			industrial_complex = 1
+>>>>>>> parent of 2d1d294 (update)
 		}
 		victory_points = {
 			1454 5

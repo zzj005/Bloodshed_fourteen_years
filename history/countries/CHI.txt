@@ -7,9 +7,6 @@ set_technology = {
 	gw_artillery = 1
 	early_fighter = 1
 	fuel_silos = 1
-	interwar_antiair = 1
-	basic_train = 1
-	tech_trucks = 1
 }
 
 recruit_character = CHI_JiangJieShi
@@ -54,41 +51,34 @@ add_intel = {
 puppet = RON
 
 
+
 set_politics = {
 	ruling_party = neutrality
 	#last_election = "1936.11.11"
 	election_frequency = 72
 	elections_allowed = no
 }
-CHI = {
-	add_equipment_to_stockpile = {
-		type = infantry_equipment
-		amount = 65000
-	}
+add_equipment_to_stockpile = {
+    type = infantry_equipment
+    amount = 3000000
+    producer = CHI
 }
-
 1933.1.1={
 	set_oob = "CHI_1933"
 	add_ideas = {
+		Anti_Japanese_zeal
 		Four_families
 		CHI_army_corruption_1
-	}
-	CHI_JiangJieShi = {
-		add_trait = {
-			trait = chamberlain_appeaser
-		}
 	}
 }
 1936.1.1={
 	set_oob = "CHI_1937"
 	add_to_faction = ROD
 	add_to_faction = JDW
-	add_dynamic_modifier = {
-		modifier = Anti_Japanese_zeal
-	}
+	
+	
 }
 1937.1.1={
-	
 	set_oob = "CHI_1937"
 }
 1944.1.1={

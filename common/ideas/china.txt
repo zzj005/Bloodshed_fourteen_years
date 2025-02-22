@@ -1,6 +1,24 @@
 ideas = {
 	country = {
 		#########抗日热情
+		Anti_Japanese_zeal = {
+		
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				
+			}
+		}
 		Encourage_enlistment_military = {
 		
 			allowed = {
@@ -74,7 +92,6 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				surrender_limit=10
 				army_intel_factor=-0.15
 				army_org_factor=-0.1
 				recon_factor=-0.05
@@ -240,8 +257,8 @@ ideas = {
 				army_org_factor=-0.05 
 				org_loss_when_moving=0.1
 				army_speed_factor=-0.1
-				army_attack_factor = -0.15
-				army_defence_factor = -0.15
+				army_attack_factor = -0.1
+				army_defence_factor = -0.1
 				mobilization_speed = -0.02
 				ai_focus_aggressive_factor = 0.1
 				terrain_penalty_reduction=-0.1

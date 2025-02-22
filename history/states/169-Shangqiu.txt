@@ -5,9 +5,9 @@ state={
 		1336 1632 1762 3745 
 	}
 	resources={
-		steel = 12
-		aluminium=5 # was: 12
-		tungsten = 5
+		steel = 2
+		aluminium=2 # was: 12
+		tungsten = 2
 	}
 	history={
 		owner = CHI

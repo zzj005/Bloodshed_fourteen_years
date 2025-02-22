@@ -1,4 +1,5 @@
 spriteTypes = {
+<<<<<<< HEAD
 	spriteType = {
 		name = "GFX_KanRi_1937_2"
 		texturefile = "gfx/event/KanRi_1937_2.dds"
@@ -11,6 +12,8 @@ spriteTypes = {
 		name = "GFX_PRC_1934_7"
 		texturefile = "gfx/event/PRC_1934_7.dds"
 	}
+=======
+>>>>>>> parent of 2d1d294 (update)
 	spriteType = {
 		name = "GFX_Mukden_Incident"
 		texturefile = "gfx/event/Mukden_Incident.dds"

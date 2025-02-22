@@ -7,6 +7,7 @@ state={
 		owner = ROY
 		buildings = {
 			infrastructure = 1
+<<<<<<< HEAD
 			2620={
 				bunker = 2
 			}
@@ -16,6 +17,10 @@ state={
 			1523={
 				bunker = 2
 			}
+=======
+			industrial_complex = 1
+
+>>>>>>> parent of 2d1d294 (update)
 		}
 		add_core_of = ROY
 		add_core_of = CHI
