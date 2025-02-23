@@ -7,8 +7,15 @@ state={
 		owner = ROC
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
-
+			3101={
+				bunker = 2
+			}
+			2257={
+				bunker = 2
+			}
+			724={
+				bunker = 2
+			}
 		}
 		victory_points = {
 			4013 5 

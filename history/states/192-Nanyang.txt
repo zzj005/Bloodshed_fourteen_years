@@ -2,21 +2,21 @@ state={
 	id=192
 	name="STATE_192"
 	resources={
-		steel = 3
-		aluminium=5 # was: 12
+		steel=3.000
+		aluminium=5.000
 	}
 	provinces={
-		3762 1112 3774 3105 3793 410
+		1112 3105 3762 3774 3793 
 	}
 	history={
 		owner = CHI
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
 		}
 		add_core_of = CHI
 	}
-	manpower=523000
+	manpower=2323000
 	state_category = town
+	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

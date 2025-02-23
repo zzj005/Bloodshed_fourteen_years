@@ -2,16 +2,19 @@ state={
 	id=262
 	name="STATE_262"
 	provinces={
-		2560 3873 3885 
+		831 2560 3873 3885 3863 
 	}
 	history={
 		owner = CHI
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
 		}
 		victory_points = {
 			3873 5
+		}
+		1933.1.1={
+			owner = PRC
+			add_core_of = PRC
 		}
 		add_core_of = CHI
 	}

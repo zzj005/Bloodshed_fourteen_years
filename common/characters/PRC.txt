@@ -125,6 +125,7 @@ characters={
 			}
 			traits  = {
 				headstrong
+				Positional_warfare
 			}
 			ai_will_do  = {
 				factor  = 0.000
@@ -156,7 +157,7 @@ characters={
 			}
 			traits  = {
 				proletariat_internationalist
-				warmonger
+				
 			}
 			ai_will_do  = {
 				factor  = 0.000
@@ -173,6 +174,7 @@ characters={
 			}
 			traits  = {
 				headstrong
+				Positional_warfare
 			}
 			ai_will_do  = {
 				factor  = 0.000

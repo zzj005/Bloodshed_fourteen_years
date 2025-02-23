@@ -7,8 +7,15 @@ state={
 		owner = ROY
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
-
+			2620={
+				bunker = 2
+			}
+			1664={
+				bunker = 2
+			}
+			1523={
+				bunker = 2
+			}
 		}
 		add_core_of = ROY
 		add_core_of = CHI

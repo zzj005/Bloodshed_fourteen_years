@@ -2,13 +2,12 @@ state={
 	id=249
 	name="STATE_249"
 	provinces={
-		1166 1561 2220 3848 3859 3863 
+		1166 1561 2220 3848 3859
 	}
 	history={
 		owner = CHI
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
 		}
 		victory_points = {
 			3859 5

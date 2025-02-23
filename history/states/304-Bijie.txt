@@ -16,11 +16,17 @@ state={
 		add_core_of = ROH
 		add_core_of = CHI
 		1933.1.1={
-			owner = SOX
+			owner = YGC
 		}
 		1936.1.1={
 			owner = CHI
+<<<<<<< HEAD
+		}
+		buildings = {
+			infrastructure = 1
+=======
 			add_core_of = CHI
+>>>>>>> parent of 2d1d294 (update)
 		}
 	}
 	manpower=123000

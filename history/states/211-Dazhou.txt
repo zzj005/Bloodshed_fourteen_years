@@ -12,15 +12,12 @@ state={
 		add_core_of = RHC
 		add_core_of = CHI
 		1933.1.1={
-			owner = ROS
-			add_core_of = PRC
-		    add_core_of = CHI
+			owner = RHC
 		}
 		1936.1.1={
 			owner = CHI
 			add_core_of = PRC
 		    add_core_of = CHI
-
 		}
 	}
 	

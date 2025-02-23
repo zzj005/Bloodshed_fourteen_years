@@ -2,19 +2,19 @@ state={
 	id=174
 	name="STATE_174"
 	provinces={
-		1698 2780 3153 3384 
+		1698 3384 
 	}
 	history={
 		owner = LDC
 		buildings = {
+			infrastructure = 1
 		}
-		add_core_of = LDC
-		victory_points = {
-			2780 5
+		
+		1936.1.1={
+			owner = ROD
 		}
 	}
-	manpower=113000
-	buildings_max_level_factor=1.000
-	state_category=rural
+	manpower=323000
+	state_category = town
 	local_supplies=0.000
 }

@@ -414,6 +414,10 @@ country_event = {
     }
     immediate = {
 		set_global_flag = 128songhu
+		CHI = {
+			country_event = {id=KanRi_1937.1 days=10}
+		}
+		
     } 
     
 	option = {

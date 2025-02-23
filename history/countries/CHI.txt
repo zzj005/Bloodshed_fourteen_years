@@ -22,6 +22,8 @@ recruit_character = CHI_SunLiRen
 recruit_character = CHI_ZhuSaoLiang
 recruit_character = CHI_DaiAngLang
 
+recruit_character = CHI_DengYangDa
+
 recruit_character = CHI_ChenQiang
 recruit_character = CHI_ZhangZhiZhong
 recruit_character = CHI_LuoZuoYing

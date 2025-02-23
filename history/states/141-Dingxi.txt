@@ -5,12 +5,10 @@ state={
 		441 3708 3737 
 	}
 	history={
-		owner = CHI
+		owner = LDC
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
 		}
-		add_core_of = CHI
 		
 		1936.1.1={
 			owner = ROD

@@ -11,7 +11,6 @@ state={
 		owner = ROG
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
 			3220={
 				bunker = 2
 			}

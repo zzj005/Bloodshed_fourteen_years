@@ -2,7 +2,7 @@ state={
 	id=275
 	name="STATE_275"
 	provinces={
-		1596 3344 3923 
+		3344
 	}
 	history={
 		owner = ROW
@@ -14,7 +14,12 @@ state={
 		}
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
+			3344={
+				bunker = 2
+			}
+			1151={
+				bunker = 2
+			}
 		}
 		victory_points = {
 			1596 5

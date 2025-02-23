@@ -6,13 +6,12 @@ state={
 		aluminium=4 # was: 12
 	}
 	provinces={
-		1567 2245 2395 3185 4129 
+		 1567 2245 2395 3185 4129 1381 1898 3211 4083 2897 2204 
 	}
 	history={
 		owner = ROC
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
 		}
 		add_core_of = ROC
 		add_core_of = CHI

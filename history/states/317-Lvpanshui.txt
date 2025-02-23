@@ -17,7 +17,13 @@ state={
 		}
 		1936.1.1={
 			owner = CHI
+<<<<<<< HEAD
+		}
+		buildings = {
+			infrastructure = 1
+=======
 			add_core_of = CHI
+>>>>>>> parent of 2d1d294 (update)
 		}
 	}
 	

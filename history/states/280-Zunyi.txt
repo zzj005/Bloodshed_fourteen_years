@@ -34,10 +34,14 @@ state={
 			owner = CHI
 			add_core_of = CHI
 		}
+		buildings = {
+			infrastructure = 1
+		}
+		
 	}
 
 	provinces={
-		1187 2136 2433 3075 3950 
+		1187 2136 2433 
 	}
 	manpower=323000
 	buildings_max_level_factor=1.000

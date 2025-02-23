@@ -7,13 +7,12 @@ state={
 		owner = ROW
 
 1933.1.1={
-		owner = ROS
+		owner = RDX
 }
 
 
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
 
 		}
 		add_core_of = ROS
