@@ -1,5 +1,8 @@
 spriteTypes = {
-	
+	spriteType = {
+		name = "GFX_KanRi_1937_2"
+		texturefile = "gfx/event/KanRi_1937_2.dds"
+	}
 	spriteType = {
 		name = "GFX_ROH1933_2"
 		texturefile = "gfx/event/ROH1933_2.dds"

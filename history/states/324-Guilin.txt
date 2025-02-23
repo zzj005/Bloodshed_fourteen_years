@@ -7,7 +7,6 @@ state={
 		owner = ROC
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
 			3101={
 				bunker = 2
 			}
@@ -23,12 +22,6 @@ state={
 		}
 		victory_points = {
 			3101 5 
-		}
-		victory_points = {
-			2257 5 
-		}
-		victory_points = {
-			724 5 
 		}
 		add_core_of = ROC
 		add_core_of = CHI

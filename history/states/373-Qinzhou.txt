@@ -9,7 +9,6 @@ state={
 		add_core_of = ROG
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
 		}
 		add_core_of = ROC
 		add_core_of = CHI

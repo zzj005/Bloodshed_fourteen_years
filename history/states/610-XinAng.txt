@@ -8,7 +8,6 @@ state={
 		owner = ROC
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
 
 		}
 		add_core_of = ROC
@@ -17,7 +16,7 @@ state={
 		}
 
 	}
-	manpower=22600
+	manpower=0
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

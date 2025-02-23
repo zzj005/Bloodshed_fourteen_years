@@ -7,7 +7,6 @@ state={
 		owner = CHI
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
 			2101={
 				bunker = 4
 			}
@@ -25,7 +24,7 @@ state={
 	provinces={
 		2101 2197 2731 3195 
 	}
-	manpower=1323000
+	manpower=2323000
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000

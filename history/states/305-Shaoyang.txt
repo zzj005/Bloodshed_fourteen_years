@@ -10,18 +10,16 @@ state={
 		owner = RON
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
 
 		}
 		add_core_of = RON
-		add_core_of = PRC
 		victory_points = {
 			2202 5
 		}
 	}
 
 	provinces={
-		456 1193 1615 2046 2202 3959 3968 3983 
+		456 1193 1615 2046 2202 3959 3968 3983 2317 3197
 	}
 	manpower=323000
 	buildings_max_level_factor=1.000

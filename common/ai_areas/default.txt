@@ -37,15 +37,7 @@ areas = {
 
 	albania = {
         strategic_regions = {
-            24 # western balkans
-        }
-    }
-
-	greater_balkans = {
-        strategic_regions = {
-            24 # western balkans
-            25 # greece
-            26 # eastern balkans
+            24 # albania
         }
     }
 
@@ -58,14 +50,6 @@ areas = {
         }
     }
 
-    UK_excluding_ni = { #exclude Northern Ireland
-        strategic_regions = {
-            1 
-            2
-            3
-        }
-    }
-
     north_africa = {
         strategic_regions = {
             128 # egypt
@@ -73,17 +57,6 @@ areas = {
             126 # east maghreb
             182 # west maghreb
         }
-    }
-    torch_landing_zone = {
-    	strategic_regions = {
-    		126 # east maghreb
-			182 # west maghreb
-    	}
-    }
-    vichy_mainland = {
-    	strategic_regions = {
-    		20 # Southern france
-    	}
     }
 
 	europe = {
@@ -121,7 +94,7 @@ areas = {
         strategic_regions = {
             208 # france
             20
-            19 # Calais
+            5 # benelux
         }
     }
 
@@ -236,17 +209,6 @@ areas = {
 			274 #Ogaden 
 		}
 	}
-	east_africa = {
-		strategic_regions = {
-			216 # Upper Nile
-			17 #Ethiopian Highlands
-			273 #Danakil
-			274 #Ogaden 
-			217 # Lake Victoria
-			185 # South East Africa
-			181 # Madagaskar
-		}
-	}
 	
 	defend_moscow_zone = {
 		strategic_regions = {
@@ -294,11 +256,11 @@ areas = {
 
 	winter_war_front = {
 		strategic_regions = {
-			132 # Novgorod (for Leningrad)
-			13 # Eastern Finland
-			265 # East Karelia
-			#277 # Northern Finland
-			#12 # Kola
+			195
+			928
+			111
+			930
+			926
 		}
 	}
 }

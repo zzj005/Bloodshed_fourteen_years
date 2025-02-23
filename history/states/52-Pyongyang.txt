@@ -8,9 +8,11 @@ state={
 		owner = JAP
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
 		}
 		add_core_of = JAP
+		victory_points = {
+			4805 30
+		}
 	}
 	manpower=323000
 	state_category = town

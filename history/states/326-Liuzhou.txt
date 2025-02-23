@@ -8,19 +8,19 @@ state={
 		owner = ROC
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
+<<<<<<< HEAD
 			2204={
 				bunker = 1
 			}
 			1381={
 				bunker = 1
 			}
+=======
+			industrial_complex = 1
+>>>>>>> parent of 2d1d294 (update)
 		}
 		add_core_of = ROC
 		add_core_of = CHI
-		victory_points = {
-			3211 5
-		}
 	}
 	manpower=323000
 	state_category = town

@@ -8,13 +8,14 @@ state={
 		owner = ROG
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
 			1612= {
 				naval_base = 2
 				coastal_bunker = 1
 			}
 		}
-		
+		victory_points = {
+			1612 5
+		}
 		add_core_of = ROG
 		add_core_of = CHI
 	}

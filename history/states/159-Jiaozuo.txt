@@ -4,14 +4,10 @@ state={
 	provinces={
 		3190 3723 
 	}
-	resources={
-		steel = 15
-	}
 	history={
 		owner = CHI
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
 		}
 		victory_points = {
 			3738 15

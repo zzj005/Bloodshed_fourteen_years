@@ -1,26 +1,46 @@
+
 state={
 	id=280
 	name="STATE_280"
-	provinces={
-		1187 2136 2433 
-	}
+
 	history={
 		owner = ROH
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			3938 20 
+		}
+		victory_points = {
+			2433 5 
+		}
+		victory_points = {
+			1364 5 
+		}
+		victory_points = {
+			900 5 
+		}
+		victory_points = {
+			634 5 
+		}
 		add_core_of = ROH
-		add_core_of = JZZ
+		add_core_of = CHI
 		1933.1.1={
 			owner = JZZ
 		}
 		1936.1.1={
 			owner = CHI
+			add_core_of = CHI
 		}
-		buildings = {
-			infrastructure = 1
-			industrial_complex = 1
-		}
-		
 	}
-	manpower=823000
-	state_category = town
+
+	provinces={
+		1187 2136 2433 
+	}
+	manpower=323000
+	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

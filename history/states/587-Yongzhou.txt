@@ -5,14 +5,13 @@ state={
 		2317 3197
 	}
 	history={
-		owner = PRJ
+		owner = RON
 		add_core_of = RON
 		buildings = {
 		}
 		victory_points = {
 			2317 5
 		}
-		add_core_of = PRC
 		add_core_of = PRJ
 		1936.1.1={
 			owner = RON

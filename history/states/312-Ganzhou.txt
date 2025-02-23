@@ -10,20 +10,13 @@ state={
 			industrial_complex = 1
 			arms_factory = 3
 			1338={
-				bunker = 4
+				bunker = 2
 			}
 			1205={
-				bunker = 4
+				bunker = 2
 			}
 			1989={
-				bunker = 4
-			}
-			2096={
-				bunker = 4
-			}
-
-			3984={
-				bunker = 4
+				bunker = 2
 			}
 		}
 		add_core_of = CHI

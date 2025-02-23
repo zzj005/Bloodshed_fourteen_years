@@ -8,7 +8,6 @@ state={
 		owner = ROA
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
 			2599= {
 				naval_base = 2
 				coastal_bunker = 1

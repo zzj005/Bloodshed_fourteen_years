@@ -8,12 +8,14 @@ state={
 		owner = ROD
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
 		}
 		add_core_of = ROD
 		add_core_of = CHI
 		1933.1.1={
 			owner = MCK
+		}
+		1934.1.1={
+			owner = NAF
 		}
 	}
 	manpower=323000

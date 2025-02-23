@@ -4,14 +4,10 @@ state={
 	provinces={
 		1154 1705 2334 2610 2872 3055 3070 3196 3744 3755 
 	}
-	resources={
-		steel = 15
-	}
 	history={
 		owner = CHI
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
 			arms_factory = 1
 		}
 		add_core_of = CHI

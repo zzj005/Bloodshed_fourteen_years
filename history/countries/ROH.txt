@@ -13,7 +13,7 @@ recruit_character = ROH_WangJiaLie
 set_popularities = {
 	democratic = 0
 	communism = 0
-    neutrality = 100
+                neutrality = 100
 }
 set_politics = {
 	ruling_party = neutrality
@@ -24,11 +24,6 @@ set_politics = {
 add_ideas = Regionalist_warlords
 1932.4.8={
 	retire_country_leader = yes
-}
-add_manpower = 15000
-add_equipment_to_stockpile = {
-    type = infantry_equipment
-    amount = 5000
 }
 1933.1.1={
 	set_oob = "ROH_1933"

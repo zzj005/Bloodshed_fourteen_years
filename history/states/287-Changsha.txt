@@ -8,14 +8,12 @@ state={
 		owner = RON
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
 			arms_factory = 2
 		}
 		victory_points = {
 			1657 30
 		}
 		add_core_of = RON
-		add_core_of = PRC
 	}
 	manpower=323000
 	state_category = town

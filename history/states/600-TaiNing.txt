@@ -7,7 +7,6 @@ state={
 		owner = CHI
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
 
 		}
 		add_core_of = CHI
@@ -24,7 +23,7 @@ state={
 	provinces={
 		2273 2980 3961 
 	}
-	manpower=333500
+	manpower=1330000
 	buildings_max_level_factor=1.000
 	state_category=rural
 	local_supplies=0.000

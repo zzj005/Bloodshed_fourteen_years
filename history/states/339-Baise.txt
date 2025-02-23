@@ -8,13 +8,9 @@ state={
 		owner = ROC
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
 		}
 		add_core_of = ROC
 		add_core_of = CHI
-		victory_points = {
-			2286 5
-		}
 	}
 	manpower=323000
 	state_category = town

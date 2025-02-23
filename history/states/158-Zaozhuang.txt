@@ -8,7 +8,6 @@ state={
 		owner = ROA
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
 		}
 		victory_points = {
 			1642 10

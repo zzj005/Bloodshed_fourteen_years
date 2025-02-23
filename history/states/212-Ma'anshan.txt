@@ -2,7 +2,7 @@ state={
 	id=212
 	name="STATE_212"
 	resources={
-		steel=16
+		steel=11.000
 	}
 	provinces={
 		3780 4049 
@@ -11,7 +11,6 @@ state={
 		owner = CHI
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
 		}
 		add_core_of = CHI
 	}

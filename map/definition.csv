@@ -5245,7 +5245,7 @@
 5244;53;107;59;land;false;urban;0
 5245;15;5;82;land;false;urban;0
 5246;112;0;136;land;false;urban;0
-5247;16;23;125;land;false;mountain;0
-5248;52;17;46;land;false;plains;1
-5249;124;105;59;land;false;plains;1
-5250;34;88;113;land;false;plains;1
+5247;52;17;46;land;false;unknown;0
+5248;124;105;59;land;false;unknown;0
+5249;16;23;125;land;false;unknown;0
+5250;34;88;113;land;false;unknown;0

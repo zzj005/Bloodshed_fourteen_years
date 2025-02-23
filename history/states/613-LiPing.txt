@@ -8,13 +8,9 @@ state={
 		owner = ROH
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
 
 		}
 		add_core_of = ROH
-		victory_points = {
-			3999 3
-		}
 		1936.1.1={
 			owner = CHI
 			add_core_of = CHI

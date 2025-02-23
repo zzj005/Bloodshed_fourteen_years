@@ -90,13 +90,32 @@ units = {
 	}
 	division= {	
 		name = "游击支队"
-		location = 2396
+		location = 3989
 		division_template = "游击支队"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.8
 	}
-	
-	
+	division= {	
+		name = "游击支队"
+		location = 3355
+		division_template = "游击支队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "游击支队"
+		location = 4036
+		division_template = "游击支队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "游击支队"
+		location = 4041
+		division_template = "游击支队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
 	division= {	
 		name = "中国工农红军第1师"
 		location = 4033
@@ -191,7 +210,7 @@ units = {
 	}
 	division= {	
 		name = "中国工农红军第20师"
-		location = 2996
+		location = 4021
 		division_template = "独立师"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
@@ -205,7 +224,7 @@ units = {
 	}
 	division= {	
 		name = "中国工农红军第22师"
-		location = 1217
+		location = 4014
 		division_template = "独立师"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
@@ -219,14 +238,14 @@ units = {
 	}
 	division= {	
 		name = "中国工农红军第24师"
-		location = 2490
+		location = 973
 		division_template = "独立师"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1
 	}
 	division= {	
 		name = "中国工农红军第5师"
-		location = 2490
+		location = 973
 		division_template = "独立师"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1

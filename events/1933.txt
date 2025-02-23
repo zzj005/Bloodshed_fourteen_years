@@ -91,14 +91,13 @@ news_event = {
 	title = ROH1933.2.t
 	desc = ROH1933.2.d
 
-	picture = GFX_ROH1933_2
+	#picture = GFX_fall_of_berlin
 
 	major = yes
 
 	trigger = {
 		AND={
 			date > 1933.1.1 
-			date < 1934.1.1 
 			YGC={ 
 				NOT = {
 					has_global_flag = fall_of_GuiYan
@@ -509,17 +508,9 @@ country_event = {
 				target = PRC
 				type = annex_everything
 			}
-			declare_war_on = {
-				target = NHA
-				type = annex_everything
-			}
-			declare_war_on = {
-				target = PRJ
-				type = annex_everything
-			}
 			add_timed_idea = {
 				idea = Fortress_tactics
-				days = 250
+				days = 200
 			}
 		}
 		RON={
@@ -528,12 +519,7 @@ country_event = {
 				enemy = PRC
 			}
 		}
-		ROG={
-			add_to_war = {
-				targeted_alliance = THIS
-				enemy = PRC
-			}
-		}
+		
 	}
 	}
     

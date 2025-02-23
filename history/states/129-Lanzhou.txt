@@ -5,15 +5,14 @@ state={
 		277 2690 2779 3692 
 	}
 	history={
-		owner = CHI
+		owner = YHC
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
 		}
 		1936.1.1={
 			owner = ROD
 		}
-		add_core_of = CHI
+		add_core_of = YHC
 	}
 	manpower=323000
 	state_category = town

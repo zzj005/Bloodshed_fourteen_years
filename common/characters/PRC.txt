@@ -21,20 +21,6 @@ characters={
 			logistics_skill=5
 		}
 	}
-	PRC_ZhangWengTian={
-		name=PRC_ZhangWengTian
-		portraits={
-			civilian={
-				large="gfx/leaders/PRC/PRC_ZhangWengTian.png"
-			}
-		}
-		country_leader={
-			ideology=marxism
-			traits={}
-			expire="1965.1.1.1"
-			id=-1
-		}
-	}
 	PRC_ZhuDe={
 		name=PRC_ZhuDe
 		portraits={
@@ -139,6 +125,7 @@ characters={
 			}
 			traits  = {
 				headstrong
+				Positional_warfare
 			}
 			ai_will_do  = {
 				factor  = 0.000
@@ -170,7 +157,7 @@ characters={
 			}
 			traits  = {
 				proletariat_internationalist
-				warmonger
+				
 			}
 			ai_will_do  = {
 				factor  = 0.000
@@ -187,6 +174,7 @@ characters={
 			}
 			traits  = {
 				headstrong
+				Positional_warfare
 			}
 			ai_will_do  = {
 				factor  = 0.000

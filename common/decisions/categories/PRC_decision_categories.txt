@@ -3,7 +3,6 @@ PRC_CHINA = {
 	picture = GFX_Buy_gun
 	visible = { 
 		tag=PRC
-		has_manpower = 99999999999
 	}
 }
 

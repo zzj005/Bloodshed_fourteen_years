@@ -8,21 +8,7 @@ state={
 		owner = CHI
 		buildings = {
 			infrastructure = 1
-			3942={
-				bunker = 4
-			}
-			1165={
-				bunker = 4
-			}
-			876={
-				bunker = 4
-			}
-			3979={
-				bunker = 4
-			}
-			3962={
-				bunker = 4
-			}
+
 		}
 		add_core_of = PRJ
 		add_core_of = PRC

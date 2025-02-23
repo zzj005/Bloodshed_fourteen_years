@@ -4,9 +4,6 @@ state={
 	provinces={
 		2141 3023 3846
 	}
-	resources={
-		steel = 10
-	}
 	history={
 		owner = CHI
 		buildings = {
