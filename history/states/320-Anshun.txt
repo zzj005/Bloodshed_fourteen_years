@@ -23,11 +23,9 @@ state={
 		1936.1.1={
 			owner = CHI
 		}
-		buildings = {
-			infrastructure = 1
 		}
-	}
 	manpower=323000
 	state_category = town
 	local_supplies = 0.0
 }
+

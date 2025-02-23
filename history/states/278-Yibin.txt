@@ -14,13 +14,14 @@ state={
 
 
 		1936.1.1={
-					owner = CHI
+			owner = CHI
 		}
 		buildings = {
 			infrastructure = 1
 			1257={
 				bunker = 2
 			}
+			industrial_complex = 1
 		}
 		victory_points = {
 			1151 5

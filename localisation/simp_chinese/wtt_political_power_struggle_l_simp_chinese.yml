@@ -383,3 +383,7 @@ PRC_right_side_range_High: "毛泽东支持度较高"
  PRC_Massacre6:"清剿琼崖苏区"
  CHI_suppression_operation2: "第二次围剿"
  CHI_suppression_operation3: "第三次围剿"
+
+ CHI_Purging_party_category: "清党计划"
+ CHI_Purging_party_category_desc: "党国内部有人在蓄意挑拨嫡系与非嫡系间的矛盾，在国民党军队中进行联络和策反工作。许多军事将领，或亲自，或派代表到上海同叛匪联系。"
+ Assassination_Deng_Yanda: "暗杀邓演达"
