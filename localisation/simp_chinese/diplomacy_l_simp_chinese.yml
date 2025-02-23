@@ -1,4 +1,6 @@
-﻿
+﻿l_simp_chinese:
+ DIPLO_POSITIVE: "赞成：$VAL|G$"
+ DIPLO_NEGATIVE: "反对：$VAL|R$"
  GOOD_BAD_RATIO: "我们至少需要§G赞成§!比§R反对§!多$THRESHOLD|Y$才能让对方接受。现在是$RATIO|Y$。"
  DIPLOMACY_STAGE_COUP_ALREADY_IDEOLOGY: "他们已经是$IDE$，所以不需要颠覆他们的政权。"
  BPPR_INFO: "$WHO$外交官：$VAL$"

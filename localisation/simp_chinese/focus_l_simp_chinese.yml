@@ -1,4 +1,6 @@
 ﻿l_simp_chinese:
+ WHILE_FOCUSING: "执行该国策将产生以下效果：\n$EFF$"
+ generic_focus: "国策"
 ROCfocus_0: "宣布训政"
 ROCfocus_0_desc: "宣布训政"
 ROCfocus_1: "巩固一党专政"
