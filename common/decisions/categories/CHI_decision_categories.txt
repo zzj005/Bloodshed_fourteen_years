@@ -15,6 +15,15 @@ CHI_Purging_party_category = {
 	}
 }
 
+CHI_Defend_against_enemy_category= {
+	icon = military_operation
+	picture = GFX_JiangJieShi
+	visible = { 
+		tag=CHI
+		#has_war = yes
+	}
+}
+
 CHI_struggle_balance_category = {
 	icon = military_operation
 	visible = { 

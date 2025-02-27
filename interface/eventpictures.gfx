@@ -113,4 +113,9 @@ spriteTypes = {
 		name = "GFX_Encirclement_suppression_operation"
 		texturefile = "gfx/event/Encirclement_suppression_operation.dds"
 	}
+	spriteType = {
+		name = "GFX_JiangJieShi"
+		texturefile = "gfx/event/JiangJieShi.dds"
+	}
+	
 }

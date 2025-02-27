@@ -60,7 +60,7 @@ set_politics = {
 }
 add_equipment_to_stockpile = {
     type = infantry_equipment
-    amount = 3000000
+    amount = 9000000
     producer = CHI
 }
 1933.1.1={
@@ -69,6 +69,7 @@ add_equipment_to_stockpile = {
 		Anti_Japanese_zeal
 		Four_families
 		CHI_army_corruption_1
+		The_Golden_Decade
 	}
 }
 1936.1.1={

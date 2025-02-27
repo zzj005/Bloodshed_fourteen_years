@@ -1,0 +1,25 @@
+state={
+	id=654
+	name="STATE_654"
+	provinces={
+		342 1438 1750 2587 3585 
+	}
+	history={
+		owner = ROD
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = ROD
+		add_core_of = CHI
+		1936.1.1={
+			owner = JDW
+		}
+		victory_points = {
+			544 5
+		}
+	}
+	manpower=323000
+	state_category = town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

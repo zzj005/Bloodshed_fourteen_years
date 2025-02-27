@@ -3,12 +3,19 @@ spriteTypes = {
 		name = "GFX_idea_Anti_Japanese_zeal"
 		texturefile = "gfx/interface/ideas/CHI/Anti_Japanese_zeal.dds"
 	}
-
+	spriteType = {
+		name = "GFX_modifiers_flood_effect"
+		texturefile = "gfx/interface/ideas/flood_effect.dds"
+	}
+	
 	spriteType = {
 		name = "GFX_idea_Encourage_enlistment_military"
 		texturefile = "gfx/interface/ideas/CHI/Encourage_enlistment_military.dds"
 	}
-
+	spriteType = {
+		name = "GFX_idea_The_Golden_Decade"
+		texturefile = "gfx/interface/ideas/CHI/The_Golden_Decade.dds"
+	}
 	spriteType = {
 		name = "GFX_idea_Mao_Jewish_coalition_army"
 		texturefile = "gfx/interface/ideas/YGC/Mao_Jewish_coalition_army.dds"

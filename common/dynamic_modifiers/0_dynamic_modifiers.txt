@@ -7,3 +7,17 @@ Long_march_effect = {
 	army_org_factor = 0.15
 	army_morale_factor = 0.15
 }
+
+flood_effect = {
+	icon = GFX_modifiers_flood_effect
+
+	enable = { always = yes }
+
+	local_manpower=-0.3
+	local_non_core_manpower=-0.3
+	local_supplies=-0.7
+	state_resources_factor=-0.7
+	local_org_regain=-0.7
+	disable_strategic_redeployment=1
+	
+}

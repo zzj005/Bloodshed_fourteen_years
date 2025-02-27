@@ -19,6 +19,24 @@ ideas = {
 				
 			}
 		}
+		The_Golden_Decade = {
+		
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				
+			}
+		}
 		Encourage_enlistment_military = {
 		
 			allowed = {

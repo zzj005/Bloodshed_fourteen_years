@@ -40,7 +40,7 @@ CHI_struggle_balance_category = {
 #########
 ######### 
  
-#########
+######### 
 ######### 
 #########
 #########
@@ -49,7 +49,7 @@ CHI_struggle_balance_category = {
 #########
 ######### 
 
-CHI_Purging_party_category = {
+CHI_Purging_party_category = { 
 	Assassination_Deng_Yanda = {
 		available = {
 		} 
@@ -69,6 +69,129 @@ CHI_Purging_party_category = {
 
 
 #########  
+
+CHI_Defend_against_enemy_category = { 
+	Embankment_mouth_garden_bursts = {
+		available = {
+			JAP={
+				#controls_state = 167
+			}
+		} 
+		highlight_states = {
+			highlight_state_targets = { state =  165 }
+			highlight_state_targets = { state =  178 }
+			highlight_state_targets = { state =  180 }
+			highlight_state_targets = { state =  194 }
+			highlight_state_targets = { state =  169 }
+			highlight_state_targets = { state =  184 }
+			highlight_state_targets = { state =  186 }
+			highlight_state_targets = { state =  193 }
+			highlight_state_targets = { state =  196 }
+			highlight_state_targets = { state =  185 }
+			highlight_state_targets = { state =  172 }
+			highlight_state_targets = { state =  173 }
+			highlight_state_targets = { state =  168 }
+			highlight_state_targets = { state =  181 }
+			highlight_state_targets = { state =  163 }
+			highlight_state_targets = { state =  187 }
+			highlight_state_targets = { state =  176 }
+		}
+		visible = {
+		}
+		cost = 20 
+		days_remove= 15
+		fire_only_once = no
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = { 
+			  
+			every_state = {
+				limit = { 
+					OR = {
+						state =  165
+						state =  178
+						state =  184
+						state =  193
+						state =  173
+						state =  196
+						state =  181
+					}  
+				}
+				custom_effect_tooltip = garden_bursts
+				set_state_flag = garden_bursts
+				hidden_effect = {
+					set_border_war = yes
+				}
+			}
+			every_state = {
+				limit = { 
+					OR = {
+						state =  165
+						state =  178
+						state =  180
+						state =  194
+						state =  169
+						state =  184
+						state =  186
+						state =  193
+						state =  196
+						state =  185
+						state =  172
+						state =  173
+						state =  168
+						state =  181
+						state =  163
+						state =  187
+						state =  176
+					}
+				}
+				add_dynamic_modifier = {
+					modifier = flood_effect
+					days = 120
+				}
+			}
+
+		}
+	}
+	Incineration_ChangSha = {
+		available = {
+			JAP={
+				controls_state = 265
+			}
+		} 
+		visible = {
+		}
+		cost = 20 
+		days_remove= 15
+		fire_only_once = no
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			
+		} 
+	}
+	Martial_law_Chongqing = {
+		available = {
+			238={
+				has_state_flag = JPN_bombing
+			}
+			
+		} 
+		visible = {
+		}
+		cost = 20 
+		days_remove= 15
+		fire_only_once = no
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+		}
+	}
+}
+
 ######### 
 
 CHI_Encirclement_suppression_operation_category = {
