@@ -34,7 +34,11 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				
+				global_building_slots=0.05
+				production_factory_efficiency_gain_factor = 0.1
+				line_change_production_efficiency_factor = -0.05
+				stability_factor = -0.1
+				production_speed_buildings_factor = -0.1
 			}
 		}
 		Encourage_enlistment_military = {
