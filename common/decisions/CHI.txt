@@ -74,7 +74,7 @@ CHI_Defend_against_enemy_category = {
 	Embankment_mouth_garden_bursts = {
 		available = {
 			JAP={
-				#controls_state = 167
+				controls_state = 167
 			}
 		} 
 		highlight_states = {
@@ -169,6 +169,43 @@ CHI_Defend_against_enemy_category = {
 			factor = 1
 		}
 		complete_effect = {
+			add_manpower = -30000
+			add_stability = -0.1
+			287={
+				custom_effect_tooltip = 287_fire
+				hidden_effect = {
+					damage_building = {
+						type = anti_air_building
+						damage = 2
+						repair_speed_modifier = -0.8
+					}
+					damage_building = {
+						type = supply_node
+						damage = 2
+						repair_speed_modifier = -0.8
+					}
+					damage_building = {
+						type = industrial_complex
+						damage = 2
+						repair_speed_modifier = -0.8
+					}  
+					damage_building = {
+						type = arms_factory
+						damage = 2
+						repair_speed_modifier = -0.8
+					}
+					damage_building = {
+						type = air_base
+						damage = 2
+						repair_speed_modifier = -0.8
+					}
+					damage_building = {
+						type = infrastructure
+						damage = 2
+						repair_speed_modifier = -0.8
+					}
+				}
+			}
 			
 		} 
 	}
@@ -188,6 +225,8 @@ CHI_Defend_against_enemy_category = {
 			factor = 1
 		}
 		complete_effect = {
+			add_manpower = -10000
+			add_stability = -0.1
 		}
 	}
 }

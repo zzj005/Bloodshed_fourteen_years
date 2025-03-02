@@ -36,6 +36,9 @@ add_to_faction = NHA
 add_to_faction = PRQ
 add_to_faction = PRJ
 
+set_variable = {
+	Chi_Shui=0
+}
 
 set_politics = {
 	ruling_party = communism

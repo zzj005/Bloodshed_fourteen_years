@@ -6,7 +6,18 @@ state={
 	}
 	history={
 		owner = ROW
-
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			supply_node = 1
+			industrial_complex = 2
+			anti_air_building= 1
+			air_base= 1
+			
+		}
+		victory_points = {
+			692 30
+		}
 		1933.1.1={
 			owner = RDX
 		}
