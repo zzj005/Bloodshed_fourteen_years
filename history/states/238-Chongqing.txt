@@ -9,7 +9,15 @@ state={
 		owner = ROW
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
+			arms_factory = 1
+			supply_node = 1
+			industrial_complex = 2
+			anti_air_building= 1
+			air_base= 1
+			
+		}
+		victory_points = {
+			3850 30
 		}
 		add_core_of = ROW
 		add_core_of = CHI
@@ -23,7 +31,7 @@ state={
 	provinces={
 		1201 1322 1776 2461 2761 3850 3881 
 	}
-	manpower=75323000
+	manpower=523000
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000
