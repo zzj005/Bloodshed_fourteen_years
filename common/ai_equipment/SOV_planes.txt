@@ -116,5 +116,5 @@ SOV_strategic_bomber = {
 			cannon_defense_turret_2x
 			hmg_defense_turret_2x
 		}
-	}
-}
+	} 
+} 
